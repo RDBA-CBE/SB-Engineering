@@ -18650,6 +18650,33 @@ font-size: 22px;
     gap: 16px;
   }
 }
+
+.has-submenu {
+  position: relative;
+}
+
+.sub-sub-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  padding: 10px 0;
+  min-width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.has-submenu:hover .sub-sub-menu {
+  display: block;
+}
+
+.header-nav .nav .sub-sub-menu i{
+  margin-left: 3px;
+    margin-top: -40px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
  
 
 

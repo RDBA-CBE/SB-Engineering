@@ -103,8 +103,6 @@ export default function Nav() {
 
   return (
     <>
-     
-
       <li className={isMenuActive(HomeLink) ? "active" : ""}>
         <Link
           href={HomeLink.href}
@@ -114,7 +112,6 @@ export default function Nav() {
         </Link>
       </li>
 
-     
       <li
         className={` ${isMenuActive(Companylink) ? "active" : ""} ${
           menuOpen1 == "company" ? "open" : ""
@@ -142,7 +139,7 @@ export default function Nav() {
         </ul>
       </li>
 
-      <li
+      {/* <li
         className={` ${isMenuActive(ServicesLink) ? "active" : ""} ${
           menuOpen1 == "services" ? "open" : ""
         }  `}
@@ -167,9 +164,134 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+      </li> */}
+
+      {/* <li
+        className={` ${isMenuActive(ServicesLink) ? "active" : ""} ${
+          menuOpen1 == "features" ? "open" : ""
+        }`}
+      >
+        <a
+          onClick={() =>
+            setMenuOpen1((pre) => (pre == "features" ? "" : "features"))
+          }
+        >
+          Services
+          <i className="fas fa-chevron-down" />
+        </a>
+
+        <ul className="sub-menu tab-content">
+          {ServicesLink.map((item, index) =>
+            item.links ? (
+              <li
+                key={index}
+                className={`${menuOpen2 == item.title ? "open" : ""}`}
+              >
+                <a
+                  onClick={() =>
+                    setMenuOpen2((pre) => (pre == item.title ? "" : item.title))
+                  }
+                  className={isMenuActive(item.links) ? "menuActive" : ""}
+                >
+                  {item.title} <i className={item.iconClass} />
+                </a>
+
+                <ul className="sub-menu">
+                  {item.links.map((link, linkIndex) => (
+                    <li key={linkIndex}>
+                      <Link
+                        className={isMenuActive(link) ? "menuActive" : ""}
+                        href={link.href}
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li key={index}>
+                <Link
+                  className={isMenuActive(item) ? "menuActive" : ""}
+                  href={item.href}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            )
+          )}
+        </ul>
+      </li> */}
+
+
+       <li
+        className={` ${isMenuActive(ServicesLink) ? "active" : ""} ${
+          menuOpen1 == "features" ? "open" : ""
+        }`}
+      >
+        <a
+          onClick={() =>
+            setMenuOpen1((pre) => (pre == "features" ? "" : "features"))
+          }
+        >
+          Services
+          <i className="fas fa-chevron-down" />
+        </a>
+
+        <ul className="sub-menu tab-content sub-sub-menu" style={{marginTop:"70px"}}>
+          {ServicesLink.map((item, index) =>
+  item.links ? (
+    <li
+      key={index}
+      className={`${menuOpen2 == item.title ? "open" : ""}`}
+    >
+      <div className="submenu-header">
+        <Link
+          href={item.href}
+          className={isMenuActive(item) ? "menuActive" : ""}
+          onClick={(e) => e.stopPropagation()}
+        >
+          {item.title}
+        </Link>
+        <i
+          className={item.iconClass}
+          onClick={() =>
+            setMenuOpen2((pre) =>
+              pre == item.title ? "" : item.title
+            )
+          }
+        />
+      </div>
+
+      <ul className="sub-menu">
+        {item.links.map((link, linkIndex) => (
+          <li key={linkIndex}>
+            <Link
+              className={isMenuActive(link) ? "menuActive" : ""}
+              href={link.href}
+            >
+              {link.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </li>
+  ) : (
+    <li key={index}>
+      <Link
+        className={isMenuActive(item) ? "menuActive" : ""}
+        href={item.href}
+      >
+        {item.label}
+      </Link>
+    </li>
+  )
+)}
+
+        </ul>
       </li>
 
-       {/* <li
+      {/* <li
         className={` ${isMenuActive(ProjectPortfolioLink) ? "active" : ""} ${
           menuOpen1 == "projectportfolio" ? "open" : ""
         }  `}
@@ -196,7 +318,7 @@ export default function Nav() {
         </ul>
       </li> */}
 
-             <li className={isMenuActive(ProjectLink) ? "active" : ""}>
+      <li className={isMenuActive(ProjectLink) ? "active" : ""}>
         <Link
           href={ProjectLink.href}
           className={isMenuActive(ProjectLink) ? "menuActive" : ""}
@@ -205,7 +327,7 @@ export default function Nav() {
         </Link>
       </li>
 
-       <li className={isMenuActive(ContactLink) ? "active" : ""}>
+      <li className={isMenuActive(ContactLink) ? "active" : ""}>
         <Link
           href={ContactLink.href}
           className={isMenuActive(ContactLink) ? "menuActive" : ""}
@@ -213,10 +335,6 @@ export default function Nav() {
           {ContactLink.label}
         </Link>
       </li>
-
-       
-
-     
 
       {/* <li>
         <Link

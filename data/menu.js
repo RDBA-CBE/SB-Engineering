@@ -365,7 +365,18 @@ export const ServicesLink = [
   { href: "/architectural-design", label: "Architectural Design" },
   { href: "/structural-engineering", label: "Structural Engineering" },
   { href: "/mep-engineering", label: "MEP Engineering" },
-  { href: "/steel-&-rebar-detailing", label: "Steel & Rebar Detailing (Tekla)" },
+  
+   {
+    title: "Steel & Rebar Detailing (Tekla)",
+    href:"steel-&-rebar-detailing",
+    iconClass: "fas fa-angle-right",
+    links: [
+      { href: "/structural-steel-detailing", label: "Structural Steel Detailing" },
+      { href: "/precast-detailing", label: "Precast Detailing" },
+      { href: "/eebar-detailing", label: "Rebar Detailing" },
+     
+    ],
+  },
   { href: "/project-management", label: "Project Management" },
   { href: "/quantity-surveying", label: "Quantity Surveying" },
   { href: "/building-information-modeling", label: "Building Information Modeling" },
