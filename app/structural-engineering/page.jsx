@@ -7,7 +7,7 @@ import ServiceExtpertise from "@/components/SBService/ServiceExtpertise";
 import AddedValue from "@/components/SBService/AddedValue";
 
 export const metadata = {
-  title: "About",
+  title: "Structural Engineering",
   description: ""
 };
 export default function page() {

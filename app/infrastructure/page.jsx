@@ -7,7 +7,7 @@ import InfrastructureSec from "@/components/Sb-about/InfrastructureSec";
 import React from "react";
 
 export const metadata = {
-  title: "About",
+  title: "Infrastructure",
   description: ""
 };
 export default function page() {

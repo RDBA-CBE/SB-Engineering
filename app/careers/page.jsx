@@ -8,7 +8,7 @@ import { LucidePhone, MailIcon, Phone, PhoneCall, PhoneIcon, Timer } from "lucid
 import React from "react";
 
 export const metadata = {
-  title: "Home 20 || ",
+  title: "Careers",
   description: ""
 };
 export default function page() {

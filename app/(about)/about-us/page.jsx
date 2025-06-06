@@ -7,7 +7,7 @@ import VisionMissionSec from "@/components/Sb-about/VisionMissionSec";
 import React from "react";
 
 export const metadata = {
-  title: "About",
+  title: "About Us",
   description: ""
 };
 export default function page() {

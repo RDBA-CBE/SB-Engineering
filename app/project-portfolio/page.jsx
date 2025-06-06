@@ -8,8 +8,7 @@ import ProjectsItems from "@/components/projects/ProjectsItems";
 import React from "react";
 
 export const metadata = {
-  title: "Home 20 || ",
-  description: ""
+  title: "Project Portfolio"
 };
 export default function page() {
   return (

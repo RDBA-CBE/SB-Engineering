@@ -7,7 +7,7 @@ import WhySBEngineers from "@/components/Sb-about/WhySBEngineers";
 import React from "react";
 
 export const metadata = {
-  title: "About",
+  title: "Why SB Engineers",
   description: ""
 };
 export default function page() {
