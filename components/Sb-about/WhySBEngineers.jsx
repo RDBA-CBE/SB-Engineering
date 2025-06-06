@@ -8,13 +8,13 @@ export default function WhySBEngineers() {
     <>
       <div className="section-full  content-inner whySbEng">
         <div className="container">
-          <div className="section-head text-center">
-            <h2 className="main-ti">Why SB Engineers</h2>
+          <div className=" text-center">
+            <h2 className="main-ti" >Why SB Engineers</h2>
             <p>
               Backed by decades of experience and adherence to global benchmarks.
             </p>
           </div>
-          <div className="section-content row">
+          <div className="section-content row mt-5">
             {services5.map((service, index) => (
               <div
                 key={index}

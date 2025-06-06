@@ -11,9 +11,9 @@ export default function Header19() {
   return (
     <header className="site-header mo-left header">
       {/* main header */}
-      <div className="sticky-header main-bar-wraper navbar-expand-lg">
-        <div className="main-bar clearfix dz-header">
-          <div className="container-fluid clearfix">
+      <div className="sticky-header main-bar-wraper navbar-expand-xxl">
+        <div className="main-bar clearfix dz-header px-5">
+          <div className="container-fluid clearfix ">
             {/* website logo */}
             <div className="logo-header mostion logo-dark">
               <Link href={`/`}>
@@ -30,6 +30,7 @@ export default function Header19() {
               aria-controls="navbarNavDropdown"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              style={{marginLeft:"20px"}}
             >
               <span />
               <span />

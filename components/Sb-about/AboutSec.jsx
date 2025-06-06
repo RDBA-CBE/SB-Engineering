@@ -24,11 +24,11 @@ const AboutSec = () => {
 
                     <div className="d-flex mb-4">
             <div className="me-5 ">
-              <h3 className="text-warning fw-bold mb-0 main-ti">6,154</h3>
+              <h3 className="text-warning fw-bold mb-0 main-ti num" >6,154</h3>
               <p className="stats-caption">Projects And Residentials <br /> Completed in 2020</p>
             </div>
             <div className="">
-              <h3 className="text-warning fw-bold mb-0 main-ti">2,512</h3>
+              <h3 className="text-warning fw-bold mb-0 main-ti num">2,512</h3>
               <p className="stats-caption">Qualified Employees And <br /> Workers With Us</p>
             </div>
           </div>

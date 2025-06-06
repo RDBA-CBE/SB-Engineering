@@ -3116,7 +3116,7 @@ blockquote:before {
 }
 
 .extra-nav span{
- font-size: 14px;
+ font-size: 12px;
  font-weight: 400;
 }
 
@@ -3136,7 +3136,7 @@ blockquote:before {
   display: none;
 }
 /* responsive  */
-.container-fluid.clearfix{margin: 15px 0px;}
+/* .container-fluid.clearfix{margin: 15px 0px;} */
 .build-wrp{display: grid;grid-template-columns: repeat(3, 1fr);gap: 30px;justify-content: space-between;}
 .build-box-d{text-align: center;}
 .fw2 .swiper-wrapper{padding-bottom:30px;}
@@ -3793,8 +3793,8 @@ blockquote:before {
 
 .header-nav .nav>li.active>a:after {
   content: "";
-  height: 5px;
-  background: var(--color-primary);
+  height: 2px;
+  background:#efbb20 ;
   width: calc(100% + 2px);
   position: absolute;
   bottom: 0;
@@ -3808,8 +3808,8 @@ blockquote:before {
 
 .header-nav .nav>li>a:after {
   content: "";
-  height: 5px;
-  background: var(--color-primary);
+  height: 2px;
+  background:#efbb20 ; 
   width: 0;
   position: absolute;
   bottom: 0;
@@ -4732,7 +4732,7 @@ blockquote:before {
   color: #fff;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1440px) {
   [class*="bg-"] .header-nav .nav>li.active>a {
     color: #fff;
   }
@@ -18010,6 +18010,13 @@ color: #ffff;
   margin-bottom: 30px !important;
   font-weight: 700;
 }
+.whySbEng .main-sub-ti{
+   margin-bottom: 5px !important;
+}
+
+.whySbEng .main-ti{
+  margin-bottom: 10px !important;
+}
 
 .sub-des{
  font-size: 15px !important;
@@ -18098,6 +18105,14 @@ font-size: 22px;
   box-shadow: 1px 1px 7px #fff ;
 }
 
+.SB-careers .home-about-img{
+   padding-right: 0px !important;
+}
+
+.construction-section .main-ti.num{
+  font-size: 50px !important;
+}
+
 
 
  .footer25.footer-section {
@@ -18174,7 +18189,8 @@ font-size: 22px;
 .footer25 .footer-phone {
   font-weight: bold;
   color: #fff;
-  font-size: 1rem;
+   font-size: 18px !important;
+   margin-top: 25px;
 }
 
 .footer25 .footer-bottom {
@@ -18407,6 +18423,34 @@ font-size: 22px;
   /* z-index: -100; */
   position: relative;
 }
+
+
+
+.office-box {
+  margin-bottom: 30px;
+}
+
+.office-img-wrapper {
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.office-img {
+  transition: transform 0.3s ease;
+}
+
+.office-img:hover {
+  transform: scale(1.05);
+}
+
+.office-title {
+  margin-bottom: 10px;
+  color: #0d1a26;
+}
+.office-details p{
+  font-size: 14px !important;
+}
+
 
 /* -------contact-form-end---------- */
 

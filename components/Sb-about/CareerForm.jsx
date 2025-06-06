@@ -12,7 +12,7 @@ const CareerForm = () => {
       <div className="row no-gutters  rounded overflow-hidden justify-content-center">
         
         
-        <div className="col-11 shadow-lg bg-white p-5 rounded">
+        <div className="col-12 shadow-lg bg-white p-5 rounded">
             
           
           <div className="container-fluid">

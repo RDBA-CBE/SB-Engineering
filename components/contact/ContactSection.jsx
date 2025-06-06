@@ -1,89 +1,68 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const ContactSection = () => {
+  const officeData = [
+    {
+      title: "London Office",
+      img: "/images/project/pic1.jpg",
+      email: "Amarou@7oroof.com",
+      address: "2307 Beverley Rd Brooklyn, NY",
+      phone: "55 654 541 17",
+      hours: "Mon-Fri: 8am – 7pm",
+    },
+    {
+      title: "Berlin Office",
+      img: "/images/project/pic1.jpg",
+      email: "Amarou@7oroof.com",
+      address: "2307 Beverley Rd Brooklyn, NY",
+      phone: "55 654 541 17",
+      hours: "Mon-Fri: 8am – 7pm",
+    },
+    {
+      title: "Manchester Office",
+    img: "/images/project/pic1.jpg",
+      email: "Amarou@7oroof.com",
+      address: "2307 Beverley Rd Brooklyn, NY",
+      phone: "55 654 541 17",
+      hours: "Mon-Fri: 8am – 7pm",
+    },
+  ];
   return (
     <>
       <div className="container contact-card py-5 ">
 
-       <div className="row justify-content-center mb-5">
-         <div className="col-11">
-           <div className="row dzseth">
-            <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-              <div className="icon-bx-wraper bx-style-1 p-lr20 p-tb30 center seth radius-sm">
-                <div className="icon-lg text-yellow m-b20">
-                  <a href="#" className="icon-cell">
-                    <i className="ti-location-pin" />
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte text-uppercase">Address</h5>
-                  <p>123 West Street, Melbourne Victoria 3000 Australia</p>
-                </div>
-              </div>
+        <div className="container office-section">
+      <div className="row">
+        {officeData.map((office, index) => (
+          <div className="col-md-4 office-box" key={index}>
+            <div className="office-img-wrapper mb-3">
+              <Image
+                src={office.img}
+                alt={office.title}
+                className="img-fluid office-img"
+                width={500}
+                height={500}
+              />
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-              <div className="icon-bx-wraper bx-style-1 p-lr20 p-tb30 center seth radius-sm">
-                <div className="icon-lg text-primary m-b20">
-                  <a href="#" className="icon-cell">
-                    <i className="ti-email" />
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte text-uppercase">Email</h5>
-                  <p>
-                    <a href="mailto:someone@example.com">info@example.com</a>
-                    <br />
-                    <a href="mailto:someone@example.com">info@example.com</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-              <div className="icon-bx-wraper bx-style-1 p-lr20 p-tb30 center seth radius-sm">
-                <div className="icon-lg text-primary m-b20">
-                  <a href="#" className="icon-cell">
-                    <i className="ti-mobile" />
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte text-uppercase">Phone</h5>
-                  <p>
-                    <a href="tel:+4733378901">
-                      +00 1234 5678 90 <br />
-                      +00 234 678 9012
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-              <div className="icon-bx-wraper bx-style-1 p-lr20 p-tb30 center seth radius-sm">
-                <div className="icon-lg text-primary m-b20">
-                  <a href="#" className="icon-cell">
-                    <i className="ti-printer" />
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte text-uppercase">Fax</h5>
-                  <p>
-                    <a href="tel:+4733378901">
-                      +00 1234 5678 90 <br />
-                      +00 234 678 9012
-                    </a>
-                  </p>
-                </div>
-              </div>
+            <div className="office-details">
+              <h5 className="office-title fw-bold">{office.title}</h5>
+              <p className="mb-1">Email: <a href={`mailto:${office.email}`}>{office.email}</a></p>
+              <p className="mb-1">Address: {office.address}</p>
+              <p className="mb-1">Phone: {office.phone}</p>
+              <p className="mb-1">Hours: {office.hours}</p>
             </div>
           </div>
-        </div>
-       </div>
+        ))}
+      </div>
+    </div>
 
        
         
-      <div className="row no-gutters  rounded overflow-hidden justify-content-center">
-        <div className="col-11 shadow-lg bg-white p-sm-4 p-md-4 p-xl-5  p-3rounded">
+      <div className="row no-gutters  rounded overflow-hidden justify-content-center mt-4">
+        <div className="col-12 shadow-lg bg-white p-sm-4 p-md-4 p-xl-5  p-3rounded">
           
           <div className="container-fluid">
             <div className="row  row-gap-3">

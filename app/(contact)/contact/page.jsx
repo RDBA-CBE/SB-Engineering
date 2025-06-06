@@ -1,20 +1,28 @@
 import ContactSection from "@/components/contact/ContactSection";
 import Footer25 from "@/components/footers/Footer25";
 import Header19 from "@/components/headers/Header19";
+import ServiceBanner from "@/components/SBService/ServiceBanner";
 import { LucidePhone, MailIcon, Phone, PhoneCall, PhoneIcon, Timer } from "lucide-react";
 
 import React from "react";
 
 export const metadata = {
-  title: "Home 20 || ",
+  title: "Contact",
   description: ""
 };
 export default function page() {
+  const banner = {
+    title: "Contact",
+    link: "contact",
+  };
+
   return (
     <>
       <div className="page-wraper  ">
         <Header19 />
-        <div className="page-content bg-white">
+        <div className="page-content bg-gray">
+
+          <ServiceBanner banner={banner} />
 
             <ContactSection/>
             <div className="container" style={{marginBottom:"-130px"}}>
@@ -57,7 +65,7 @@ export default function page() {
          
 
         </div>
-        <div className="footertop">
+        <div className="bg-gray" style={{paddingTop:"70px"}}>
           <Footer25 />
         </div>
         

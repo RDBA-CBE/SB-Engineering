@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 export default function CareerHero() {
   return (
-    <div className="section-full content-inner const-about home-about">
+    <div className="section-full content-inner const-about home-about SB-careers">
       <div className="container">
         <div className="row align-items-center">
          

@@ -16,7 +16,7 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header19 />
-        <div className="page-content bg-white">
+        <div className="page-content bg-gray">
 
           <CareerBanner/>
 
@@ -31,7 +31,7 @@ export default function page() {
          
 
         </div>
-        <div className="footertop">
+        <div className=" bg-gray" style={{paddingTop:"60px"}}>
           <Footer25 />
         </div>
         

@@ -1063,7 +1063,7 @@ h6 {
 }
 
 .service-box.style3 .icon-lg {
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .service-box.style3 .icon-bx-wraper:after {
@@ -1094,6 +1094,14 @@ h6 {
 .service-box.style3 .icon-bx-wraper:hover:before,
 .service-box.style3 .icon-bx-wraper:hover {
   color: #fff;
+}
+
+.whySbEng .service-box.style3 .icon-bx-wraper:hover {
+  color: #000;
+}
+
+.whySbEng .service-box.style3 .icon-bx-wraper:hover .icon-lg i {
+  color: #000;
 }
 
 .service-box.style3 .icon-bx-wraper:hover .about-service-image {
@@ -7674,8 +7682,8 @@ HOME 5 Box Header
 
 @media only screen and (max-width: 1440px) {
 
-  .header-nav .nav>li ul,
-  .header-nav .nav>li .sub-menu,
+  /* .header-nav .nav>li ul,
+  .header-nav .nav>li .sub-menu, */
   .header-nav .nav>li .mega-menu {
     background: transparent !important;
   }

@@ -12,9 +12,7 @@ const WhySbBanner = () => {
               <li className="breadcrumb-item">
                 <a href="/" className="text-white">Home</a>
               </li>
-              <li className="breadcrumb-item  text-white" aria-current="page">
-               <a href="/about-us" className="text-white">About Us</a> 
-              </li>
+              
               <li className="breadcrumb-item active text-white" aria-current="page">
                <a href="/why-sb-engineers" className="text-white">Why SB Engineers</a> 
               </li>
