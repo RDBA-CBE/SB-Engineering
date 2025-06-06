@@ -18579,7 +18579,7 @@ font-size: 22px;
 }
 
 .pricingBox-card {
-  flex: 1 1 calc(33.333% - 20px);
+  flex: 0 1 calc(33.333% - 20px);
   min-width: 250px;
   background: #f9b61770;
   padding: 20px;

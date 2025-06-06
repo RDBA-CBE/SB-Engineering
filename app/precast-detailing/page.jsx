@@ -34,7 +34,7 @@ export default function page() {
          img:"/images/about/event/about3.jpg"
       }
 
-       const serviceContent = {
+       const serviceContent1 = {
     title: "Strategic Advantages",
     img: "/images/about/about3.jpg",
     list: [
@@ -43,7 +43,51 @@ export default function page() {
       "Integrated & Collaborative Approach",
     ],
   };
- 
+  const serviceContent2 = {
+    title: "Our Structural BIM Capabilities Include",
+    img: "/images/about/about3.jpg",
+    list: [
+      "3D Structural Modelling",
+      "Structural Analysis Models",
+      "Construction Documentation",
+      "Reinforcement Detailing",
+      
+    ],
+  };
+
+  const serviceContent3 = {
+    title: "Inputs We Work With:",
+    img: "/images/about/about3.jpg",
+    list: [
+      "Conceptual Sketches and Markups",
+      "Architectural and Structural Drawings",
+      "Redline Corrections",
+      "Design Briefs and BIM Execution Plans",
+     
+    ],
+  };
+  const serviceContent4 = {
+    title: "Inputs We Work With:",
+    img: "/images/about/about3.jpg",
+    list: [
+      "Conceptual Sketches and Markups",
+      "Architectural and Structural Drawings",
+      "Redline Corrections",
+      "Design Briefs and BIM Execution Plans",
+     
+    ],
+  };
+  const serviceContent5 = {
+    title: "Inputs We Work With:",
+    img: "/images/about/about3.jpg",
+    list: [
+      "Conceptual Sketches and Markups",
+      "Architectural and Structural Drawings",
+      "Redline Corrections",
+      "Design Briefs and BIM Execution Plans",
+     
+    ],
+  };
 
   return (
     <>
@@ -54,9 +98,16 @@ export default function page() {
          <ServiceBanner banner={banner}/>
           <Innovativesolutions innovativesolutions={innovativesolutions}/>
 
-        <ServiceExtpertise serviceContent={serviceContent} />
+        {/* <ServiceExtpertise serviceContent={serviceContent} /> */}
 
-        
+         <ExpertiseTableTwo
+                    serviceContent1={serviceContent1}
+                    serviceContent2={serviceContent2}
+                     serviceContent3={serviceContent3}
+                     serviceContent4={serviceContent4}
+                     serviceContent5={serviceContent5}
+
+                  />
 
         <AddedValue addedValue={addedValue}/>
 
