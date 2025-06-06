@@ -126,7 +126,7 @@ export default function Sidebar() {
             <a href="#">Power Systems</a>
           </li>
           <li>
-            <a href="#">Power &amp; Energy</a>
+            <a href="#">Power & Energy</a>
           </li>
         </ul>
       </div>

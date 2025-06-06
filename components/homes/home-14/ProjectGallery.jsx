@@ -102,7 +102,7 @@ export default function ProjectGallery() {
               <div className="col-lg-6 col-md-6 col-sm-6 bg-secondry align-items-center d-flex">
                 <div className="dlab-services-box text-white">
                   <h3 className="title text-white m-b15">
-                    Renting Tips &amp; Articles
+                    Renting Tips & Articles
                   </h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and

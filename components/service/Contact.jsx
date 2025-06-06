@@ -32,7 +32,7 @@ export default function Contact() {
               className="font-weight-300 wow fadeInLeft"
               data-wow-delay="0.8s"
             >
-              &amp; What you will get:
+              & What you will get:
             </h4>
             <ul
               className="list-checked primary wow fadeInLeft"

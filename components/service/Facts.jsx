@@ -46,7 +46,7 @@ export default function Facts() {
               </div>
               <div className="icon-content">
                 <h5 className="dlab-tilte text-uppercase">
-                  Power &amp; Energy
+                  Power & Energy
                 </h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed

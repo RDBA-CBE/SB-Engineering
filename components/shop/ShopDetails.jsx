@@ -395,11 +395,11 @@ export default function ShopDetails({ productsItem }) {
                     <tbody>
                       <tr>
                         <td>Size</td>
-                        <td>Small, Medium &amp; Large</td>
+                        <td>Small, Medium & Large</td>
                       </tr>
                       <tr>
                         <td>Color</td>
-                        <td>Pink &amp; White</td>
+                        <td>Pink & White</td>
                       </tr>
                       <tr>
                         <td>Rating</td>
@@ -427,7 +427,7 @@ export default function ShopDetails({ productsItem }) {
                       </tr>
                       <tr>
                         <td>Fabric</td>
-                        <td>Cotton, Silk &amp; Synthetic</td>
+                        <td>Cotton, Silk & Synthetic</td>
                       </tr>
                       <tr>
                         <td>Warranty</td>

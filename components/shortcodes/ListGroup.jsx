@@ -27,15 +27,15 @@ export default function ListGroup() {
       </div>
       {/* inner page banner END */}
       <div className="bg-white">
-        {/* Left & right section start */}
+        {/* Left &  right section start */}
         <div className="section-full bg-white content-inner bg-img-fix">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>Listing With Numbering &amp; Alfha</h4>
+                  <h4>Listing With Numbering & Alfha</h4>
                 </div>
-                {/* Listing With Numbering & Alfha */}
+                {/* Listing With Numbering &  Alfha */}
                 <div className="section-content box-sort-in m-b10 p-b0 button-example m-b30">
                   <div className="row">
                     <div className="col-md-4 col-lg-4">
@@ -116,7 +116,7 @@ export default function ListGroup() {
               </div>
             </div>
           </div>
-          {/* Listing With Numbering & Alfha END */}
+          {/* Listing With Numbering &  Alfha END */}
         </div>
         <div
           className="section-full bg-white content-inner overlay-black-dark bg-img-fix text-white"
@@ -126,9 +126,9 @@ export default function ListGroup() {
             <div className="row">
               <div className="col-md-12">
                 <div className="sort-title clearfix text-center text-white">
-                  <h4>Listing With Numbering &amp; Alfha</h4>
+                  <h4>Listing With Numbering & Alfha</h4>
                 </div>
-                {/* Listing With Numbering & Alfha */}
+                {/* Listing With Numbering &  Alfha */}
                 <div className="section-content box-sort-in m-b10 p-b0 button-example m-b30">
                   <div className="row">
                     <div className="col-md-4 col-lg-4">
@@ -209,7 +209,7 @@ export default function ListGroup() {
               </div>
             </div>
           </div>
-          {/* Listing With Numbering & Alfha END */}
+          {/* Listing With Numbering &  Alfha END */}
         </div>
         <div className="section-full bg-white content-inner">
           <div className="container">
@@ -352,9 +352,9 @@ export default function ListGroup() {
             <div className="row">
               <div className="col-md-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>Listing With Numbering &amp; Alfha</h4>
+                  <h4>Listing With Numbering & Alfha</h4>
                 </div>
-                {/* Listing With Numbering & Alfha */}
+                {/* Listing With Numbering &  Alfha */}
                 <div className="section-content box-sort-in m-b10 p-b0 button-example">
                   <div className="row">
                     <div className="col-md-4 col-lg-4 col-sm-6">
@@ -383,9 +383,9 @@ export default function ListGroup() {
               </div>
             </div>
           </div>
-          {/* Listing With Numbering & Alfha END */}
+          {/* Listing With Numbering &  Alfha END */}
         </div>
-        {/* Left & right section  END */}
+        {/* Left &  right section  END */}
       </div>
     </>
   );

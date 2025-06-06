@@ -18564,6 +18564,94 @@ font-size: 22px;
       padding: 60px !important;
 }
 
+.pricingBox-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.pricingBox-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pricingBox-card {
+  flex: 1 1 calc(33.333% - 20px);
+  min-width: 250px;
+  background: #f9b61770;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 100%; */
+  /* text-align: center; */
+}
+
+.pricingBox-professional,
+.pricingBox-enterprise {
+  background-color: #0d2653;
+  color: #fff;
+}
+
+.pricingBox-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.pricingBox-container .main-sub-ti{
+  line-height: 1.3 !important;
+  color: #000 !important;
+}
+
+.pricingBox-container .text-white{
+  line-height: 1.3 !important;
+  color: #fff !important;
+}
+
+.pricingBox-desc {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.pricingBox-btn {
+  padding: 10px 20px;
+  background-color: #0d2653;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pricingBox-professional .pricingBox-btn,
+.pricingBox-enterprise .pricingBox-btn {
+  background-color: #fff;
+  color: #0d2653;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .pricingBox-card {
+    flex: 1 1 calc(45% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .pricingBox-card {
+    flex: 1 1 100%;
+  }
+
+  .pricingBox-row {
+    gap: 16px;
+  }
+}
+ 
+
 
 
 

@@ -29,15 +29,15 @@ export default function page() {
         title: "Our architectural design expertise covers",
          img:"/images/about/about3.jpg",
         list: [
-          "Master Planning & Urban Design",
+          "Master Planning &  Urban Design",
           "Residential",
           "Retail",
           "Industrial and Commercial",
           "Hospitality",
-          "Sports, Leisure &amp; Culture",
+          "Sports, Leisure & Culture",
           "Education",
           "Healthcare",
-          "Public Realm &amp; Landscaping",
+          "Public Realm & Landscaping",
           "Interior Design",
         ],
       };

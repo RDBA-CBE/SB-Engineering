@@ -31,7 +31,7 @@ export default function ImageEffect() {
         </div>
         {/* inner page banner END */}
         <div className="bg-white lightgallery" id="lightgallery">
-          {/* Left & right section start */}
+          {/* Left &  right section start */}
           <div className="section-full bg-white content-inner">
             <div className="container">
               <div className="row">
@@ -418,9 +418,9 @@ export default function ImageEffect() {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="sort-title clearfix text-center">
-                    <h4>Images overlay &amp; content on hover</h4>
+                    <h4>Images overlay & content on hover</h4>
                   </div>
-                  {/* Images overlay & content on hover */}
+                  {/* Images overlay &  content on hover */}
                   <div className="section-content box-sort-in button-example">
                     <div className="row">
                       <div className="col-lg-4 col-md-6 col-sm-12 m-b15">
@@ -672,7 +672,7 @@ export default function ImageEffect() {
                   <div className="sort-title clearfix text-center">
                     <h4>Images content on hover Icon</h4>
                   </div>
-                  {/* Images overlay & content on hover */}
+                  {/* Images overlay &  content on hover */}
                   <div className="section-content box-sort-in button-example">
                     <div className="row">
                       <div className="col-lg-4 col-md-4 col-sm-6 m-b30">
@@ -825,7 +825,7 @@ export default function ImageEffect() {
                   <div className="sort-title clearfix text-center">
                     <h4>Images content on hover</h4>
                   </div>
-                  {/* Images overlay & content on hover */}
+                  {/* Images overlay &  content on hover */}
                   <div className="section-content box-sort-in m-b15 button-example">
                     <div className="row">
                       <div className="col-lg-4 col-md-6 col-sm-6">
@@ -1030,7 +1030,7 @@ export default function ImageEffect() {
             </div>
             {/* content on hover END */}
           </div>
-          {/* Left & right section  END */}
+          {/* Left &  right section  END */}
           <div className="dlab-divider bg-gray-dark tb10" />
           <div className="section-full bg-white content-inner">
             <div className="container">
@@ -1039,7 +1039,7 @@ export default function ImageEffect() {
                   <div className="sort-title clearfix text-center">
                     <h4>Images content on hover</h4>
                   </div>
-                  {/* Images overlay & content on hover */}
+                  {/* Images overlay &  content on hover */}
                   <div className="section-content box-sort-in m-b15 button-example">
                     <div className="row">
                       <div className="col-lg-3 col-md-6 col-sm-6">
@@ -1184,7 +1184,7 @@ export default function ImageEffect() {
             </div>
             {/* content on hover END */}
           </div>
-          {/* Left & right section  END */}
+          {/* Left &  right section  END */}
         </div>{" "}
       </GallaryWrapper>
     </>

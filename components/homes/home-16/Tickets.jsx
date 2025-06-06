@@ -28,7 +28,7 @@ export default function Tickets() {
                 </div>
                 <ul className="pricingtable-features">
                   <li>One Day Conference Ticket</li>
-                  <li>Coffee-break &amp; Networking</li>
+                  <li>Coffee-break & Networking</li>
                   <li>Lunch and Networking</li>
                   <li>Keynote talk</li>
                 </ul>
@@ -54,9 +54,9 @@ export default function Tickets() {
                 </div>
                 <ul className="pricingtable-features">
                   <li>Two Day Conference Ticket</li>
-                  <li>Coffee-break &amp; Networing</li>
+                  <li>Coffee-break & Networing</li>
                   <li>Posters Session</li>
-                  <li>Lunch &amp; Networing</li>
+                  <li>Lunch & Networing</li>
                   <li>Talk to the Editors Session</li>
                 </ul>
                 <div className="pricingtable-footer">
@@ -81,7 +81,7 @@ export default function Tickets() {
                 </div>
                 <ul className="pricingtable-features">
                   <li>One Day Conference Ticket</li>
-                  <li>Coffee-break &amp; Networking</li>
+                  <li>Coffee-break & Networking</li>
                   <li>Lunch and Networking</li>
                   <li>Keynote talk</li>
                 </ul>

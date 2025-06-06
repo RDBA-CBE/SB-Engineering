@@ -61,7 +61,7 @@ export default function Hero() {
                     <li className="fw-bold">
                       01
                       <a href="#">
-                        Oil &amp; Gas Industry.
+                        Oil & Gas Industry.
                         <svg
                           width={26}
                           height={27}

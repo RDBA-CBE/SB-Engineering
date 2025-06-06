@@ -28,7 +28,7 @@ export default function Buttons() {
       {/* inner page banner END */}
       {/* Breadcrumb row END */}
       <div className="text-center">
-        {/* Left & right section start */}
+        {/* Left &  right section start */}
         <div className="section-full content-inner">
           <div className="container">
             <div className="row">
@@ -433,7 +433,7 @@ export default function Buttons() {
             <div className="row">
               <div className="col-lg-12 post card-container">
                 <div className="sort-title clearfix">
-                  <h4>Theme Button Pramary &amp; Secondry</h4>
+                  <h4>Theme Button Pramary & Secondry</h4>
                 </div>
                 <div className="section-content box-sort-in button-example m-b30">
                   <button className="site-button m-r15" type="button">
@@ -2560,7 +2560,7 @@ export default function Buttons() {
             </div>
             {/* Buttons END */}
           </div>
-          {/* Left & right section  END */}
+          {/* Left &  right section  END */}
         </div>
       </div>
     </>

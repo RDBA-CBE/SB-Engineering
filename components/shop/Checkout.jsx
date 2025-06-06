@@ -11,7 +11,7 @@ export default function Checkout() {
         <form onSubmit={(e) => e.preventDefault()} className="shop-form">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-md-6 m-b30">
-              <h4>Billing &amp; Shipping Address</h4>
+              <h4>Billing & Shipping Address</h4>
               <div className="form-group">
                 <select
                   className="form-select form-select-lg type-2"
@@ -152,7 +152,7 @@ export default function Checkout() {
                 <p>
                   If you have shopped with us before, please enter your details
                   in the boxes below. If you are a new customer please proceed
-                  to the Billing &amp; Shipping section.
+                  to the Billing & Shipping section.
                 </p>
                 <div className="form-group">
                   <select

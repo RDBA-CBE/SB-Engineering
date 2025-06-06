@@ -5,70 +5,94 @@ import React from "react";
 import ServiceBanner from "@/components/SBService/ServiceBanner";
 import ServiceExtpertise from "@/components/SBService/ServiceExtpertise";
 import AddedValue from "@/components/SBService/AddedValue";
+import ExpertiseTable from "@/components/SBService/ExpertiseTable";
 
 export const metadata = {
   title: "About",
-  description: ""
+  description: "",
 };
 export default function page() {
+  const banner = {
+    title: "Building Information Modeling",
+    link: "building-information-modeling",
+  };
 
-    const banner ={
-        title:"Building Information Modeling",
-        link:"building-information-modeling"
-    }
+  const innovativesolutions = {
+    title: "Innovative solutions for sustainable impact",
+    content1:
+      "At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
+    content2:
+      "We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
+    img: "/images/about/event/about3.jpg",
+  };
 
-    const innovativesolutions ={
-        title:"Innovative solutions for sustainable impact",
-         content1:"At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
-         content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
-         img:"/images/about/event/about3.jpg"
-    }
+  const serviceContent = {
+    title: "Strategic Advantages",
+    img: "/images/about/about3.jpg",
+    list: [
+      "Proven Experience Across Geographies",
+      "Technology-Driven Delivery",
+      "Integrated & Collaborative Approach",
+    ],
+  };
+  const BIMCapabilities = {
+    title: "Our Structural BIM Capabilities Include",
+    img: "/images/about/about3.jpg",
+    list: [
+      "3D Structural Modelling",
+      "Structural Analysis Models",
+      "Construction Documentation",
+      "Reinforcement Detailing",
+      "Shop and Fabrication Drawings",
+      "Smart Schedules &  Quantity Take-Offs",
+      "LOD-Based BIM Modelling",
+    ],
+  };
 
+  const Inputs = {
+    title: "Inputs We Work With:",
+    img: "/images/about/about3.jpg",
+    list: [
+      "Conceptual Sketches and Markups",
+      "Architectural and Structural Drawings",
+      "Redline Corrections",
+      "Design Briefs and BIM Execution Plans",
+      "Email Instructions or Cloud-Based Collaboration Platforms",
+    ],
+  };
 
-      const serviceContent = {
-        title: "Our architectural design expertise covers",
-         img:"/images/about/about3.jpg",
-        list: [
-          "Master Planning & Urban Design",
-          "Residential",
-          "Retail",
-          "Industrial and Commercial",
-          "Hospitality",
-          "Sports, Leisure &amp; Culture",
-          "Education",
-          "Healthcare",
-          "Public Realm &amp; Landscaping",
-          "Interior Design",
-        ],
-      };
+  const addedValue = {
+    title: "How we add value",
+    content1:
+      "Our architectural design services go beyond aesthetics. We integrate sustainable design principles to lower environmental impact and operational costs. We prioritize open communication and teamwork through each phase of the process, ensuring that your project is delivered on time, within budget and complies with industry benchmarks.",
 
-      const addedValue={
-        title:"How we add value",
-         content1:"Our architectural design services go beyond aesthetics. We integrate sustainable design principles to lower environmental impact and operational costs. We prioritize open communication and teamwork through each phase of the process, ensuring that your project is delivered on time, within budget and complies with industry benchmarks.",
-        
-         img:"/images/about/event/about3.jpg"
-      }
+    img: "/images/about/event/about3.jpg",
+  };
   return (
     <>
       <div className="page-wraper  ">
         <Header19 />
         <div className="page-content bg-white">
-         
-         <ServiceBanner banner={banner}/>
-          <Innovativesolutions innovativesolutions={innovativesolutions}/>
+          <ServiceBanner banner={banner} />
+          <Innovativesolutions innovativesolutions={innovativesolutions} />
 
-        <ServiceExtpertise serviceContent={serviceContent} />
+          {/* <ServiceExtpertise serviceContent={serviceContent} /> */}
 
-        <AddedValue addedValue={addedValue}/>
+          <ExpertiseTable
+            serviceContent={serviceContent}
+            BIMCapabilities={BIMCapabilities}
+            Inputs={Inputs}
+            content="By integrating BIM into the structural design process, SB Engineers reduces design errors,
+enhances constructability, and enables better project coordination, which helps save time
+and cost. Our BIM solutions are tailored to meet your unique project requirements and
+covers new construction as well as redesigning of existing structures."
+          />
 
-
-
-
+          <AddedValue addedValue={addedValue} />
         </div>
         <div className="footertop">
           <Footer25 />
         </div>
-        
       </div>
     </>
   );

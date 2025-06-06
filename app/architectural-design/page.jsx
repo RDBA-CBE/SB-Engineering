@@ -34,10 +34,10 @@ export default function page() {
           "Retail",
           "Industrial and Commercial",
           "Hospitality",
-          "Sports, Leisure &amp; Culture",
+          "Sports, Leisure & Culture",
           "Education",
           "Healthcare",
-          "Public Realm &amp; Landscaping",
+          "Public Realm & Landscaping",
           "Interior Design",
         ],
       };

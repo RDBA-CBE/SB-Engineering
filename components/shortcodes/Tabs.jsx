@@ -27,7 +27,7 @@ export default function Tabs() {
       </div>
       {/* inner page banner END */}
       <div className="bg-white tabs-box-area">
-        {/* Left & right section start */}
+        {/* Left &  right section start */}
         <div className="section-full bg-white content-inner">
           <div className="container">
             <div className="row">
@@ -313,7 +313,7 @@ export default function Tabs() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>tabs content border &amp; background nav</h4>
+                  <h4>tabs content border & background nav</h4>
                 </div>
                 <div className="section-content box-sort-in button-example p-t10 p-b30">
                   <div className="dlab-tabs border bg-tabs">
@@ -499,7 +499,7 @@ export default function Tabs() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>tabs content border &amp; background nav</h4>
+                  <h4>tabs content border & background nav</h4>
                 </div>
                 <div className="section-content box-sort-in button-example p-t10 p-b30">
                   <div className="dlab-tabs border-top border bg-tabs">
@@ -685,7 +685,7 @@ export default function Tabs() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>tabs nav left &amp; content border</h4>
+                  <h4>tabs nav left & content border</h4>
                 </div>
                 <div className="section-content box-sort-in button-example p-t10 p-b30">
                   <div className="dlab-tabs vertical border">
@@ -778,7 +778,7 @@ export default function Tabs() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>tabs nav left &amp; backgound tabs</h4>
+                  <h4>tabs nav left & backgound tabs</h4>
                 </div>
                 <div className="section-content box-sort-in button-example p-t10 p-b30">
                   <div className="dlab-tabs bg-tabs vertical">
@@ -871,7 +871,7 @@ export default function Tabs() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>tabs nav left &amp; content border</h4>
+                  <h4>tabs nav left & content border</h4>
                 </div>
                 <div className="section-content box-sort-in button-example p-t10 p-b30">
                   <div className="dlab-tabs bg-tabs vertical border">
@@ -1057,7 +1057,7 @@ export default function Tabs() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>tabs nav right &amp; content border</h4>
+                  <h4>tabs nav right & content border</h4>
                 </div>
                 <div className="section-content box-sort-in button-example p-t10 p-b30">
                   <div className="dlab-tabs vertical right border">
@@ -1243,7 +1243,7 @@ export default function Tabs() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>tabs nav right &amp; content border</h4>
+                  <h4>tabs nav right & content border</h4>
                 </div>
                 <div className="section-content box-sort-in button-example p-t10 p-b30">
                   <div className="dlab-tabs bg-tabs vertical right border">
@@ -1330,7 +1330,7 @@ export default function Tabs() {
             </div>
           </div>
         </div>
-        {/* Left & right section  END */}
+        {/* Left &  right section  END */}
       </div>
     </>
   );

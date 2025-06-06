@@ -37,7 +37,7 @@ export default function Hero() {
                       Value Creation Form Waste{" "}
                     </div>
                     <h1 className="title text-center">
-                      Plastic Waste <br /> Managment &amp; Recycling
+                      Plastic Waste <br /> Managment & Recycling
                     </h1>
                     <div className="subtitle">
                       Powering Progress Through Plastic

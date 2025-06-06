@@ -17,7 +17,7 @@ export default function ProjectGallery() {
               <h2 className="title">
                 Plastic Waste Managment
                 <br />
-                &amp; Recycling
+                & Recycling
               </h2>
               <div className="contact-no justify-content-center">
                 <div className="contact-left">
