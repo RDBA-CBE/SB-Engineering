@@ -17115,7 +17115,7 @@ ol.commentlist li .star-rating {
   }
 }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 1440px) {
   .navstyle1 .header-nav .nav>li>a:after {
     content: "";
     right: 0;

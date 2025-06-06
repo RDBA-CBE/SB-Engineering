@@ -2535,7 +2535,7 @@ HOME 5 Box Header
   margin: 0;
 }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 1440px) {
   .box-header .header-nav .nav>li>a {
     padding: 22px 10px 22px 10px;
   }
@@ -7672,7 +7672,7 @@ HOME 5 Box Header
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1440px) {
 
   .header-nav .nav>li ul,
   .header-nav .nav>li .sub-menu,
