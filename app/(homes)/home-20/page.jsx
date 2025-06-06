@@ -11,7 +11,7 @@ import Hero from "@/components/homes/home-20/Hero";
 import React from "react";
 
 export const metadata = {
-  title: "Home 20 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Home 20 || ",
   description: ""
 };
 export default function page() {

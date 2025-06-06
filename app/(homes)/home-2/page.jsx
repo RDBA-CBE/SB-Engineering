@@ -5,7 +5,7 @@ import Service from "@/components/homes/home-2/Service";
 import React from "react";
 
 export const metadata = {
-  title: "Home 2 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Home 2 || ",
   description: ""
 };
 export default function page() {

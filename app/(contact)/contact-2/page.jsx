@@ -7,7 +7,7 @@ import Header17 from "@/components/headers/Header17";
 import React from "react";
 
 export const metadata = {
-  title: "Contact 2 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Contact 2 || ",
   description: ""
 };
 export default function page() {

@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 export const metadata = {
   title:
-    "Header Style 4 || Industry - Factory & Industrial React Nextjs Template",
+    "Header Style 4 || ",
   description: ""
 };
 export default function page() {
@@ -75,7 +75,7 @@ import Link from &quot;next&#x2F;link&quot;;
 import Image from &quot;next&#x2F;image&quot;;
 import &lbrace; socialLinks &rbrace; from &quot;@&#x2F;data&#x2F;socials&quot;;
 import &lbrace; headerLinks &rbrace; from &quot;@&#x2F;data&#x2F;headerLinks&quot;;
-export const metadata = {title:'Home || Industry - Factory & Industrial React Nextjs Template',description:'Industry - Factory & Industrial React Nextjs Template'}
+export const metadata = {title:'Home || ',description:''}
 export default function Header1() &lbrace;
   return (
     &lt;header className&#x3D;&quot;site-header mo-left header&quot;&gt;

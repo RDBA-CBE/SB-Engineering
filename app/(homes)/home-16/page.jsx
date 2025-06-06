@@ -7,7 +7,7 @@ import Process from "@/components/homes/home-16/Process";
 import Tickets from "@/components/homes/home-16/Tickets";
 
 export const metadata = {
-  title: "Home 16 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Home 16 || ",
   description: ""
 };
 export default function page() {

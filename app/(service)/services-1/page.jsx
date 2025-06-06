@@ -8,7 +8,7 @@ import Facts from "@/components/service/Facts";
 import React from "react";
 
 export const metadata = {
-  title: "Services 1 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Services 1 || ",
   description: ""
 };
 export default function page() {

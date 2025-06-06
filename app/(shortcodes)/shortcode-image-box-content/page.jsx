@@ -5,7 +5,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Image Box Content || Industry - Factory & Industrial React Nextjs Template",
+    "Image Box Content || ",
   description: ""
 };
 export default function page() {

@@ -5,7 +5,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Shortcode Icon Box Styles || Industry - Factory & Industrial React Nextjs Template",
+    "Shortcode Icon Box Styles || ",
   description: ""
 };
 export default function page() {

@@ -3,7 +3,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Comming Soon 2 || Industry - Factory & Industrial React Nextjs Template",
+    "Comming Soon 2 || ",
   description: ""
 };
 export default function page() {

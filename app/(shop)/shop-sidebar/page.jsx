@@ -9,7 +9,7 @@ import Header22 from "@/components/headers/Header22";
 
 export const metadata = {
   title:
-    "Shop Sidebar || Industry - Factory & Industrial React Nextjs Template",
+    "Shop Sidebar || ",
   description: ""
 };
 export default function page() {

@@ -7,7 +7,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Blog Large Image Left Sidebar || Industry - Factory & Industrial React Nextjs Template",
+    "Blog Large Image Left Sidebar || ",
   description: ""
 };
 export default function page() {

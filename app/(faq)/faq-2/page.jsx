@@ -5,7 +5,7 @@ import Header1 from "@/components/headers/Header1";
 import React from "react";
 import Link from "next/link";
 export const metadata = {
-  title: "Faq 2 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Faq 2 || ",
   description: ""
 };
 export default function page() {

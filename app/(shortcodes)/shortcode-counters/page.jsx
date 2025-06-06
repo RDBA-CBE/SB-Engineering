@@ -5,7 +5,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Shortcode Counters || Industry - Factory & Industrial React Nextjs Template",
+    "Shortcode Counters || ",
   description: ""
 };
 export default function page() {

@@ -6,7 +6,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Blog Half Image || Industry - Factory & Industrial React Nextjs Template",
+    "Blog Half Image || ",
   description: ""
 };
 export default function page() {

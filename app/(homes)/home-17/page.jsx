@@ -11,8 +11,8 @@ import Testimonials from "@/components/homes/home-1/Testimonials";
 import Socials from "@/components/homes/home-17/Socials";
 
 export const metadata = {
-  title: "Home 17 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Home 17 || ",
+  description: "",
 };
 export default function Home() {
   return (

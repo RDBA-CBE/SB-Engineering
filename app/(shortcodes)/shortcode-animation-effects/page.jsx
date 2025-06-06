@@ -5,7 +5,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Shortcode Animation Effects || Industry - Factory & Industrial React Nextjs Template",
+    "Shortcode Animation Effects || ",
   description: ""
 };
 export default function page() {

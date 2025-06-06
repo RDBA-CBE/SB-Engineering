@@ -6,7 +6,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 export const metadata = {
-  title: "Footer 9 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Footer 9 || ",
   description: ""
 };
 export default function page() {

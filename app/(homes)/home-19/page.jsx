@@ -11,7 +11,7 @@ import Testimonials from "@/components/homes/home-9/Testimonials";
 import React from "react";
 
 export const metadata = {
-  title: "Home 19 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Home 19 || ",
   description: ""
 };
 export default function page() {

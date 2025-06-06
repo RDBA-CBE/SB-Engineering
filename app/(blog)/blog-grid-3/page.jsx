@@ -4,7 +4,7 @@ import Header1 from "@/components/headers/Header1";
 import React from "react";
 import Link from "next/link";
 export const metadata = {
-  title: "Blog Grid 3 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Blog Grid 3 || ",
   description: ""
 };
 export default function page() {

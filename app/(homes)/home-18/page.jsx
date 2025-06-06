@@ -10,7 +10,7 @@ import Services from "@/components/homes/home-1/Services";
 import Team from "@/components/homes/home-1/Team";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 export const metadata = {
-  title: "Home || Industry - Factory & Industrial React Nextjs Template",
+  title: "Home || ",
   description: ""
 };
 

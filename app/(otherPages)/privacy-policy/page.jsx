@@ -5,7 +5,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Privacy Policy || Industry - Factory & Industrial React Nextjs Template",
+    "Privacy Policy || ",
   description: ""
 };
 export default function page() {

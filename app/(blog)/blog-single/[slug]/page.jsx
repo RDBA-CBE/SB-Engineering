@@ -7,7 +7,7 @@ import React from "react";
 import { allBlogs } from "@/data/blogs";
 
 export const metadata = {
-  title: "Blog Single || Industry - Factory & Industrial React Nextjs Template",
+  title: "Blog Single || ",
   description: ""
 };
 export default function page({ params }) {

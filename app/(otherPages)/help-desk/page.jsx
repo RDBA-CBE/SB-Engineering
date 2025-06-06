@@ -4,7 +4,7 @@ import HelpDesk from "@/components/otherPages/HelpDesk";
 import React from "react";
 
 export const metadata = {
-  title: "Help Desk || Industry - Factory & Industrial React Nextjs Template",
+  title: "Help Desk || ",
   description: ""
 };
 export default function page() {

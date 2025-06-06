@@ -8,7 +8,7 @@ import React from "react";
 import Header22 from "@/components/headers/Header22";
 
 export const metadata = {
-  title: "Login || Industry - Factory & Industrial React Nextjs Template",
+  title: "Login || ",
   description: ""
 };
 export default function page() {

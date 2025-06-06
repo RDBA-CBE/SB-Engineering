@@ -5,7 +5,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Shortcode Caroudel Sldier || Industry - Factory & Industrial React Nextjs Template",
+    "Shortcode Caroudel Sldier || ",
   description: ""
 };
 export default function page() {

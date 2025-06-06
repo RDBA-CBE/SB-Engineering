@@ -9,7 +9,7 @@ import { allBlogs } from "@/data/blogs";
 
 export const metadata = {
   title:
-    "Blog Single Left Sidebar || Industry - Factory & Industrial React Nextjs Template",
+    "Blog Single Left Sidebar || ",
   description: ""
 };
 export default function page({ params }) {
