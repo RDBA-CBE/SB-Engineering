@@ -18,35 +18,28 @@ export default function page() {
     }
 
     const innovativesolutions ={
-        title:"Innovative solutions for sustainable impact",
-         content1:"At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
-         content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
+        title:"Precision-driven detailing solutions for stronger structures",
+         content1:"At SB Engineers, we offer specialized steel and rebar detailing services that combine technical expertise, industry best practices and cutting-edge tools to deliver accurate and reliable detailing solutions for all types of structural projects. From conceptual design to fabrication-ready drawings, our detailing solutions are crafted to support structural integrity, construction efficiency and compliance with global standards.",
+         content2:"Our team of experienced detailers and engineers work closely with our clients to produce precise and coordinated detailing that reduces errors, minimizes rework and accelerates construction timelines. Whether for new builds or renovating existing projects, our services are customized to meet the exact needs of architects, consultants, contractors and fabricators.",
          img:"/images/about/event/about3.jpg"
     }
 
 
       const serviceContent = {
-        title: "Our architectural design expertise covers",
-         img:"/images/about/about3.jpg",
+        title: "Our steel and rebar detailing expertise covers:",
+        img:"/images/about/about3.jpg",
         list: [
-          "Master Planning & Urban Design",
-          "Residential",
-          "Retail",
-          "Industrial and Commercial",
-          "Hospitality",
-          "Sports, Leisure & Culture",
-          "Education",
-          "Healthcare",
-          "Public Realm & Landscaping",
-          "Interior Design",
+          "Steel Detailing Services",
+          "Rebar Detailing Services",
+          "Precast Detailing Services",
         ],
       };
 
       const addedValue={
         title:"How we add value",
-         content1:"Our architectural design services go beyond aesthetics. We integrate sustainable design principles to lower environmental impact and operational costs. We prioritize open communication and teamwork through each phase of the process, ensuring that your project is delivered on time, within budget and complies with industry benchmarks.",
-        
-         img:"/images/about/event/about3.jpg"
+        content1:"We combine accuracy, speed, and technical depth to consistently deliver design solutions that exceed expectations. Our team uses advanced tools like Tekla and AutoCAD to ensure high precision and compliance with global benchmarks and client-specific standards.",
+        content2:"We adopt stringent quality control throughout the detailing lifecycle to help clients reduce project risks, control costs and maintain construction schedules without compromise.",
+        img:"/images/about/event/about3.jpg"
       }
   return (
     <>
