@@ -21,7 +21,7 @@ export default function VisionMissionSec() {
       <div className="container">
         <div className="row text-white">
           <div className="col-lg-4 col-md-4 m-b30" >
-            <div className="icon-bx-wraper bx-style-1 p-a30 center" style={{ height: 410 }}>
+            <div className="icon-bx-wraper bx-style-1 p-a30 center" >
               <div className="icon-lg text-white m-b20">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-factory" />
@@ -36,7 +36,7 @@ export default function VisionMissionSec() {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 m-b30">
-            <div className="icon-bx-wraper bx-style-1 p-a30 center" style={{ height: 410 }}>
+            <div className="icon-bx-wraper bx-style-1 p-a30 center" >
               <div className="icon-lg text-white m-b20">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-engineer" />
@@ -53,7 +53,7 @@ export default function VisionMissionSec() {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 m-b30">
-            <div className="icon-bx-wraper bx-style-1 p-a30 center" style={{ height: 410 }}>
+            <div className="icon-bx-wraper bx-style-1 p-a30 center" >
               <div className="icon-lg text-white m-b20">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-factory-1" />
