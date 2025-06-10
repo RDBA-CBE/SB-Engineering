@@ -51,7 +51,7 @@ export default function page() {
                  <Timer style={{width:"18px"}}/>
                 </div>
                 <div className="footer-contact__text">
-                  <span>Opening Hours:</span>
+                  <span>Web</span>
                   <strong>Mon-Fri: 8am – 7pm</strong>
                 </div>
               </div>

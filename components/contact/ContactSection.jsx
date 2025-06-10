@@ -6,29 +6,22 @@ import Image from "next/image";
 const ContactSection = () => {
   const officeData = [
     {
-      title: "London Office",
+      title: "Vellore Office:",
       img: "/images/project/pic1.jpg",
-      email: "Amarou@7oroof.com",
-      address: "2307 Beverley Rd Brooklyn, NY",
-      phone: "55 654 541 17",
-      hours: "Mon-Fri: 8am – 7pm",
+      email: "admin@sbecc.in , sbengineers23@gmail.com",
+      address: " 2, 4th West Cross Road , Gandhi Nagar , Katpadi , Vellore- 632006 , TamilNadu",
+      phone: " 0416-4237307",
+      web: "www.sbecc.in"
     },
     {
-      title: "Berlin Office",
+      title: "Coimbatore Office: ",
       img: "/images/project/pic1.jpg",
-      email: "Amarou@7oroof.com",
-      address: "2307 Beverley Rd Brooklyn, NY",
-      phone: "55 654 541 17",
-      hours: "Mon-Fri: 8am – 7pm",
+      email: "admin@sbecc.in , sbengineers23@gmail.com",
+      address: "2, 7th St Ext, 3rdFloor, D.479, 7th St Extension, Gandhipuram ,Coimbatore - 641012",
+      phone: "0422-4577307",
+      web: "www.sbecc.in"
     },
-    {
-      title: "Manchester Office",
-    img: "/images/project/pic1.jpg",
-      email: "Amarou@7oroof.com",
-      address: "2307 Beverley Rd Brooklyn, NY",
-      phone: "55 654 541 17",
-      hours: "Mon-Fri: 8am – 7pm",
-    },
+    
   ];
   return (
     <>
@@ -37,7 +30,7 @@ const ContactSection = () => {
         <div className="container office-section">
       <div className="row">
         {officeData.map((office, index) => (
-          <div className="col-md-4 office-box" key={index}>
+          <div className="col-md-6 office-box" key={index}>
             <div className="office-img-wrapper mb-3">
               <Image
                 src={office.img}
@@ -52,7 +45,7 @@ const ContactSection = () => {
               <p className="mb-1">Email: <a href={`mailto:${office.email}`}>{office.email}</a></p>
               <p className="mb-1">Address: {office.address}</p>
               <p className="mb-1">Phone: {office.phone}</p>
-              <p className="mb-1">Hours: {office.hours}</p>
+              <a href="#" className="mb-1">Web: {office.web}</a>
             </div>
           </div>
         ))}
