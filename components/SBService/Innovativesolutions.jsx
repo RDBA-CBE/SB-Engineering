@@ -17,9 +17,15 @@ export default function Innovativesolutions({innovativesolutions}) {
                
               </h2>
 
-              <p dangerouslySetInnerHTML={{__html:innovativesolutions?.content1}}></p>
+            <p dangerouslySetInnerHTML={{ __html: innovativesolutions?.content1 }}></p>
 
-             {innovativesolutions?.content2 && <p dangerouslySetInnerHTML={{__html:innovativesolutions?.content2}}></p>}
+            {innovativesolutions?.content2 && (
+              <p dangerouslySetInnerHTML={{ __html: innovativesolutions.content2 }}></p>
+            )}
+            {innovativesolutions?.content3 && (
+              <p dangerouslySetInnerHTML={{ __html: innovativesolutions.content3 }}></p>
+            )}
+
 
               {/* <Link
                 href={`/portfolio-grid-2`}
