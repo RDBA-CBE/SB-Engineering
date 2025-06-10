@@ -13,21 +13,15 @@ export default function CareerHero() {
               <div className="section-head style2">
                 <h2 className="title main-ti">Build your future with us</h2>
                 <p>
-                  At SB Engineers, we don’t just build structures, we build
-                  careers. We&#39;re always looking for passionate engineers,
-                  designers and thinkers who are ready to take on exciting
-                  challenges.
+                  At SB Engineers, we don’t just build structures, we build careers. We're always looking for passionate engineers, designers and thinkers who are ready to take on exciting challenges.
                 </p>
 
                 <p>
-                  We offer an inclusive work environment, ongoing professional
-                  development and the opportunity to be part of projects that
-                  shape skylines and communities.
+                  We offer an inclusive work environment, ongoing professional development and the opportunity to be part of projects that shape skylines and communities. 
                 </p>
 
                 <p>
-                  If you&#39;re driven, curious and ready to grow, we would love
-                  to meet you.
+                  If you're driven, curious and ready to grow, we would love to meet you.
                 </p>
 
                

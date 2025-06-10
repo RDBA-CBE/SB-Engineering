@@ -36,14 +36,10 @@ export default function HomeAbout() {
           >
             <div className="content-bx1">
               <div className="section-head style2">
-                <p className="upper-cap">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p className="upper-cap">Engineered for excellence</p>
                 <h2 className="title main-ti">About SB Engineers</h2>
                 <p>
-                  SB Engineers is a premier engineering design firm dedicated to
-                  delivering innovative and sustainable solutions. With a team
-                  of highly skilled and caring employees we excellence and
-                  innovation, we provide unparalleled engineering design
-                  services across various industries.
+                  SB Engineers is a premier engineering design firm recognized for delivering end-to-end solutions across a wide spectrum of structural and MEP projects. Driven by knowledge and experience, our expert team ensures every project is executed with precision and confidence.
                 </p>
 
                 <div className=" bg-white ">
@@ -62,8 +58,8 @@ export default function HomeAbout() {
                                 </div>
                                 <div className="icon-content">
                                   <h5 className="dlab-tilte text-capitalize icon-ti">
-                                    Visionary Solutions <br />
-                                    Lasting Impact
+                                    Smart Solutions for  <br />
+                                    Long-Term Impact
                                   </h5>
                                  
                                 </div>
@@ -78,26 +74,22 @@ export default function HomeAbout() {
                                 </div>
                                 <div className="icon-content">
                                   <h5 className="dlab-tilte text-capitalize icon-ti">
-                                   Accurate Processes <br />
-                                   Testing Guaruntee
+                                   Precision-Driven  <br />
+                                   Workflows Quality Assured
                                   </h5>
-                                
                                 </div>
                               </div>
                             </div>
-                            
                           </div>
                         </div>
-
-
-               
-              
                       </div>
                     </div>
                   </div>
                 </div>
 
-                 <Link
+                <p className="m-b50">We have successfully executed numerous projects and built enduring client relationships based on trust and mutual growth.</p>
+
+                <Link
                 href={`/portfolio-grid-2`}
                 className="btn__secondary_in  text-decoration-none"
                 // style={{zIndex:"1000"}}
@@ -109,8 +101,6 @@ export default function HomeAbout() {
               </Link>
               </div>
 
-              
-              
             </div>
           </div>
         </div>

@@ -20,24 +20,23 @@ export default function VisionMissionSec() {
       </div>
       <div className="container">
         <div className="row text-white">
-          <div className="col-lg-4 col-md-4 m-b30">
-            <div className="icon-bx-wraper bx-style-1 p-a30 center">
+          <div className="col-lg-4 col-md-4 m-b30" >
+            <div className="icon-bx-wraper bx-style-1 p-a30 center" style={{ height: 410 }}>
               <div className="icon-lg text-white m-b20">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-factory" />
                 </a>
               </div>
               <div className="icon-content">
-                <h5 className="dlab-tilte text-uppercase">Mechanical Works</h5>
+                <h5 className="dlab-tilte text-uppercase">Vision</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod..
+                 To gain global recognition as a leading engineering design firm, distinguished by our expertise, innovation and customer-centric approach in building sustainable and iconic structures.
                 </p>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-4 m-b30">
-            <div className="icon-bx-wraper bx-style-1 p-a30 center">
+            <div className="icon-bx-wraper bx-style-1 p-a30 center" style={{ height: 410 }}>
               <div className="icon-lg text-white m-b20">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-engineer" />
@@ -45,17 +44,16 @@ export default function VisionMissionSec() {
               </div>
               <div className="icon-content">
                 <h5 className="dlab-tilte text-uppercase">
-                  Power & Energy
+                  Mission
                 </h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod..
+                  To deliver innovative engineering solutions that enhance the built environment, while prioritizing safety, sustainability and functionality. We strive to exceed client expectations through our steadfast commitment to quality, integrity and professionalism.
                 </p>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-4 m-b30">
-            <div className="icon-bx-wraper bx-style-1 p-a30 center">
+            <div className="icon-bx-wraper bx-style-1 p-a30 center" style={{ height: 410 }}>
               <div className="icon-lg text-white m-b20">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-factory-1" />
@@ -63,15 +61,15 @@ export default function VisionMissionSec() {
               </div>
               <div className="icon-content">
                 <h5 className="dlab-tilte text-uppercase">
-                  Petroleum Refinery
+                  Management
                 </h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod..
+                  Our leadership consists of seasoned professionals with deep knowledge across various engineering domains. Their vision and dedication nurture a culture of excellence, accountability and continuous growth. 
                 </p>
               </div>
             </div>
           </div>
+          <p style={{ textAlign: 'center' }}>At SB Engineers, leadership is all about direct engagement, guiding our team, supporting our clients and delivering success at every stage.</p>
         </div>
       </div>
    

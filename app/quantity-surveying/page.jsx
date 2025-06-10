@@ -18,33 +18,34 @@ export default function page() {
     }
 
     const innovativesolutions ={
-        title:"Innovative solutions for sustainable impact",
-         content1:"At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
-         content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
+        title:"",
+         content1:"At SB Engineers, our Quantity Surveying services are designed to add value at every stage of your project. With a deep understanding of construction processes, financial planning and client goals, we go beyond conventional cost estimation to offer comprehensive cost control, risk assessment and contract advisory services.",
+         content2:"Our team of experienced Quantity Surveyors works closely with clients, consultants and contractors to ensure every financial aspect of the project is accounted for, from feasibility to final account settlement. We prioritize transparency, efficiency and sustainability to support project delivery within scope, time and budget.",
+         content3:"Whether you're developing a large-scale commercial complex or a public infrastructure asset, we have the expertise to effectively allocate resources, monitor costs rigorously, and maximize value.",
          img:"/images/about/event/about3.jpg"
     }
 
 
       const serviceContent = {
-        title: "Our architectural design expertise covers",
+        title: "Our Quantity Surveying Services include:",
          img:"/images/about/about3.jpg",
         list: [
-          "Master Planning & Urban Design",
-          "Residential",
-          "Retail",
-          "Industrial and Commercial",
-          "Hospitality",
-          "Sports, Leisure & Culture",
-          "Education",
-          "Healthcare",
-          "Public Realm & Landscaping",
-          "Interior Design",
+          "Cost Consultancy & Estimation",
+          "Lifecycle Cost Planning & Budget Forecasting",
+          "Value Engineering & Optimization",
+          "Tender Preparation, Analysis & Bid Evaluation",
+          "Procurement Strategy & Advice",
+          "Contract Documentation & Management",
+          "Change Management & Variation Analysis",
+          "Claims, Dispute Resolution & Risk Management",
+          "Ongoing Cost Monitoring & Reporting",
+          "Final Account Preparation & Negotiation",
         ],
       };
 
       const addedValue={
         title:"How we add value",
-         content1:"Our architectural design services go beyond aesthetics. We integrate sustainable design principles to lower environmental impact and operational costs. We prioritize open communication and teamwork through each phase of the process, ensuring that your project is delivered on time, within budget and complies with industry benchmarks.",
+         content1:"At SB Engineers, we align our cost strategies with your project vision. Our quantity surveying services are not only about managing numbers, they’re about enabling smarter decisions. ",
         
          img:"/images/about/event/about3.jpg"
       }

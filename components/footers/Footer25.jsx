@@ -11,7 +11,7 @@ export default function Footer25() {
             <img src="/images/header-logo.png" alt="SB Engineers Logo" className="footer-logo mb-3" />
             <h4 className="footer-heading mb-3">Get Started With Us</h4>
             <p className="footer-text mb-4">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
+              Irrespective of the stage of your projects, our expert team can guide you through every step and deliver end-to-end design solutions that meet global standards.
             </p>
             <button className="footer-button">Reach Us Now</button>
           </div>

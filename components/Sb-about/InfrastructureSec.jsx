@@ -48,10 +48,7 @@ export default function InfrastructureSec() {
         <div className=" text-center">
            
           <h2 className="main-ti">Our Infrastructure</h2>
-          <p>Our modern workspace is equipped with cutting-edge software and advanced analytical
-tools to nurture creativity and smooth coordination. Our top-of-the-line infrastructure
-allows us to confidently take on projects of any size or complexity and deliver with
-precision.</p>
+          <p>Our modern workspace is equipped with cutting-edge software and advanced analytical tools to nurture creativity and smooth coordination. Our top-of-the-line infrastructure allows us to confidently take on projects of any size or complexity and deliver with precision.</p>
 
          
         </div>

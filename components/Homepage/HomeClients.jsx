@@ -28,8 +28,8 @@ export default function HomeClients({
       </div> */}
 
       <div className="text-center">
-                    <p className="upper-cap">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <h2 className="main-ti"> Clients Who trust Us</h2>
+                    <p className="upper-cap">Quality, collaboration and consistent delivery</p>
+                    <h2 className="main-ti">Our clients who trust us</h2>
                 </div>
 
                 <div className="container mt-5">

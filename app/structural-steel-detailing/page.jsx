@@ -20,27 +20,33 @@ export default function page() {
     }
 
     const innovativesolutions ={
-        title:"Innovative solutions for sustainable impact",
-         content1:"At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
-         content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
+        title:"",
+         content1:"SB Engineers delivers high-quality structural steel detailing services that support structural integrity, improve fabrication efficiency and ensure flawless on-site execution. With a commitment to accuracy and innovation, our detailing solutions cover the entire project lifecycle, from initial concepts and modelling to final fabrication and erection drawings.",
+         content2:"We use advanced software like Tekla Xsteel for 2D drafting and 3D modelling to help fabricators, contractors and engineers bring complex steel structures to life. Our services cater to a wide range of sectors including residential, commercial, industrial and infrastructure.",
+         content3:"Our experienced detailing team work closely with clients to produce shop-ready drawings and models that eliminate ambiguities, reduce material wastage and enhance project timelines. Whether you're building from the ground up or upgrading existing infrastructure, our steel detailing services are designed to meet your unique project specifications.",
          img:"/images/about/event/about3.jpg"
     }
 
 
       const addedValue={
         title:"How we add value",
-         content1:"Our architectural design services go beyond aesthetics. We integrate sustainable design principles to lower environmental impact and operational costs. We prioritize open communication and teamwork through each phase of the process, ensuring that your project is delivered on time, within budget and complies with industry benchmarks.",
+         content1:"Our structural steel detailing services go beyond technical drawings. We bring a deep understanding of construction workflows, fabrication constraints and industry standards to every project. We prioritize clarity, synergy and precision to ensure that each component is correctly represented, connected and ready for efficient assembly.",
         
          img:"/images/about/event/about3.jpg"
       }
 
        const serviceContent = {
-    title: "Strategic Advantages",
+    title: "Our structural steel detailing expertise includes:",
     img: "/images/about/about3.jpg",
     list: [
-      "Proven Experience Across Geographies",
-      "Technology-Driven Delivery",
-      "Integrated & Collaborative Approach",
+      "Detailed Fabrication Drawings",
+      "2D Shop Drawings",
+      "Joist Shop Drawings",
+      "Handrail Shop Drawings",
+      "Stair Shop Drawings",
+      "3D Modelling",
+      "Tekla Xsteel Detailing",
+      "Output in multiple formats like pdf, tiff, plt, etc.",
     ],
   };
  

@@ -8,19 +8,19 @@ const AboutSec = () => {
     <section className="construction-section container py-5">
       <div className="row align-items-center">
         {/* Left Content */}
-        <div className="col-lg-6 mb-4 mb-lg-0">
-<p className="upper-cap">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        {/* <div className="col-lg-6 mb-4 mb-lg-0">
+<p className="upper-cap">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> */}
           <h2 className="main-ti fw-bold mb-4">
-            Committed To Delivering High Quality Construction Projects <br /> And Innovate Design!
+           Driven by world-class technology, we deliver exactly what our client needs cost-efficiently.
           </h2>
 
 
 
          
-        </div>
+        {/* </div> */}
 
         {/* Right Image Content */}
-        <div className="col-lg-6 ">
+        {/* <div className="col-lg-6 ">
 
                     <div className="d-flex mb-4">
             <div className="me-5 ">
@@ -33,20 +33,23 @@ const AboutSec = () => {
             </div>
           </div>
          
-        </div>
+        </div> */}
       </div>
 
       <div className="row align-items-center">
         <div className='col-lg-6'>
           <div>
              <p className="mb-3 text-muted">
-            Yet those that embrace change are thriving, building bigger, better, faster, and stronger products than ever before. You are helping to lead the charge; we can help you build on your past and prepare future.
+            SB Engineers is one of the most trusted engineering design and consulting companies delivering end-to-end solutions for a broad spectrum of structural and MEP projects. We specialize in delivering integrated design and detailing services in  Architectural Design, Structural Engineering, Mechanical, Electrical, Plumbing and Tekla Detailing Services. 
           </p>
           <p className="text-muted">
-            The world is changing faster than ever before, Eteon constructions are threatened as technology disrupts and software.
+            Our team consist of competent professionals with deep expertise in the field who have helped us consistently deliver projects that exceed client expectations, while cultivating long-term business relationships and strategic growth. We start our process by understanding the unique needs of each project and ensure that every solution we provide is practical, cost-effective and aligned with industry standards.
+          </p>
+          <p className="text-muted">
+            Our services are tailored to meet our clients' objectives, ensuring accuracy, quality and efficiency. This helps our business grow and build long-term relationships between the company, clients and engineers. Powered by advanced technology and a future-forward mindset, SB Engineers is committed to delivering excellence in every phase of design and execution.
           </p>
 
-          <div className="row mt-4 mb-3">
+          {/* <div className="row mt-4 mb-3">
             <div className="col-sm-6">
               <ul className="list-unstyled construction-list">
                 <li>✔ Quality Control System</li>
@@ -61,10 +64,10 @@ const AboutSec = () => {
                 <li>✔ Professional and Qualified</li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
           
-           <Link
+           {/* <Link
                 href={`/portfolio-grid-2`}
                 className="btn__secondary_in  text-decoration-none "
                 // style={{zIndex:"1000"}}
@@ -73,7 +76,7 @@ const AboutSec = () => {
                                     <ArrowRight className="icon-sm-new "/>
                                 </span>
                 More About Us
-              </Link>
+              </Link> */}
           </div>
         </div>
         <div className="col-lg-6 position-relative">

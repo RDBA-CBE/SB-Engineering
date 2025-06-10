@@ -18,7 +18,7 @@ export default function WhySBEngineers() {
             {services5.map((service, index) => (
               <div
                 key={index}
-                className="col-md-6 col-lg-4 col-sm-12 service-box style3 wow fadeInUp"
+                className="col-md-6 col-lg-6 col-sm-12 service-box style3 wow fadeInUp h-100"
                 data-wow-duration="2s"
                 data-wow-delay={service.delay}
               >

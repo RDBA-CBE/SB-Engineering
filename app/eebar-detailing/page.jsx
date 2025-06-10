@@ -20,71 +20,63 @@ export default function page() {
     }
 
     const innovativesolutions ={
-        title:"Innovative solutions for sustainable impact",
-         content1:"At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
-         content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
+        title:"",
+         content1:"At SB Engineers, we provide highly accurate rebar detailing services that are essential for the structural integrity and performance of reinforced concrete structures. Our experienced team uses advanced detailing software to develop comprehensive fabrication drawings that ensure precision, reduce material wastage and improve construction workflows.",
+         content2:"From high-rise buildings to infrastructure and industrial facilities, we deliver bespoke rebar detailing solutions that meet global standards and project specifications. Our rebar drawings are created from structural design documents, offering precise bar bending schedules (BBS), quantity estimations and placing drawings that support efficient on-site execution.",
+         content3:"Whether you're working on a new development or redesigning an existing structure, our detailing services are designed to enhance constructability, minimize delays and improve teamwork between stakeholders.",
          img:"/images/about/event/about3.jpg"
     }
 
 
       const addedValue={
         title:"How we add value",
-         content1:"Our architectural design services go beyond aesthetics. We integrate sustainable design principles to lower environmental impact and operational costs. We prioritize open communication and teamwork through each phase of the process, ensuring that your project is delivered on time, within budget and complies with industry benchmarks.",
+         content1:"Our rebar detailing services focus on accuracy, speed and constructability. By translating structural drawings into detailed rebar plans, we help contractors, fabricators and construction teams execute their projects efficiently and cost-effectively. ",
         
          img:"/images/about/event/about3.jpg"
       }
 
        const serviceContent1 = {
-    title: "Strategic Advantages",
+    title: "Foundation Details",
     img: "/images/about/about3.jpg",
     list: [
-      "Proven Experience Across Geographies",
-      "Technology-Driven Delivery",
-      "Integrated & Collaborative Approach",
+      "Roof Truss and Joint Details",
+      "Constructability Reviews",
     ],
   };
   const serviceContent2 = {
-    title: "Our Structural BIM Capabilities Include",
+    title: "Bar Bending Schedules",
     img: "/images/about/about3.jpg",
     list: [
-      "3D Structural Modelling",
-      "Structural Analysis Models",
-      "Construction Documentation",
-      "Reinforcement Detailing",
+      "Rebar 2D & 3D Modelling",
+      "Retaining Wall Detailing",
       
     ],
   };
 
   const serviceContent3 = {
-    title: "Inputs We Work With:",
+    title: "As-Built Drawings",
     img: "/images/about/about3.jpg",
     list: [
-      "Conceptual Sketches and Markups",
-      "Architectural and Structural Drawings",
-      "Redline Corrections",
-      "Design Briefs and BIM Execution Plans",
+      "Grade Beam Detailing",
+      "Total Rebar Estimation",
      
     ],
   };
   const serviceContent4 = {
-    title: "Inputs We Work With:",
+    title: "Rebar Shop Drawings",
     img: "/images/about/about3.jpg",
     list: [
-      "Conceptual Sketches and Markups",
-      "Architectural and Structural Drawings",
-      "Redline Corrections",
-      "Design Briefs and BIM Execution Plans",
+      "Quality Take-Offs",
+      "Concrete Joint and Slab Details",
      
     ],
   };
   const serviceContent5 = {
-    title: "Inputs We Work With:",
+    title: "Rebar Shop Drawings",
     img: "/images/about/about3.jpg",
     list: [
-      "Conceptual Sketches and Markups",
-      "Architectural and Structural Drawings",
-      "Redline Corrections",
-      "Design Briefs and BIM Execution Plans",
+      "Bar Listing in ASA Format",
+      "Concrete Masonry Detailing",
      
     ],
   };

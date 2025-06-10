@@ -52,8 +52,8 @@ export default function HomeProjects() {
   return (
     <div className="section-full bg-white mb-5 mt-4 fw-swiper">
       <div className="text-center">
-                    <p className="upper-cap">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <h2 className="main-ti text-primary pb-4">Explore Our Projects</h2>
+                    <p className="upper-cap">Impactful, efficient and enduring solutions.</p>
+                    <h2 className="main-ti text-primary pb-4">Explore our projects</h2>
                 </div>
       <Swiper
         slidesPerView={2}

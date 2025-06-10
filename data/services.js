@@ -637,13 +637,13 @@ export const galleryItems = [
 ];
 
 export const services5 = [
-  {
+   {
     id: 83,
     name: "01",
     icon: "/images/about-us/web-design.png",
-    title: "Web Design",
+    title: "Integrity",
     description:
-      "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
+      "We believe that great partnerships are built on trust. That’s why, from client interactions to project execution, we ensure honesty, transparency and ethical practices in everything we do.",
     delay: "0.2s",
     link: "web-design-service",
   },
@@ -651,9 +651,9 @@ export const services5 = [
     id: 83,
     name: "02",
     icon: "/images/about-us/web-design.png",
-    title: "Digital Marketing",
+    title: "Quality",
     description:
-      "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
+      "With a commitment to excellence, we adopt stringent quality control to ensure our deliverables are both effective and enduring.",
     delay: "0.2s",
     link: "digital-marketing-service",
   },
@@ -661,9 +661,19 @@ export const services5 = [
     id: 83,
     name: "03",
     icon: "/images/about-us/web-design.png",
-    title: "Academy",
+    title: "Collaboration",
     description:
-      "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
+      "We work closely with our clients at each phase, listening, adapting and designing solutions that reflect their vision and needs.",
+    delay: "0.2s",
+    link: "academy-service",
+  },
+   {
+    id: 83,
+    name: "04",
+    icon: "/images/about-us/web-design.png",
+    title: "Innovation",
+    description:
+      "The engineering domain is constantly evolving, that’s why we use the latest tools and technologies to deliver modern, efficient and future-ready designs that push the boundaries of what's possible.",
     delay: "0.2s",
     link: "academy-service",
   },

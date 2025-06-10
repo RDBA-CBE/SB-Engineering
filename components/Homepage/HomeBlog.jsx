@@ -14,17 +14,17 @@ import { ArrowRight } from "lucide-react";
         {
             title:"Architectural Design",
         img:"/images/home/services/1.png",
-        cap:"Innovative and sustainable architectural solutions that blend functionality with aesthetic appeal. Our designs reflect modern trends while respecting traditional values."
+        cap:"Futuristic architectural solutions blending aesthetics, functionality and sustainability across every project stage."
         },
          {
             title:"Structural Engineering",
         img:"/images/home/services/2.png",
-        cap:"Precision structural engineering solutions that ensure safety, durability, and cost-effectiveness. We provide comprehensive structural design services."
+        cap:"Reliable structural engineering that ensures safety, durability and efficiency through cutting-edge analysis and design."
         },
-         {
-            title:"Steel & Rebar Detailing",
+        {
+            title:"MEP Engineering",
         img:"/images/home/services/3.png",
-        cap:"Detailed steel and rebar detailing services that ensure precise construction execution. Our detailed drawings facilitate smooth construction processes."
+        cap:"Integrated MEP systems engineered for energy efficiency, safety, performance and seamless building functionality."
         }
   
   
@@ -37,8 +37,8 @@ import { ArrowRight } from "lucide-react";
               <div className="col-lg-12">
 
                 <div className="text-center">
-                    <p className="upper-cap">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <h2 className="main-ti">Our Service Beyond Expectation</h2>
+                    <p className="upper-cap">Our clients who trust us</p>
+                    <h2 className="main-ti">Our services transcend expectations</h2>
                 </div>
                
                 {/* Event post Carousel with no margin */}

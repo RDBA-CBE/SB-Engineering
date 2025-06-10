@@ -18,16 +18,16 @@ export default function page() {
   };
 
   const innovativesolutions = {
-    title: "Innovative solutions for sustainable impact",
+    title: "Intelligent Modelling, Accurate Insights and Smarter Structures.",
     content1:
-      "At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
+      "SB Engineers is at the forefront of delivering competent Structural BIM Services. We integrate  engineering precision and cutting-edge technology to enhance structural design, coordination and construction efficiency. With deep domain expertise and a client-centric approach, we enable smarter decision-making through every phase of the structural lifecycle, from conceptual design and analysis to detailing and documentation.",
     content2:
-      "We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
+      "We serve a diverse clientele across the residential, commercial, industrial and infrastructure sectors, offering BIM solutions tailored to project needs, regional norms, and global benchmarks.",
     img: "/images/about/event/about3.jpg",
   };
 
   const serviceContent = {
-    title: "Strategic Advantages",
+    title: "Strategic Advantages:",
     img: "/images/about/about3.jpg",
     list: [
       "Proven Experience Across Geographies",
@@ -36,7 +36,7 @@ export default function page() {
     ],
   };
   const BIMCapabilities = {
-    title: "Our Structural BIM Capabilities Include",
+    title: "Our Structural BIM Capabilities Include:",
     img: "/images/about/about3.jpg",
     list: [
       "3D Structural Modelling",
@@ -64,7 +64,7 @@ export default function page() {
   const addedValue = {
     title: "How we add value",
     content1:
-      "Our architectural design services go beyond aesthetics. We integrate sustainable design principles to lower environmental impact and operational costs. We prioritize open communication and teamwork through each phase of the process, ensuring that your project is delivered on time, within budget and complies with industry benchmarks.",
+      "Our BIM services go beyond modelling, we provide construction solutions that drive efficiency, reduce costs, manage risks, improve constructability and create long-term value. ",
 
     img: "/images/about/event/about3.jpg",
   };
@@ -82,10 +82,7 @@ export default function page() {
             serviceContent={serviceContent}
             BIMCapabilities={BIMCapabilities}
             Inputs={Inputs}
-            content="By integrating BIM into the structural design process, SB Engineers reduces design errors,
-enhances constructability, and enables better project coordination, which helps save time
-and cost. Our BIM solutions are tailored to meet your unique project requirements and
-covers new construction as well as redesigning of existing structures."
+            content="By integrating BIM into the structural design process, SB Engineers reduces design errors, enhances constructability, and enables better project coordination, which helps save time and cost. Our BIM solutions are tailored to meet your unique project requirements and covers new construction as well as redesigning of existing structures.  "
           />
 
           <AddedValue addedValue={addedValue} />

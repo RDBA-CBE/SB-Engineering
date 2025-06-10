@@ -18,33 +18,30 @@ export default function page() {
     }
 
     const innovativesolutions ={
-        title:"Innovative solutions for sustainable impact",
-         content1:"At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
-         content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
+        title:"Seamless Execution from Concept to Completion",
+         content1:"Our Project Management services are designed to drive success across every stage of your construction journey. We bring together proven methodologies, technical expertise and a collaborative approach to ensure your project is delivered on time, within budget, meeting the highest standards of quality.",
+         content2:"Our team has extensive experience across diverse sectors, in coordinating resources and managing risks. They work in synergy and maintain transparent communication between stakeholders to keep your project on track. Whether it’s a large-scale industrial development or a complex commercial facility, we take ownership of the process so you can stay focused on the bigger picture.",
          img:"/images/about/event/about3.jpg"
     }
 
 
       const serviceContent = {
-        title: "Our architectural design expertise covers",
+        title: "Our Project Management Expertise Includes:",
          img:"/images/about/about3.jpg",
         list: [
-          "Master Planning &  Urban Design",
-          "Residential",
-          "Retail",
-          "Industrial and Commercial",
-          "Hospitality",
-          "Sports, Leisure & Culture",
-          "Education",
-          "Healthcare",
-          "Public Realm & Landscaping",
-          "Interior Design",
+          "Planning & Scheduling",
+          "Cost Management",
+          "Risk Management",
+          "Quality Control",
+          "Resource Management",
+          "Contract Management",
+          "Stakeholder Communication",
         ],
       };
 
       const addedValue={
         title:"How we add value",
-         content1:"Our architectural design services go beyond aesthetics. We integrate sustainable design principles to lower environmental impact and operational costs. We prioritize open communication and teamwork through each phase of the process, ensuring that your project is delivered on time, within budget and complies with industry benchmarks.",
+         content1:"At SB Engineers, we understand that successful project delivery is more than just meeting deadlines. It’s about creating value at every step, through efficiency, precision and proactive leadership. ",
         
          img:"/images/about/event/about3.jpg"
       }
