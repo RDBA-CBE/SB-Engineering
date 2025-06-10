@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { footerLinks2, socialLinks } from "@/data/footerLinks";
+// import { footerLinks2, socialLinks } from "@/data/footerLinks";
 export default function Footer4() {
   return (
     <footer className="site-footer">

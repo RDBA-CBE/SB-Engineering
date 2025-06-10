@@ -4,12 +4,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { posts3 } from "@/data/blogs";
-import {
-  footerLinks,
-  footerLinks_1,
-  footerLinks_2,
-  socialLinks,
-} from "@/data/footerLinks";
+// import {
+//   footerLinks,
+//   footerLinks_1,
+//   footerLinks_2,
+//   socialLinks,
+// } from "@/data/footerLinks";
 export default function Footer2(props) {
   const { contactSection } = props;
   console.log("✌️contactSection --->", contactSection);

@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { footerLinks, socialLinks } from "@/data/footerLinks";
+// import { footerLinks, socialLinks } from "@/data/footerLinks";
 export default function Footer15() {
   return (
     <footer className="site-footer style1">

@@ -13,7 +13,7 @@ import HomeService from "@/components/service/HomeServices";
 import React from "react";
 import Testimonial from "@/components/homes/home-5/Testimonials";
 import Footer13 from "@/components/footers/Footer13";
-import Am_a_zingstudio from "@/components/service/Am-a-zingstudio";
+
 import Academy from "@/components/service/Academy";
 import Header16 from "@/components/headers/Header16";
 import Header11 from "@/components/headers/Header11";
@@ -47,7 +47,7 @@ export default function page() {
 
           
 
-          <Am_a_zingstudio/>
+          {/* <Am_a_zingstudio/> */}
           
           <Academy/>
 
