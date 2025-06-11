@@ -1,180 +1,81 @@
 import React from "react";
 import Link from "next/link";
 import { Check } from "lucide-react";
-export default function ExpertiseTableThree({serviceContent1, serviceContent2,serviceContent3,serviceContent4,serviceContent5 }) {
+
+export default function ExpertiseTableThree({
+  serviceContent1,
+  serviceContent2,
+  serviceContent3,
+  serviceContent4,
+}) {
   return (
-
-   <div class="pricingBox-container">
-  <div class="pricingBox-row pricingBox-row-1">
-    <div class="pricingBox-card pricingBox-basic">
-      <div className=" ">
-            <h2
-              className="main-sub-ti text-center"
-              dangerouslySetInnerHTML={{ __html: serviceContent1?.title }}
-            ></h2>
-            <ul>
-              {serviceContent1?.list?.map((li) => (
-                <p className="expertise-p d-flex">
-                  <span
-                    className="icon-div-pri"
-                    style={{ padding: "0 6px", backgroundColor: "#000",height:"27px" }}
-                  >
-                    <Check
-                      className="icon-sm-new "
-                      style={{
-                        color: "#fff",
-                        width: "12px",
-                        height: "15px",
-                        fontWeight: "700",
-                      }}
-                    />
-                  </span>{" "}
-                  <span style={{ color: "#000", fontWeight: "400" }}>
-                    {li}
-                  </span>{" "}
-                </p>
-              ))}
-            </ul>
-            {/* <Link
-              href={`/project-portfolio`}
-              className="btn__secondary_in  text-decoration-none "
-              style={{ display: "inline-block" }}
+    <div className="pricingBox-container">
+      <div
+        className="pricingBox-row pricingBox-row-1"
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "20px",
+          justifyContent: "space-between",
+        }}
+      >
+        {[serviceContent1, serviceContent2, serviceContent3, serviceContent4]
+          .filter(Boolean)
+          .map((service, index) => (
+            <div
+              key={index}
+              className={`pricingBox-card ${
+                index % 2 === 1 ? "pricingBox-professional" : "pricingBox-basic"
+              }`}
+              style={{
+                flex: "1 1 calc(25% - 20px)",
+                display: "flex",
+                flexDirection: "column",
+              }}
             >
-              <span className="icon-div-pri">
-                <ArrowRight className="icon-sm-new " />
-              </span>
-              More About Us
-            </Link> */}
-          </div>
+              <div>
+                <h2
+                  className={`main-sub-ti text-center ${
+                    index % 2 === 1 ? "text-white" : ""
+                  }`}
+                  dangerouslySetInnerHTML={{ __html: service?.title }}
+                ></h2>
+                <ul>
+                  {service?.list?.map((li, i) => (
+                    <p className="expertise-p d-flex" key={i}>
+                      <span
+                        className="icon-div-pri"
+                        style={{
+                          padding: "0 6px",
+                          backgroundColor: index % 2 === 1 ? "#fff" : "#000",
+                          height: "27px",
+                        }}
+                      >
+                        <Check
+                          className="icon-sm-new"
+                          style={{
+                            color: index % 2 === 1 ? "#000" : "#fff",
+                            width: "12px",
+                            height: "15px",
+                            fontWeight: "700",
+                          }}
+                        />
+                      </span>{" "}
+                      <span
+                        style={{
+                          color: index % 2 === 1 ? "#fff" : "#000",
+                          fontWeight: "400",
+                        }}
+                      >
+                        {li}
+                      </span>{" "}
+                    </p>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+      </div>
     </div>
-    <div class="pricingBox-card pricingBox-professional">
-       <div className=" ">
-            <h2
-              className="main-sub-ti text-center text-white"
-              dangerouslySetInnerHTML={{ __html: serviceContent2?.title }}
-            ></h2>
-            <ul>
-              {serviceContent2?.list?.map((li) => (
-                <p className="expertise-p d-flex">
-                  <span
-                    className="icon-div-pri"
-                    style={{ padding: "0 6px", backgroundColor: "#fff",height:"27px" }}
-                  >
-                    <Check
-                      className="icon-sm-new "
-                      style={{
-                        color: "#000",
-                        width: "12px",
-                        height: "15px",
-                        fontWeight: "700",
-                      }}
-                    />
-                  </span>{" "}
-                  <span style={{ color: "#fff", fontWeight: "400" }}>
-                    {li}
-                  </span>{" "}
-                </p>
-              ))}
-            </ul>
-            {/* <Link
-              href={`/project-portfolio`}
-              className="btn__secondary_in  text-decoration-none "
-              style={{ display: "inline-block" }}
-            >
-              <span className="icon-div-pri">
-                <ArrowRight className="icon-sm-new " />
-              </span>
-              More About Us
-            </Link> */}
-          </div>
-    </div>
-    <div class="pricingBox-card pricingBox-extended">
-        <div className=" ">
-            <h2
-              className="main-sub-ti text-center"
-              dangerouslySetInnerHTML={{ __html: serviceContent3?.title }}
-            ></h2>
-            <ul>
-              {serviceContent3?.list?.map((li) => (
-                <p className="expertise-p d-flex">
-                  <span
-                    className="icon-div-pri"
-                    style={{ padding: "0 6px", backgroundColor: "#000", height:"27px" }}
-                  >
-                    <Check
-                      className="icon-sm-new "
-                      style={{
-                        color: "#fff",
-                        width: "12px",
-                        height: "15px",
-                        fontWeight: "700",
-                      }}
-                    />
-                  </span>{" "}
-                  <span style={{ color: "#000", fontWeight: "400" }}>
-                    {li}
-                  </span>{" "}
-                </p>
-              ))}
-            </ul>
-            {/* <Link
-              href={`/project-portfolio`}
-              className="btn__secondary_in  text-decoration-none "
-              style={{ display: "inline-block" }}
-            >
-              <span className="icon-div-pri">
-                <ArrowRight className="icon-sm-new " />
-              </span>
-              More About Us
-            </Link> */}
-          </div>
-    </div>
-    <div class="pricingBox-card pricingBox-professional">
-      <div className=" ">
-            <h2
-              className="main-sub-ti text-center text-white"
-              dangerouslySetInnerHTML={{ __html: serviceContent5?.title }}
-            ></h2>
-            <ul>
-              {serviceContent5?.list?.map((li) => (
-                <p className="expertise-p d-flex">
-                  <span
-                    className="icon-div-pri"
-                    style={{ padding: "0 6px", backgroundColor: "#fff",height:"27px" }}
-                  >
-                    <Check
-                      className="icon-sm-new "
-                      style={{
-                        color: "#000",
-                        width: "12px",
-                        height: "15px",
-                        fontWeight: "700",
-                      }}
-                    />
-                  </span>{" "}
-                  <span style={{ color: "#fff", fontWeight: "400" }}>
-                    {li}
-                  </span>{" "}
-                </p>
-              ))}
-            </ul>
-            {/* <Link
-              href={`/project-portfolio`}
-              className="btn__secondary_in  text-decoration-none "
-              style={{ display: "inline-block" }}
-            >
-              <span className="icon-div-pri">
-                <ArrowRight className="icon-sm-new " />
-              </span>
-              More About Us
-            </Link> */}
-          </div>
-    </div>
-  </div>
-
- 
-  
-</div>
-
-      );
+  );
 }
