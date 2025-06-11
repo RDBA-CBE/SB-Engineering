@@ -3641,7 +3641,7 @@ blockquote:before {
 
   .site-header .navbar-toggler,
   .site-header .is-fixed .navbar-toggler {
-    margin: 18px 0 14px 10px;
+    margin: 30px 0 14px 10px;
   }
 
   .site-header .extra-nav,
@@ -18772,4 +18772,35 @@ font-size: 22px;
 .main-timeline5 .timeline:nth-child(2n) .year,.main-timeline5 .year{transform:rotate(-135deg)}
 .main-timeline5 .timeline-content,.main-timeline5 .timeline:nth-child(2n) .timeline-content{width:100%;float:none;border-radius:0 0 20px 20px;text-align:center;padding:25px 20px;margin:0 auto}
 .main-timeline5 .timeline-content:before,.main-timeline5 .timeline:nth-child(2n) .timeline-content:before{width:15px;height:25px;position:absolute;top:-22px;left:50%;z-index:-1;transform:translate(-50%,0)}
+}
+
+.row.equal-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.equal-height > [class*='col-'] {
+  display: flex;
+}
+
+.icon-bx-wraper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 100%;
+}
+
+.icon-lg {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px; /* Adjust to your icon size */
 }

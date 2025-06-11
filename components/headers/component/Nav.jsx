@@ -239,18 +239,9 @@ export default function Nav() {
         </a>
 
         <ul className="sub-menu tab-content sub-sub-menu" style={{marginTop:"70px"}}>
-          {ServicesLink.map((item, index) =>
-  item.links ? (
-    <li
-      key={index}
-      className={`${menuOpen2 == item.title ? "open" : ""}`}
-    >
-      <div className="submenu-header">
-        <Link
-          href={item.href}
-          className={isMenuActive(item) ? "menuActive" : ""}
-          onClick={(e) => e.stopPropagation()}
-        >
+          {ServicesLink.map((item, index) =>item.links ? (
+            <li key={index} className={`${menuOpen2 == item.title ? "open" : ""}`}><div className="submenu-header">
+              <Link href={item.href} className={isMenuActive(item) ? "menuActive" : ""} onClick={(e) => e.stopPropagation()}>
           {item.title}
         </Link>
         <i
