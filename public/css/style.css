@@ -4377,7 +4377,7 @@ blockquote:before {
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1440px) {
   .header-nav {
     clear: both;
     margin: 0 -15px;
@@ -16411,7 +16411,7 @@ ol.commentlist li .star-rating {
 }
 
 /* Google Recaptcha */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1440px) {
   .mo-left .header-nav.nav-dark {
     background-color: #202020;
   }

@@ -8421,7 +8421,7 @@ button.scroltop {
   }
 }
 
-@media only screen and (max-width: 1480px) {
+@media only screen and (max-width: 1440px) {
   .dz-header .extra-nav {
     padding: 25px 0 25px 0px;
   }
@@ -8462,7 +8462,7 @@ button.scroltop {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1440px) {
   .dz-header {
     padding: 0px 50px;
   }

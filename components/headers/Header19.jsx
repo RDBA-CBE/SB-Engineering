@@ -12,10 +12,10 @@ export default function Header19() {
     <header className="site-header mo-left header">
       {/* main header */}
       <div className="sticky-header main-bar-wraper navbar-expand-xxl">
-        <div className="main-bar clearfix dz-header px-5">
+        <div className="main-bar clearfix dz-header px-2 px-xl-5">
           <div className="container-fluid clearfix ">
             {/* website logo */}
-            <div className="logo-header mostion logo-dark">
+            <div className="logo-header mostion logo-dark py-2">
               <Link href={`/`}>
                 <img alt="" src="/images/logo/header.png" width="100" height="75" />
               </Link>
@@ -78,15 +78,16 @@ export default function Header19() {
               className="header-nav navbar-collapse collapse justify-content-around"
               id="navbarNavDropdown"
             >
-              <div className="logo-header d-md-block d-lg-none">
+              <div className="logo-header d-md-block d-xxl-none">
                 <Link href={`/`}>
-                  <img alt="" src="/images/logo/header.png" width="258" height="75" />
+                  <img alt="" src="/images/logo/header.png" width="258" height="75" 
+                  style={{width:"100px", paddingLeft:"20px"}}/>
                 </Link>
               </div>
-              <ul className="nav navbar-nav">
+              <ul className="nav navbar-nav py-1">
                 <Nav />
               </ul>
-              <div className="dlab-social-icon">
+              {/* <div className="dlab-social-icon">
                 <ul>
                   {socialLinks.map((elm, i) => (
                     <React.Fragment key={i}>
@@ -99,7 +100,8 @@ export default function Header19() {
                     </React.Fragment>
                   ))}
                 </ul>
-              </div>
+              </div> */}
+              
             </div>
 
 
