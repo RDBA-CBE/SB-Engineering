@@ -18448,9 +18448,12 @@ font-size: 22px;
   color: #0d1a26;
 }
 .office-details p{
-  font-size: 14px !important;
+  font-size: 15px !important;
 }
-
+.office-details a{
+  font-size: 15px !important;
+  color: #000;
+}
 
 /* -------contact-form-end---------- */
 
@@ -18803,4 +18806,18 @@ font-size: 22px;
   justify-content: center;
   align-items: center;
   font-size: 40px; /* Adjust to your icon size */
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-about .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.office-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
 }

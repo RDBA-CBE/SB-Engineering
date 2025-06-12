@@ -7,10 +7,7 @@ export default function HomeAbout() {
     <div className="section-full content-inner const-about home-about">
       <div className="container">
         <div className="row align-items-center">
-          <div
-            className="col-lg-6 col-md-6 col-sm-12 col-12 "
-           
-          >
+          <div className="col-lg-6 col-md-6 col-sm-12 col-12 order-md-1 order-2">
             <div className="radius-sm m-b30 home-about-img" style={{borderRadius:"3px"}}>
               <Image
                 alt=""
@@ -24,16 +21,13 @@ export default function HomeAbout() {
                 <h5 className="home-about__title ">Years Of Experience!</h5>
                 <a href="#" >
                   <span className="icon-div">
-                                    <ArrowRight className="icon-sm-new "/>
-                                </span>
+                    <ArrowRight className="icon-sm-new "/>
+                  </span>
                 </a>
               </div>
             </div>
           </div>
-          <div
-            className="col-lg-6 col-md-6 col-sm-12 col-12 "
-           
-          >
+          <div className="col-lg-6 col-md-6 col-sm-12 col-12 order-md-2 order-1">
             <div className="content-bx1">
               <div className="section-head style2">
                 <p className="upper-cap">Engineered for excellence</p>
