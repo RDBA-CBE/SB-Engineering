@@ -1,43 +1,48 @@
-"use client";
+'use client';
 
-import React from "react";
-import Nav from "./component/Nav";
-import Image from "next/image";
-import Link from "next/link";
-import { socialLinks } from "@/data/socials";
-import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
-import { Mail, Phone } from "lucide-react";
+import React from 'react';
+import Nav from './component/Nav';
+import Image from 'next/image';
+import Link from 'next/link';
+import { socialLinks } from '@/data/socials';
+import { toggleMobileMenu } from '@/utlis/toggleMobileMenu';
+import { Mail, MapPin, Phone } from 'lucide-react';
 export default function Header19() {
   return (
-    <header className="site-header mo-left header">
+    <header className='site-header mo-left header'>
       {/* main header */}
-      <div className="sticky-header main-bar-wraper navbar-expand-xxl">
-        <div className="main-bar clearfix dz-header px-2 px-xl-5">
-          <div className="container-fluid clearfix ">
+      <div className='sticky-header main-bar-wraper navbar-expand-xxl'>
+        <div className='main-bar clearfix dz-header px-2 px-xl-5'>
+          <div className='container-fluid clearfix '>
             {/* website logo */}
-            <div className="logo-header mostion logo-dark py-2">
+            <div className='logo-header mostion logo-dark py-2'>
               <Link href={`/`}>
-                <img alt="" src="/images/logo/header.png" width="100" height="75" />
+                <img
+                  alt=''
+                  src='/images/logo/header.png'
+                  width='100'
+                  height='75'
+                />
               </Link>
             </div>
             {/* nav toggle button */}
             <button
-              className="navbar-toggler collapsed navicon justify-content-end"
-              type="button"
+              className='navbar-toggler collapsed navicon justify-content-end'
+              type='button'
               onClick={toggleMobileMenu}
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              style={{marginLeft:"20px"}}
+              data-bs-toggle='collapse'
+              data-bs-target='#navbarNavDropdown'
+              aria-controls='navbarNavDropdown'
+              aria-expanded='false'
+              aria-label='Toggle navigation'
+              style={{ marginLeft: '20px' }}
             >
               <span />
               <span />
               <span />
             </button>
             {/* extra nav */}
-            <div className="extra-nav border-0">
+            <div className='extra-nav border-0'>
               {/* <div className="extra-cell d-flex align-items-center gap-5 gap-xl-3 d-none d-lg-flex">
                 <a href="#" style={{ color: "#253445" }}>
                   {" "}
@@ -50,41 +55,47 @@ export default function Header19() {
                   Sign In
                 </button>
               </div> */}
-              <div className="extra-cell d-flex align-items-center justify-content-center gap-2  gap-md-3  gap-lg-4 gap-xl-3 d-none d-lg-flex">
-                <div className="flex items-center space-x-1">
-                <Phone className="w-4 h-4 text-yellow" />
-                <span className="ps-2">
-                  <a href="tel: +91 9876543210"></a>
-                  +91 9876543210</span>
-              </div>
-              <div className="flex items-center space-x-1">
-                <Mail className="w-4 h-4 text-yellow" />
-                <span className="ps-2">
-                  <a href="mailto:info@sbengineers.com"></a>
-                  info@sbengineers.com</span>
-              </div>
+              <div className='extra-cell d-flex align-items-center justify-content-center gap-2  gap-md-3  gap-lg-4 gap-xl-3 d-none d-lg-flex'>
+                <div className='flex items-center space-x-1'>
+                  <Phone className='w-4 h-4 text-yellow' />
+                  <span className='ps-2'>
+                    <a href='tel:0422-4577307'>0422-4577307</a>
+                  </span>
+                </div>
+                <div className='flex items-center space-x-1'>
+                  <Mail className='w-4 h-4 text-yellow' />
+                  <span className='ps-2'>
+                    <a href='mailto:sbengineers23@gmail.com'>
+                      sbengineers23@gmail.com
+                    </a>
+                  </span>
+                </div>
 
-               <div className="flex items-center space-x-1">
-                <Mail className="w-4 h-4 text-yellow" />
-                <span className="ps-2">4th West Cross Road, Vellore</span>
+                <div className='flex items-center space-x-1'>
+                  <MapPin className='w-4 h-4 text-yellow' />
+                  <span className='ps-2'>4th West Cross Road, Vellore</span>
+                </div>
               </div>
-              </div>
-              
             </div>
             {/* Quik search */}
 
             {/* main nav */}
             <div
-              className="header-nav navbar-collapse collapse justify-content-around"
-              id="navbarNavDropdown"
+              className='header-nav navbar-collapse collapse justify-content-around'
+              id='navbarNavDropdown'
             >
-              <div className="logo-header d-md-block d-xxl-none">
+              <div className='logo-header d-md-block d-xxl-none'>
                 <Link href={`/`}>
-                  <img alt="" src="/images/logo/header.png" width="258" height="75" 
-                  style={{width:"100px", paddingLeft:"20px"}}/>
+                  <img
+                    alt=''
+                    src='/images/logo/header.png'
+                    width='258'
+                    height='75'
+                    style={{ width: '100px', paddingLeft: '20px' }}
+                  />
                 </Link>
               </div>
-              <ul className="nav navbar-nav py-1">
+              <ul className='nav navbar-nav py-1'>
                 <Nav />
               </ul>
               {/* <div className="dlab-social-icon">
@@ -101,10 +112,7 @@ export default function Header19() {
                   ))}
                 </ul>
               </div> */}
-              
             </div>
-
-
           </div>
         </div>
       </div>

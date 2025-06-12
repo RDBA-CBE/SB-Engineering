@@ -50,9 +50,9 @@ const ContactSection = () => {
               />
             </div> */}
                 <div className='office-details f-16'>
-                  <h5 className='office-title fw-bold d-flex align-items-center'>
+                  <h4 className='office-title fw-bold d-flex align-items-center'>
                     {office.title}
-                  </h5>
+                  </h4>
                   <div className='footer-contact__item'>
                     <p className=' d-flex mb-3 '>
                       <div className=' footer-contact__icon'>
