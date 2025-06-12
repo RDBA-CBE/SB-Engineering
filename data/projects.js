@@ -1,31 +1,62 @@
 export const projects = [
   {
     id: 1,
-    imgSrc: "/images/about/pic1.jpg",
+    imgSrc: "/images/project/al-bahja-mall-car-praking.jpg",
     title: "Lorem ipsum dolorsit",
     description:"sit amet consectetur "
   },
   {
     id: 2,
-    imgSrc: "/images/about/pic1.jpg",
+    imgSrc: "/images/project/al-batinah-international-school.jpg",
      title: "Lorem ipsum dolorsit",
     description:"sit amet consectetur "
   },
   {
     id: 3,
-    imgSrc: "/images/about/pic1.jpg",
+    imgSrc: "/images/project/aster-hospital.jpg",
      title: "Lorem ipsum dolorsit",
     description:"sit amet consectetur "
   },
   {
     id: 4,
-    imgSrc: "/images/about/pic1.jpg",
+    imgSrc: "/images/project/city-centre-sohar.jpg",
      title: "Lorem ipsum dolorsit",
     description:"sit amet consectetur "
   },
+  
   {
-    id: 5,
-    imgSrc: "/images/about/pic1.jpg",
+    id: 6,
+    imgSrc: "/images/project/indian-schoo-bousher, Muscat.jpg",
+     title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur ",
+  },
+  {
+    id: 7,
+    imgSrc: "/images/project/omani-marbles-factory.jpg",
+     title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur ",
+  },
+  {
+    id: 8,
+    imgSrc: "/images/project/rohm-muscat.jpg",
+     title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur ",
+  },
+  {
+    id: 9,
+    imgSrc: "/images/project/sheraton -oman-muscat.jpg",
+     title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur ",
+  },
+  {
+    id: 10,
+    imgSrc: "/images/project/taiba-pharmacy.jpg",
+     title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur ",
+  },
+  {
+    id: 11,
+    imgSrc: "/images/project/taism-auditorium.jpg",
      title: "Lorem ipsum dolorsit",
     description:"sit amet consectetur ",
   },

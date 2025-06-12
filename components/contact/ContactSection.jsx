@@ -56,7 +56,7 @@ const ContactSection = () => {
                   </div>
                 </div>
                 <div className='office-details f-16'>
-                  <h4 className='office-title fw-bold d-flex align-items-center'>
+                  <h4 className='office-title fw-bold d-flex align-items-center mb-4'>
                     {office.title}
                   </h4>
                   <div className='footer-contact__item'>
@@ -118,7 +118,7 @@ const ContactSection = () => {
                     <iframe
                       title={`Map of ${office.title}`}
                       src={office.mapUrl}
-                      width='100%'
+                      width='80%'
                       height='250'
                       style={{ border: 0 }}
                       allowFullScreen=''

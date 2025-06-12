@@ -18464,7 +18464,7 @@ font-size: 22px;
 }
 
 .projectBanner-parallax {
-  background-image: url('/images/home-banner/banner.png'); /* Replace with your image path */
+  background-image: url('/images/project/banner.jpg'); /* Replace with your image path */
   height: 400px;
   background-attachment: fixed;
   background-position: center;
