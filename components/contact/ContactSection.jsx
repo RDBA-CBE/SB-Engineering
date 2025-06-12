@@ -8,7 +8,7 @@ const ContactSection = () => {
   const officeData = [
     {
       title: 'Vellore Office:',
-      img: '/images/project/pic1.jpg',
+      img: '/images/project/image-vellore.png',
       email: 'admin@sbecc.in , sbengineers23@gmail.com',
       address: (
         <>
@@ -18,10 +18,12 @@ const ContactSection = () => {
         </>
       ),
       phone: '0416-4237307',
+      mapUrl:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3721358312505!2d79.13272787505113!3d12.948022815394857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad476051da6c65%3A0x24822dd40bd0c339!2s2%2C%204th%20West%20Cross%20Rd%2C%20Suthanthira%20Ponvizha%20Nagar%2C%20Gandhinagar%20West%2C%20Gandhi%20Nagar%2C%20Vellore%2C%20Tamil%20Nadu%20632006!5e0!3m2!1sen!2sin!4v1749724730873!5m2!1sen!2sin',
     },
     {
       title: 'Coimbatore Office:',
-      img: '/images/project/pic1.jpg',
+      img: '/images/project/image-coimbatore.png',
       email: 'admin@sbecc.in , sbengineers23@gmail.com',
       address: (
         <>
@@ -31,6 +33,8 @@ const ContactSection = () => {
         </>
       ),
       phone: '0422-4577307',
+      mapUrl:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2652808082543!2d76.96106167401256!3d11.017250092156866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857fbef29072b%3A0x96a963e4f988f396!2sGandhipuram%2C%20Coimbatore%2C%20Tamil%20Nadu%20641012!5e0!3m2!1sen!2sin!4v1718183951492!5m2!1sen!2sin',
     },
   ];
   return (
@@ -40,15 +44,17 @@ const ContactSection = () => {
           <div className='row'>
             {officeData.map((office, index) => (
               <div className='col-md-6 office-box' key={index}>
-                {/* <div className="office-img-wrapper mb-3">
-              <Image
-                src={office.img}
-                alt={office.title}
-                className="img-fluid office-img"
-                width={500}
-                height={500}
-              />
-            </div> */}
+                <div className='office-img-wrapper mb-3'>
+                  <div className='d-felx align-items-start'>
+                    <Image
+                      src={office.img}
+                      alt={office.title}
+                      className='img-fluid office-img'
+                      width={200}
+                      height={200}
+                    />
+                  </div>
+                </div>
                 <div className='office-details f-16'>
                   <h4 className='office-title fw-bold d-flex align-items-center'>
                     {office.title}
@@ -108,6 +114,18 @@ const ContactSection = () => {
                       </div>
                     </p>
                   </div>
+                  <div className='footer-contact__map mt-3'>
+                    <iframe
+                      title={`Map of ${office.title}`}
+                      src={office.mapUrl}
+                      width='100%'
+                      height='250'
+                      style={{ border: 0 }}
+                      allowFullScreen=''
+                      loading='lazy'
+                      referrerPolicy='no-referrer-when-downgrade'
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             ))}
@@ -140,7 +158,17 @@ const ContactSection = () => {
                   </p>
 
                   <form>
-                    <div className='row mb-3'>
+                    <iframe
+                      src='https://connect.irepute.in/file/sb-engg-career/'
+                      width='100%'
+                      height='430'
+                      frameBorder='0'
+                      style={{ border: 'none' }}
+                      allowFullScreen
+                      loading='lazy'
+                    />
+
+                    {/* <div className='row mb-3'>
                       <div className='col-md-6 mb-3 mb-md-0'>
                         <input
                           type='text'
@@ -188,7 +216,7 @@ const ContactSection = () => {
                         <ArrowRight className='icon-sm-new ' />
                       </span>
                       Submit Request
-                    </Link>
+                    </Link> */}
                   </form>
                 </div>
               </div>
@@ -197,7 +225,7 @@ const ContactSection = () => {
         </div>
       </div>
 
-      <div className='map-section container-fluid p-0 '>
+      {/* <div className='map-section container-fluid p-0 '>
         <div className='map-responsive'>
           <iframe
             title='Google Map'
@@ -210,7 +238,7 @@ const ContactSection = () => {
             referrerPolicy='no-referrer-when-downgrade'
           ></iframe>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

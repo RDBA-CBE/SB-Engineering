@@ -7,7 +7,7 @@ export default function HomeAbout() {
     <div className='section-full content-inner const-about home-about'>
       <div className='container'>
         <div className='row align-items-center'>
-          <div className='col-lg-6 col-md-6 col-sm-12 col-12 order-md-1 order-2'>
+          <div className='col-lg-6 col-md-12 col-sm-12 col-12 order-md-1 order-1 '>
             <div
               className='radius-sm m-b30 home-about-img'
               style={{ borderRadius: '3px' }}
@@ -22,7 +22,7 @@ export default function HomeAbout() {
               <div className='home-about-cont'>
                 <h4 className='home-about__subtitle '>40</h4>
                 <h5 className='home-about__title '>Years Of Experience!</h5>
-                <a href='#'>
+                <a href='/about-us'>
                   <span className='icon-div'>
                     <ArrowRight className='icon-sm-new ' />
                   </span>
@@ -30,7 +30,7 @@ export default function HomeAbout() {
               </div>
             </div>
           </div>
-          <div className='col-lg-6 col-md-6 col-sm-12 col-12 order-md-2 order-1'>
+          <div className='col-lg-6 col-md-12 col-sm-12 col-12 order-md-2 order-2 '>
             <div className='content-bx1'>
               <div className='section-head style2'>
                 <p className='upper-cap'>Engineered for excellence</p>
@@ -46,39 +46,34 @@ export default function HomeAbout() {
                 <div className=' bg-white '>
                   <div className='container'>
                     <div className='row'>
-                      <div className='col-lg-12'>
-                        <div className='section-content box-sort-in p-b0 button-example'>
-                          <div className='row'>
-                            <div className='col-lg-6 col-md-12 col-sm-12 p-0'>
-                              <div className='icon-bx-wraper left d-flex align-items-center'>
-                                <div className='icon-bx-md me-3'>
-                                  <a href='#' className='icon-cell '>
-                                    <i class='flaticon-factory icon-new' />
-                                  </a>
-                                </div>
-                                <div className='icon-content'>
-                                  <h5 className='dlab-tilte text-capitalize icon-ti'>
-                                    Smart Solutions for <br />
-                                    Long-Term Impact
-                                  </h5>
-                                </div>
-                              </div>
-                            </div>
-                            <div className='col-lg-6 col-md-12 col-sm-12 m-b30 p-0'>
-                              <div className='icon-bx-wraper left d-flex align-items-center'>
-                                <div className='icon-bx-md me-3 '>
-                                  <a href='#' className='icon-cell'>
-                                    <i class='flaticon-factory icon-new' />
-                                  </a>
-                                </div>
-                                <div className='icon-content'>
-                                  <h5 className='dlab-tilte text-capitalize icon-ti'>
-                                    Precision-Driven <br />
-                                    Workflows Quality Assured
-                                  </h5>
-                                </div>
-                              </div>
-                            </div>
+                      <div className='col-md-6 col-sm-12'>
+                        <div className='icon-bx-wraper left d-flex align-items-center'>
+                          <div className='icon-bx-md me-3'>
+                            <a href='#' className='icon-cell'>
+                              <i className='flaticon-factory icon-new' />
+                            </a>
+                          </div>
+                          <div className='icon-content'>
+                            <h5 className='dlab-tilte text-capitalize icon-ti'>
+                              Smart Solutions for <br />
+                              Long-Term Impact
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className='col-md-6 col-sm-12'>
+                        <div className='icon-bx-wraper left d-flex align-items-center'>
+                          <div className='icon-bx-md me-3'>
+                            <a href='#' className='icon-cell'>
+                              <i className='flaticon-factory icon-new' />
+                            </a>
+                          </div>
+                          <div className='icon-content'>
+                            <h5 className='dlab-tilte text-capitalize icon-ti'>
+                              Precision-Driven <br />
+                              Workflows Quality Assured
+                            </h5>
                           </div>
                         </div>
                       </div>
