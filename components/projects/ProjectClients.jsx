@@ -10,13 +10,29 @@ export default function ProjectClients({
 }) {
 
      const clientsLogo = [
-        "/images/home/Clients/logo1.png",
-        "/images/home/Clients/logo2.png",
-        "/images/home/Clients/logo3.png",
-        "/images/home/Clients/logo4.png",
-        "/images/home/Clients/logo5.png",
-        "/images/home/Clients/logo6.png",
-
+        "/images/home/Clients/logos-01.jpg",
+        "/images/home/Clients/logos-02.jpg",
+        "/images/home/Clients/logos-03.jpg",
+        "/images/home/Clients/logos-04.jpg",
+        "/images/home/Clients/logos-05.jpg",
+        "/images/home/Clients/logos-06.jpg",
+        "/images/home/Clients/logos-07.jpg",
+        "/images/home/Clients/logos-08.jpg",
+        "/images/home/Clients/logos-09.jpg",
+        "/images/home/Clients/logos-10.jpg",
+        "/images/home/Clients/logos-11.jpg",
+        "/images/home/Clients/logos-12.jpg",
+        "/images/home/Clients/logos-13.jpg",
+        "/images/home/Clients/logos-14.jpg",
+        "/images/home/Clients/logos-15.jpg",
+        "/images/home/Clients/logos-16.jpg",
+        "/images/home/Clients/logos-17.jpg",
+        "/images/home/Clients/logos-18.jpg",
+        "/images/home/Clients/logos-19.jpg",
+        "/images/home/Clients/logos-20.jpg",
+        "/images/home/Clients/logos-21.jpg",
+        "/images/home/Clients/logos-22.jpg",
+        "/images/home/Clients/logos-23.jpg",
 ]
   return (
 
