@@ -46,15 +46,16 @@ export default function HomeAbout() {
                 <div className=' bg-white '>
                   <div className='container'>
                     <div className='row'>
-                      <div className='col-md-6 col-sm-12'>
-                        <div className='icon-bx-wraper left d-flex align-items-center'>
-                          <div className='icon-bx-md me-3'>
+                      <div className='col-md-6 col-sm-12 p-0'>
+                        <div className='icon-bx-wraper left d-flex flex-row align-items-center'>
+                          <div className=' me-3'>
                             <a href='#' className='icon-cell'>
-                              <i className='flaticon-factory icon-new' />
+                              {/* <i className='flaticon-factory icon-new' /> */}
+                              <img src="/images/home/about/icon-1.png" alt="" />
                             </a>
                           </div>
                           <div className='icon-content'>
-                            <h5 className='dlab-tilte text-capitalize icon-ti'>
+                            <h5 className='dlab-tilte text-capitalize icon-ti mb-0'>
                               Smart Solutions for <br />
                               Long-Term Impact
                             </h5>
@@ -62,15 +63,16 @@ export default function HomeAbout() {
                         </div>
                       </div>
 
-                      <div className='col-md-6 col-sm-12'>
-                        <div className='icon-bx-wraper left d-flex align-items-center'>
-                          <div className='icon-bx-md me-3'>
+                      <div className='col-md-6 col-sm-12 p-0'>
+                        <div className='icon-bx-wraper left d-flex flex-row align-items-center'>
+                          <div className=' me-3'>
                             <a href='#' className='icon-cell'>
-                              <i className='flaticon-factory icon-new' />
+                              {/* <i className='flaticon-factory icon-new' /> */}
+                              <img src="/images/home/about/icon-2.png" alt="" />
                             </a>
                           </div>
                           <div className='icon-content'>
-                            <h5 className='dlab-tilte text-capitalize icon-ti'>
+                            <h5 className='dlab-tilte text-capitalize icon-ti mb-0 '>
                               Precision-Driven <br />
                               Workflows Quality Assured
                             </h5>
@@ -81,7 +83,7 @@ export default function HomeAbout() {
                   </div>
                 </div>
 
-                <p className='m-b50'>
+                <p className='m-b50 mt-4'>
                   We have successfully executed numerous projects and built
                   enduring client relationships based on trust and mutual
                   growth.

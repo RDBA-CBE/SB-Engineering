@@ -371,6 +371,7 @@ export const ServicesLink = [
     href:"steel-&-rebar-detailing",
     iconClass: "fas fa-angle-right",
     links: [
+      { href: "/steel-&-rebar-detailing", label: "Overview" },
       { href: "/structural-steel-detailing", label: "Structural Steel Detailing" },
       { href: "/precast-detailing", label: "Precast Detailing" },
       { href: "/eebar-detailing", label: "Rebar Detailing" },

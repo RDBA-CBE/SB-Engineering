@@ -183,7 +183,7 @@ const slides = [
 
 export default function Hero() {
   return (
-    <div className="dz-industry2-zone position-relative">
+    <div className="dz-industry2-zone position-relative home-hero">
       <Swiper
         modules={[Pagination, Autoplay, Navigation]}
         navigation={{
@@ -214,18 +214,18 @@ export default function Hero() {
                 className="home-banner-ti fw-semibold mb-4"
                 dangerouslySetInnerHTML={{ __html: slide.title }}
               />
-              <div className="mb-4">
+              <div className="mb-4 pb-2">
                 {slide.bullets.map((text, idx) => (
                   <div
                     key={idx}
                     className="flex items-center space-x-3 mb-1 home-banner-li"
                   >
                     <CheckCircle className="w-5 h-5 text-yellow" />
-                    <span className="text-white ps-3">{text}</span>
+                    <span className="text-white ps-3 fw-bold">{text}</span>
                   </div>
                 ))}
               </div>
-              <div className="dz-btns d-flex align-items-center">
+              <div className="dz-btns d-flex align-items-center ">
                 <Link
                   href="/services-1"
                   className="btn__secondary text-decoration-none"

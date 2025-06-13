@@ -12,9 +12,9 @@ box-sizing: border-box;
 }
 
 
-a:hover {
+/* a:hover {
   color: #2196f3;
-}
+} */
 
 pre {
 display: block;

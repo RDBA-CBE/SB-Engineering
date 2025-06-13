@@ -46,7 +46,7 @@ export default function Footer25() {
           </div>
 
           {/* Right Black Section */}
-          <div className='col-lg-9 footer-black p-5 '>
+          <div className='col-lg-9 footer-black px-5 pt-5 pb-0'>
             <div className='row'>
               {/* About */}
               <div className='col-md-5 mb-4 pt-5 pe-5'>
@@ -59,7 +59,7 @@ export default function Footer25() {
               </div>
 
               {/* Links */}
-              <div className='col-md-3 mb-4 pt-5'>
+              <div className='col-md-3 mb-4 pt-0 pt-md-5'>
                 <h5 className='footer-subheading'>Quick Links</h5>
                 <ul
                   className='footer-links list-unstyled'
@@ -100,7 +100,7 @@ export default function Footer25() {
               </div>
 
               {/* Contact */}
-              <div className='col-md-4 mb-4 pt-5'>
+              <div className='col-md-4 mb-4 pt-0 pt-md-5'>
                 <h5 className='footer-subheading'>Quick Contact</h5>
                 <p className='footer-info'>
                   4th West Cross Road, Gandhi Nagar,

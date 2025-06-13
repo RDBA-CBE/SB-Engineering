@@ -11,28 +11,28 @@ const HomeBuildSec = () => {
           <h2 className="main-ti ">
             Powered by modern technology and deep domain expertise <br /> and deep domain expertise.
           </h2>
-          <p className=" mb-5">
+          <p className=" mb-4">
             From rigorous quality control to cutting-edge technology, our solutions are designed to last and built to perform.
           </p>
 
-          <div className="build-wrp">
+          <div className="build-wrp mt-3 mb-3">
             <div className="build-box-d">
               <div className="build-box px-2 py-4 shadow-sm">
                 <img src="/images/home/we-help/icon1.png" alt="Integrity" className="mb-2" />
-                <h5 className="mb-0 fw-semibold">Transparent workflows</h5>
+                <h5 className="mb-0 fw-semibold">Transparent <br /> workflows</h5>
               </div>
             </div>
             <div className="build-box-d">
               <div className="build-box  px-2 py-4 shadow-sm">
                 <img src="/images/home/we-help/icon3.png" alt="Collaboration" className="mb-2" />
-                <h5 className="mb-0 fw-semibold">Stringent quality control </h5>
+                <h5 className="mb-0 fw-semibold">Stringent  <br /> quality control </h5>
               </div>
             </div>
             <div className="build-box-d">
               <div className="build-box  px-2 py-4 shadow-sm">
                 <img src="/images/home/we-help/icon2.png" alt="Quality Control" className="mb-2" />
                
-                <h5 className="mb-0 fw-semibold">Collaborate for success</h5>
+                <h5 className="mb-0 fw-semibold">Collaborate <br /> for success</h5>
               </div>
             </div>
           </div>

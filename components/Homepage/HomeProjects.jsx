@@ -50,16 +50,18 @@ export default function HomeProjects() {
   ];
 
   return (
-    <div className="section-full bg-white mb-5 mt-4 fw-swiper">
+    <div className="section-full bg-white mb-5 mt-4 fw-swiper home-pro-sli">
       <div className="text-center">
                     <p className="upper-cap">Impactful, efficient and enduring solutions.</p>
                     <h2 className="main-ti text-primary pb-4">Explore our projects</h2>
                 </div>
       <Swiper
-        slidesPerView={2}
+        slidesPerView={1.5}
         spaceBetween={30}
         slidesPerGroup={1}
         loop
+         observer={true}
+  observeParents={true}
         // autoplay={{
         //   delay: 4000,
         // }}
@@ -82,10 +84,10 @@ export default function HomeProjects() {
             slidesPerView: 1,
           },
           1024: {
-            slidesPerView: 2,
+            slidesPerView: 1.4,
           },
           1200: {
-            slidesPerView: 2,
+            slidesPerView: 1.5,
           },
         }}
         className="project-carousel centeredSlides owl-btn-center-lr owl-carousel relative"
@@ -129,7 +131,7 @@ export default function HomeProjects() {
                 background:"#fdd104",
                 padding:"10px 14px",
                 borderRadius:"50%",
-                marginLeft:"24%",
+                marginLeft:"15.5%",
             }}
           >
             <i className="ti-arrow-left text-primary" style={{fontWeight:"700"}}  />
@@ -142,14 +144,14 @@ export default function HomeProjects() {
                 background:"#fdd104",
                 padding:"10px 14px",
                 borderRadius:"50%",
-                 marginRight:"24%",
+                 marginRight:"15.5%",
             }}
           >
             <i className="ti-arrow-right text-primary" style={{fontWeight:"700"}} />
           </button>
         </div>
 
-         <div className="swiper-pagination style-1 sph2 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal" style={{position: "absolute", bottom: "8px", zIndex: "1", left: "calc(50% - 56px)"}}><span className="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span className="swiper-pagination-bullet"></span></div>
+         <div className="swiper-pagination style-1 sph2 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal" style={{position: "absolute", bottom: "8px", zIndex: "1", left: "calc(50% - 80px)"}}><span className="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span className="swiper-pagination-bullet"></span></div>
       </Swiper>
     </div>
   );

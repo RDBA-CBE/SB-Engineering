@@ -12,17 +12,17 @@ import { ArrowRight } from "lucide-react";
  export default function HomeBlog() {
     const serviceContent = [
         {
-            title:"Architectural Design",
+            title:"Architectural <br/> Design",
         img:"/images/home/services/1.png",
         cap:"Futuristic architectural solutions blending aesthetics, functionality and sustainability across every project stage."
         },
          {
-            title:"Structural Engineering",
+            title:"Structural <br/> Engineering",
         img:"/images/home/services/2.png",
         cap:"Reliable structural engineering that ensures safety, durability and efficiency through cutting-edge analysis and design."
         },
         {
-            title:"MEP Engineering",
+            title:"MEP <br/> Engineering",
         img:"/images/home/services/3.png",
         cap:"Integrated MEP systems engineered for energy efficiency, safety, performance and seamless building functionality."
         }
@@ -76,7 +76,7 @@ import { ArrowRight } from "lucide-react";
                              <div className="dlab-info p-a20 bg-white h-100">
                              
                               <h4 className="main-sub-ti m-t0">
-                                <a href="#">{elm?.title}</a>
+                                <a href="#" dangerouslySetInnerHTML={{__html:elm?.title}}></a>
                               </h4>
                               <p className="mb-4 sub-des">
                                {elm?.cap}
