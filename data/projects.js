@@ -1,64 +1,101 @@
 export const projects = [
   {
     id: 1,
-    imgSrc: "/images/project/al-bahja-mall-car-praking.jpg",
-    title: "Al Bahja Mall Car Praking",
-    description:"sit amet consectetur "
+    imgSrc: "/images/project/puzzle-parking.jpg",
+    title: "Puzzle Parking",
+    description:"Automated Parking- Dubai"
   },
   {
     id: 2,
-    imgSrc: "/images/project/al-batinah-international-school.jpg",
-     title: "Al Batinah International School",
-    description:"sit amet consectetur "
+    imgSrc: "/images/project/robotic-parking.jpg",
+     title: "Robotic Parking",
+    description:"Automated Parking- Dubai"
   },
   {
     id: 3,
-    imgSrc: "/images/project/aster-hospital.jpg",
-     title: "Aster Hospital",
-    description:"sit amet consectetur "
+    imgSrc: "/images/project/al-bahja-mall-car-praking.jpg",
+     title: "Al Bahja Mall Car Parking",
+    description:"Car Parking"
   },
   {
     id: 4,
-    imgSrc: "/images/project/city-centre-sohar.jpg",
-     title: "City Centre Sohar",
-    description:"sit amet consectetur "
+    imgSrc: "/images/project/al-meera-car-parking.jpg",
+     title: "Al Meera Car Parking",
+    description:"Car Parking"
   },
   
   {
     id: 6,
-    imgSrc: "/images/project/indian-schoo-bousher, Muscat.jpg",
-     title: "Indian School Bousher, Muscat",
-    description:"sit amet consectetur ",
+    imgSrc: "/images/project/city-centre-sohar.jpg",
+     title: "City Centre Sohar",
+    description:"Commercial",
   },
   {
     id: 7,
-    imgSrc: "/images/project/omani-marbles-factory.jpg",
-     title: "Omani Marbles Factory",
-    description:"sit amet consectetur ",
+    imgSrc: "/images/project/nesto-hypermarket.jpg",
+     title: "Nesto Hypermarket",
+    description:"Commercial",
   },
   {
     id: 8,
-    imgSrc: "/images/project/rohm-muscat.jpg",
-     title: "Rohm Muscat",
-    description:"sit amet consectetur ",
+    imgSrc: "/images/project/al-batinah-international-school.jpg",
+     title: "Al Batinah International School",
+    description:"Educational",
   },
   {
     id: 9,
-    imgSrc: "/images/project/sheraton -oman-muscat.jpg",
-     title: "Sheraton Oman Muscat",
-    description:"sit amet consectetur ",
+    imgSrc: "/images/project/indian-schoo-bousher, Muscat.jpg",
+     title: "Indian School Bousher, Muscat",
+    description:"Educational",
   },
   {
     id: 10,
-    imgSrc: "/images/project/taiba-pharmacy.jpg",
-     title: "Taiba Pharmacy",
-    description:"sit amet consectetur ",
+    imgSrc: "/images/project/aster-hospital.jpg",
+     title: "Aster Hospital",
+    description:"Hospitals",
   },
   {
     id: 11,
-    imgSrc: "/images/project/taism-auditorium.jpg",
-    title: "Taism Auditorium",
-    description:"sit amet consectetur ",
+    imgSrc: "/images/project/taiba-pharmacy.jpg",
+    title: "Taiba Pharmacy",
+    description:"Hospitals",
+  },
+  {
+    id: 12,
+    imgSrc: "/images/project/brigade-benson-t.jpg",
+     title: "Brigade Benson-T",
+    description:"India",
+  },
+  {
+    id: 13,
+    imgSrc: "/images/project/salarpuria-aristocracy-bengaluru.jpg",
+    title: "Salarpuria Aristocracy Bengaluru",
+    description:"India",
+  },
+  
+  {
+    id: 14,
+    imgSrc: "/images/project/gypsum-drywall.jpg",
+     title: "Gypsum Drywall",
+    description:"Industrial",
+  },
+  {
+    id: 15,
+    imgSrc: "/images/project/omani-marbles-factory.jpg",
+    title: "Omani Marbles Factory",
+    description:"Industrial",
+  },
+  {
+    id: 14,
+    imgSrc: "/images/project/mmani -marble.jpg",
+     title: "Mani Marble",
+    description:"Oman",
+  },
+  {
+    id: 15,
+    imgSrc: "/images/project/sohar-flour-m.jpg",
+    title: "Sohar Flour-M",
+    description:"Oman",
   },
   
 ];

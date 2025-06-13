@@ -13,21 +13,22 @@ export const metadata = {
 export default function page() {
 
     const banner ={
-        title:"Structural Engineering",
-        link:"architectural-design"
+      title:"Structural Engineering",
+      link:"architectural-design",
+      img:"/images/about/event/struct-banner.jpg"
     }
 
     const innovativesolutions ={
-        title:"Engineering strength and stability into every structure",
-        content1:"At SB Engineers, we deliver high-performance structural engineering solutions that ensure the safety, stability and longevity of built environments. Our services cover the complete structural lifecycle, from concept development and structural analysis to detailed design and execution oversight.",
-        content2:"Our expert structural engineers work closely with clients to deliver innovative and efficient designs that comply with industry benchmarks. Our structural design solutions are customized to meet the functional demands, project objectives and site-specific requirements. We use cutting-edge tools, industry best practices and rigorous analysis to ensure structures can confidently withstand applied loads and environmental forces.",
-        img:"/images/about/event/about3.jpg"
+      title:"Engineering strength and stability into every structure",
+      content1:"At SB Engineers, we deliver high-performance structural engineering solutions that ensure the safety, stability and longevity of built environments. Our services cover the complete structural lifecycle, from concept development and structural analysis to detailed design and execution oversight.",
+      content2:"Our expert structural engineers work closely with clients to deliver innovative and efficient designs that comply with industry benchmarks. Our structural design solutions are customized to meet the functional demands, project objectives and site-specific requirements. We use cutting-edge tools, industry best practices and rigorous analysis to ensure structures can confidently withstand applied loads and environmental forces.",
+      img:"/images/about/event/engineering-strength.jpg"
     }
 
 
       const serviceContent = {
         title: "Ensuring precision, safety and reliability in all our structural engineering projects, which includes:",
-         img:"/images/about/about3.jpg",
+        img:"/images/about/event/ensuring.jpg",
         list: [
           "Conventional RCC (Reinforced Cement Concrete) Structures",
           "Structural Steel Buildings",
@@ -49,7 +50,7 @@ export default function page() {
         content1:"Our structural engineering services prioritize resilience, constructability and long-term performance. By integrating advanced materials, modelling techniques and cost-efficient design approaches, we help optimize both construction and lifecycle costs.",
         content2:"Our team work in synergy across all project phases to ensure structural integrity without compromising design intent. Our dedication to quality, safety standards and on-time delivery makes SB Engineers a trusted partner for structurally sound, futuristic infrastructure projects.",
         
-        img:"/images/about/event/about3.jpg"
+        img:"/images/about/event/how-we-do.jpg"
       }
   return (
     <>
