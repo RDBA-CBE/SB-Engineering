@@ -8,7 +8,7 @@ const ContactSection = () => {
   const officeData = [
     {
       title: 'Vellore Office:',
-      img: '/images/project/image-vellore.png',
+      img: './images/project/image-vellore.png',
       email: 'admin@sbecc.in , sbengineers23@gmail.com',
       address: (
         <>
@@ -23,7 +23,7 @@ const ContactSection = () => {
     },
     {
       title: 'Coimbatore Office:',
-      img: '/images/project/image-coimbatore.png',
+      img: './images/project/image-coimbatore.png',
       email: 'admin@sbecc.in , sbengineers23@gmail.com',
       address: (
         <>
@@ -47,7 +47,7 @@ const ContactSection = () => {
                 <div className='office-img-wrapper mb-3'>
                   <div className='d-felx align-items-start'>
                     <Image
-                      src={office.img}
+                      src={office?.img}
                       alt={office.title}
                       className='img-fluid office-img'
                       width={200}
