@@ -37,7 +37,7 @@ export default function WhySBEngineers() {
                         src={service.image}
                         alt={service.title}
                         className='img-fluid'
-                        style={{ maxWidth: '60px', height: 'auto' }}
+                        // style={{ maxWidth: '60px', height: 'auto' }}
                       />
                     </a>
                   </div>
@@ -49,7 +49,7 @@ export default function WhySBEngineers() {
                   </div>
 
                   {/* Read More Button */}
-                  <div className='mt-3 text-center'>
+                  {/* <div className='mt-3 text-center'>
                     <Link
                       href={`/${service.link}`}
                       className='site-button btnhover11 readmore-link d-inline-block'
@@ -62,7 +62,7 @@ export default function WhySBEngineers() {
                       </span>
                       Read More
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}

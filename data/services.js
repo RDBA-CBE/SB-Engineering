@@ -645,7 +645,7 @@ export const services5 = [
     description:
       "We believe that great partnerships are built on trust. That’s why, from client interactions to project execution, we ensure honesty, transparency and ethical practices in everything we do.",
     delay: "0.2s",
-    link: "web-design-service",
+    // link: "web-design-service",
   },
   {
     id: 83,
