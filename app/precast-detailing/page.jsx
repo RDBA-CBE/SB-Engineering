@@ -16,14 +16,15 @@ export default function page() {
 
     const banner ={
         title:"Structural Steel Detailing",
-        link:"structural-steel-detailing"
-    }
+        link:"structural-steel-detailing",
+        img:"/images/about/event/precast-banner.jpg",
+      }
 
     const innovativesolutions ={
         title:"",
          content1:"At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
          content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/precast.jpg"
     }
 
 
@@ -31,7 +32,7 @@ export default function page() {
         title:"How we add value",
          content1:"Our precast detailing services are engineered to improve constructability and eliminate rework. By working in synergy with contractors, engineers and manufacturers, we ensure each precast element is modelled and detailed for precision assembly and long-term performance.",
         
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/how-we-do-precast.jpg"
       }
 
        const serviceContent1 = {

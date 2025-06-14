@@ -16,7 +16,8 @@ export default function page() {
 
     const banner ={
         title:"Structural Steel Detailing",
-        link:"structural-steel-detailing"
+        link:"structural-steel-detailing",
+        img:"/images/about/event/struct-steel-banner.jpg"
     }
 
     const innovativesolutions ={
@@ -24,7 +25,7 @@ export default function page() {
          content1:"SB Engineers delivers high-quality structural steel detailing services that support structural integrity, improve fabrication efficiency and ensure flawless on-site execution. With a commitment to accuracy and innovation, our detailing solutions cover the entire project lifecycle, from initial concepts and modelling to final fabrication and erection drawings.",
          content2:"We use advanced software like Tekla Xsteel for 2D drafting and 3D modelling to help fabricators, contractors and engineers bring complex steel structures to life. Our services cater to a wide range of sectors including residential, commercial, industrial and infrastructure.",
          content3:"Our experienced detailing team work closely with clients to produce shop-ready drawings and models that eliminate ambiguities, reduce material wastage and enhance project timelines. Whether you're building from the ground up or upgrading existing infrastructure, our steel detailing services are designed to meet your unique project specifications.",
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/struct-img.jpg"
     }
 
 
@@ -32,12 +33,12 @@ export default function page() {
         title:"How we add value",
          content1:"Our structural steel detailing services go beyond technical drawings. We bring a deep understanding of construction workflows, fabrication constraints and industry standards to every project. We prioritize clarity, synergy and precision to ensure that each component is correctly represented, connected and ready for efficient assembly.",
         
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/how-we-struc-steel.jpg"
       }
 
        const serviceContent = {
     title: "Our structural steel detailing expertise includes:",
-    img: "/images/about/about3.jpg",
+    img: "/images/about/event/our-structural.jpg",
     list: [
       "Detailed Fabrication Drawings",
       "2D Shop Drawings",
@@ -57,17 +58,10 @@ export default function page() {
         <Header19 />
         <div className="page-content bg-white">
          
-         <ServiceBanner banner={banner}/>
-          <Innovativesolutions innovativesolutions={innovativesolutions}/>
-
+        <ServiceBanner banner={banner}/>
+        <Innovativesolutions innovativesolutions={innovativesolutions}/>
         <ServiceExtpertise serviceContent={serviceContent} />
-
-        
-
         <AddedValue addedValue={addedValue}/>
-
-
-
 
         </div>
         <div className="footertop">

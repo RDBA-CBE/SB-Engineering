@@ -14,7 +14,8 @@ export default function page() {
 
     const banner ={
         title:"Quantity Surveying",
-        link:"quantity-surveying"
+        link:"quantity-surveying",
+        img:"/images/about/event/quantity-banner.jpg",
     }
 
     const innovativesolutions ={
@@ -28,7 +29,7 @@ export default function page() {
 
       const serviceContent = {
         title: "Our Quantity Surveying Services include:",
-         img:"/images/about/about3.jpg",
+         img:"/images/about/event/our-quantity-surveying.jpg",
         list: [
           "Cost Consultancy & Estimation",
           "Lifecycle Cost Planning & Budget Forecasting",
@@ -47,7 +48,7 @@ export default function page() {
         title:"How we add value",
          content1:"At SB Engineers, we align our cost strategies with your project vision. Our quantity surveying services are not only about managing numbers, they’re about enabling smarter decisions. ",
         
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/how-we-value.jpg"
       }
   return (
     <>

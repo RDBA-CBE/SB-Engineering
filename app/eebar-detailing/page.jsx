@@ -16,7 +16,8 @@ export default function page() {
 
     const banner ={
         title:"Rebar Detailing",
-        link:"eebar-detailing"
+        link:"eebar-detailing",
+        img:"/images/about/event/eeber-banner-image.jpg"
     }
 
     const innovativesolutions ={
@@ -24,7 +25,7 @@ export default function page() {
          content1:"At SB Engineers, we provide highly accurate rebar detailing services that are essential for the structural integrity and performance of reinforced concrete structures. Our experienced team uses advanced detailing software to develop comprehensive fabrication drawings that ensure precision, reduce material wastage and improve construction workflows.",
          content2:"From high-rise buildings to infrastructure and industrial facilities, we deliver bespoke rebar detailing solutions that meet global standards and project specifications. Our rebar drawings are created from structural design documents, offering precise bar bending schedules (BBS), quantity estimations and placing drawings that support efficient on-site execution.",
          content3:"Whether you're working on a new development or redesigning an existing structure, our detailing services are designed to enhance constructability, minimize delays and improve teamwork between stakeholders.",
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/eeber.jpg"
     }
 
 
@@ -32,12 +33,12 @@ export default function page() {
         title:"How we add value",
          content1:"Our rebar detailing services focus on accuracy, speed and constructability. By translating structural drawings into detailed rebar plans, we help contractors, fabricators and construction teams execute their projects efficiently and cost-effectively. ",
         
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/eeber-how-we-add.jpg"
       }
 
        const serviceContent1 = {
     title: "Foundation Details",
-    img: "/images/about/about3.jpg",
+    img: "/images/about/event/about3.jpg",
     list: [
       "Roof Truss and Joint Details",
       "Constructability Reviews",

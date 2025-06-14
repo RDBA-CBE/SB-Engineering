@@ -14,20 +14,21 @@ export default function page() {
 
     const banner ={
         title:"Project Management",
-        link:"project-management"
+        link:"project-management",
+        img:"/images/about/event/proj-manag-banner.jpg",
     }
 
     const innovativesolutions ={
         title:"Seamless Execution from Concept to Completion",
          content1:"Our Project Management services are designed to drive success across every stage of your construction journey. We bring together proven methodologies, technical expertise and a collaborative approach to ensure your project is delivered on time, within budget, meeting the highest standards of quality.",
          content2:"Our team has extensive experience across diverse sectors, in coordinating resources and managing risks. They work in synergy and maintain transparent communication between stakeholders to keep your project on track. Whether it’s a large-scale industrial development or a complex commercial facility, we take ownership of the process so you can stay focused on the bigger picture.",
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/project-management.jpg"
     }
 
 
       const serviceContent = {
         title: "Our Project Management Expertise Includes:",
-         img:"/images/about/about3.jpg",
+         img:"/images/about/event/our-project.jpg",
         list: [
           "Planning & Scheduling",
           "Cost Management",
@@ -43,7 +44,7 @@ export default function page() {
         title:"How we add value",
          content1:"At SB Engineers, we understand that successful project delivery is more than just meeting deadlines. It’s about creating value at every step, through efficiency, precision and proactive leadership. ",
         
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/how-we-project.jpg"
       }
   return (
     <>
