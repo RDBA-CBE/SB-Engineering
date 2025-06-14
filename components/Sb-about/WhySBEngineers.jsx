@@ -1,59 +1,72 @@
-import { services5 } from "@/data/services";
-import { ArrowRight } from "lucide-react";
-import Link from "next/link";
-import React from "react";
+import { services5 } from '@/data/services';
+import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
+import React from 'react';
 
 export default function WhySBEngineers() {
   return (
     <>
-      <div className="section-full  content-inner whySbEng">
-        <div className="container">
-          <div className=" text-center">
-            <h2 className="main-ti" >Why SB Engineers</h2>
+      <div className='section-full  content-inner whySbEng'>
+        <div className='container'>
+          <div className=' text-center'>
+            <h2 className='main-ti'>Why SB Engineers</h2>
             <p>
-              Backed by decades of experience and adherence to global benchmarks.
+              Backed by decades of experience and adherence to global
+              benchmarks.
             </p>
           </div>
-          <div className="section-content row mt-5">
-         {services5.map((service, index) => (
-    <div
-      key={index}
-      className="col-md-6 col-lg-6 col-sm-12 service-box style3 wow fadeInUp d-flex align-items-stretch"
-      data-wow-duration="2s"
-      data-wow-delay={service.delay}
-    >
-      <div className="icon-bx-wraper d-flex flex-column w-100 p-4" data-name={service.name}>
-        
-        {/* Icon Centered */}
-        <div className="icon-lg d-flex justify-content-center align-items-center mb-3">
-          <a href="#" className="icon-cell d-flex justify-content-center align-items-center">
-            <i className="flaticon-factory icon-new" />
-          </a>
-        </div>
+          <div className='section-content row mt-5'>
+            {services5.map((service, index) => (
+              <div
+                key={index}
+                className='col-md-6 col-lg-6 col-sm-12 service-box style3 wow fadeInUp d-flex align-items-stretch'
+                data-wow-duration='2s'
+                data-wow-delay={service.delay}
+              >
+                <div
+                  className='icon-bx-wraper d-flex flex-column w-100 p-4'
+                  data-name={service.name}
+                >
+                  {/* Icon Centered */}
+                  <div className='icon-lg d-flex justify-content-center align-items-center mb-3'>
+                    <a
+                      href='#'
+                      className='icon-cell d-flex justify-content-center align-items-center'
+                    >
+                      <img
+                        src={service.image}
+                        alt={service.title}
+                        className='img-fluid'
+                        style={{ maxWidth: '60px', height: 'auto' }}
+                      />
+                    </a>
+                  </div>
 
-        {/* Content Centered Vertically */}
-        <div className="icon-content flex-grow-1 text-center">
-          <h2 className="main-sub-ti m-t0 mb-2">{service.title}</h2>
-          <p>{service.description}</p>
-        </div>
+                  {/* Content Centered Vertically */}
+                  <div className='icon-content flex-grow-1 text-center'>
+                    <h2 className='main-sub-ti m-t0 mb-2'>{service.title}</h2>
+                    <p>{service.description}</p>
+                  </div>
 
-        {/* Read More Button */}
-        <div className="mt-3 text-center">
-          <Link
-            href={`/${service.link}`}
-            className="site-button btnhover11 readmore-link d-inline-block"
-          >
-            <span className="icon-div-pri">
-              <ArrowRight className="icon-sm-new" style={{ color: "#000" }} />
-            </span>
-            Read More
-          </Link>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
-
+                  {/* Read More Button */}
+                  <div className='mt-3 text-center'>
+                    <Link
+                      href={`/${service.link}`}
+                      className='site-button btnhover11 readmore-link d-inline-block'
+                    >
+                      <span className='icon-div-pri'>
+                        <ArrowRight
+                          className='icon-sm-new'
+                          style={{ color: '#000' }}
+                        />
+                      </span>
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

@@ -640,7 +640,7 @@ export const services5 = [
    {
     id: 83,
     name: "01",
-    icon: "/images/about-us/web-design.png",
+    image: "/images/about-us/integrity.png",
     title: "Integrity",
     description:
       "We believe that great partnerships are built on trust. That’s why, from client interactions to project execution, we ensure honesty, transparency and ethical practices in everything we do.",
@@ -650,7 +650,7 @@ export const services5 = [
   {
     id: 83,
     name: "02",
-    icon: "/images/about-us/web-design.png",
+    image: "/images/about-us/quality.png",
     title: "Quality",
     description:
       "With a commitment to excellence, we adopt stringent quality control to ensure our deliverables are both effective and enduring.",
@@ -660,7 +660,7 @@ export const services5 = [
   {
     id: 83,
     name: "03",
-    icon: "/images/about-us/web-design.png",
+    image: "/images/about-us/collaboration.png",
     title: "Collaboration",
     description:
       "We work closely with our clients at each phase, listening, adapting and designing solutions that reflect their vision and needs.",
@@ -670,7 +670,7 @@ export const services5 = [
    {
     id: 83,
     name: "04",
-    icon: "/images/about-us/web-design.png",
+    image: "/images/about-us/innovation.png",
     title: "Innovation",
     description:
       "The engineering domain is constantly evolving, that’s why we use the latest tools and technologies to deliver modern, efficient and future-ready designs that push the boundaries of what's possible.",

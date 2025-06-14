@@ -4,7 +4,7 @@ import React from "react";
 const AboutBanner = () => {
   return (
     <div className="projectBanner-wrapper">
-      <div className="projectBanner-parallax">
+      <div className="projectBanner-parallax" style={{ backgroundImage: 'url("/path-to-your-image.jpg")',}}>
         <div className="container h-100 d-flex flex-column justify-content-center align-items-start">
           <h1 className="projectBanner-title">About Us</h1>
           <nav aria-label="breadcrumb">

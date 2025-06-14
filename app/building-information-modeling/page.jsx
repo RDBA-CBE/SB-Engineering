@@ -15,6 +15,7 @@ export default function page() {
   const banner = {
     title: "Building Information Modeling",
     link: "building-information-modeling",
+    img:"/images/about/event/building-banner-image.jpg",
   };
 
   const innovativesolutions = {
@@ -23,7 +24,7 @@ export default function page() {
       "SB Engineers is at the forefront of delivering competent Structural BIM Services. We integrate  engineering precision and cutting-edge technology to enhance structural design, coordination and construction efficiency. With deep domain expertise and a client-centric approach, we enable smarter decision-making through every phase of the structural lifecycle, from conceptual design and analysis to detailing and documentation.",
     content2:
       "We serve a diverse clientele across the residential, commercial, industrial and infrastructure sectors, offering BIM solutions tailored to project needs, regional norms, and global benchmarks.",
-    img: "/images/about/event/about3.jpg",
+    img: "/images/about/event/building-info.jpg",
   };
 
   const serviceContent = {
@@ -66,7 +67,7 @@ export default function page() {
     content1:
       "Our BIM services go beyond modelling, we provide construction solutions that drive efficiency, reduce costs, manage risks, improve constructability and create long-term value. ",
 
-    img: "/images/about/event/about3.jpg",
+    img: "/images/about/event/how-we-build.jpg",
   };
   return (
     <>
