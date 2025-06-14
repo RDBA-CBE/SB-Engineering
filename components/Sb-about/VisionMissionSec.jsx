@@ -4,7 +4,7 @@ export default function VisionMissionSec() {
   return (
     <div
       className='section-full content-inner-1 overlay-black-dark about-8-service bg-img-fix pb-5 mt-5 mb-4'
-      style={{ backgroundImage: 'url(/images/background/bg1.jpg)' }}
+      style={{ backgroundImage: 'url(/images/background/vision-mission-manage-bg.jpg)' }}
     >
       {/* <div className="container">
         <div className="section-head text-white text-center">
@@ -137,11 +137,11 @@ export default function VisionMissionSec() {
               </div>
             </div>
           </div> */}
-          <p style={{ textAlign: 'center' }}>
+          <h2 className='text-center'>
             At SB Engineers, leadership is all about direct engagement, guiding
             our team, supporting our clients and delivering success at every
             stage.
-          </p>
+          </h2>
         </div>
       </div>
     </div>

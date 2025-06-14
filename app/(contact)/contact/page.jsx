@@ -22,6 +22,7 @@ export default function page() {
   const banner = {
     title: 'Contact',
     link: 'contact',
+    img:"/images/project/contact-banner.jpg"
   };
 
   return (

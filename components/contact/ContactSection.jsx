@@ -138,7 +138,7 @@ const ContactSection = () => {
               <div className='row  row-gap-3'>
                 {/* Left Side - Image with Overlay Text */}
                 <div className='col-md-5 p-0 bg-white'>
-                  <div className='contact-left '></div>
+                  <div className='contact-left' style={{ backgroundImage: `url("/images/project/contact-inquiry-form.jpg")` }}></div>
                   {/* <div className="contact-overlay text-white p-4">
             <h5 className="fw-bold mb-3">Leading Way In Building & Civil Construction!</h5>
             <p className="mb-3">

@@ -12,7 +12,7 @@ const CareerForm = () => {
               <div className='row'>
                 {/* Left Side - Image with Overlay Text */}
                 <div className='col-md-5 p-0 bg-white'>
-                  <div className='contact-left'></div>
+                  <div className='contact-left' style={{ backgroundImage: `url("/images/Careers/career-inquiry-form.jpg")` }}></div>
                 </div>
 
                 {/* Right Side - Form */}

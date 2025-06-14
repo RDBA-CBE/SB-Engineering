@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import { Phone } from 'lucide-react';
+
 
 <ul className='footer-links list-unstyled'>
   <li>
@@ -63,11 +65,18 @@ export default function Footer25() {
                 <h5 className='footer-subheading'>Quick Links</h5>
                 <ul
                   className='footer-links list-unstyled'
-                  style={{ color: '#fff' }}>
+                  style={{ color: '#fff' }}
+                >
+                  <li>
+                    <Link href='/about-us' style={{ color: '#fff' }}>
+                      About Us
+                    </Link>
+                  </li>
                   <li>
                     <Link
                       href='/architectural-design'
-                      style={{ color: '#fff' }}>
+                      style={{ color: '#fff' }}
+                    >
                       Services
                     </Link>
                   </li>
@@ -81,11 +90,7 @@ export default function Footer25() {
                       Projects
                     </Link>
                   </li>
-                  <li>
-                    <Link href='/about-us' style={{ color: '#fff' }}>
-                      About Us
-                    </Link>
-                  </li>
+                  
                   <li>
                     <Link href='/contact' style={{ color: '#fff' }}>
                       Get a Quote
@@ -103,16 +108,19 @@ export default function Footer25() {
               <div className='col-md-4 mb-4 pt-0 pt-md-5'>
                 <h5 className='footer-subheading'>Quick Contact</h5>
                 <p className='footer-info'>
-                  4th West Cross Road, Gandhi Nagar,
-                  <br />
-                  Katpadi Vellore, Tamilnadu.
+                  2, 4th West Cross Road,<br /> Gandhi Nagar,Katpadi,
+                 
+                  Vellore - 632006, Tamil Nadu
                 </p>
                 <p className='footer-info'>
-                  If you have any questions or need help,
-                  <br />
-                  feel free to contact with our team.
+                  2, 7th St Ext, 3rd Floor, D.479, <br />7th St Extension,
+                  
+                  Gandhipuram, Coimbatore - 641012
                 </p>
-                <p className='footer-phone'>📞 +91-9787447307</p>
+                <p className='footer-phone'>
+                  <Phone style={{ color: '#fdd104', marginRight: '8px' }} />
+                  <a href="tel:0422-4577307" style={{ color: '#fff' }}>0422-4577307</a>
+                </p>
               </div>
             </div>
           </div>

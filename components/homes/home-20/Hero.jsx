@@ -153,7 +153,7 @@ import { ArrowRight, CheckCircle } from "lucide-react";
 // Slide data with banner-specific bullet points
 const slides = [
   {
-    imageSrc: "/images/home-banner/banner.png",
+    imageSrc: "/images/home/banner/home-banner-img-1.jpg",
     title: "Engineering your <br /> vision to perfection",
     bullets: [
       "Meticulously crafted bespoke design solutions",
@@ -162,7 +162,7 @@ const slides = [
     ],
   },
   {
-    imageSrc: "/images/home-banner/banner.png",
+    imageSrc: "/images/home/banner/home-banner-img-2.jpg",
     title: "Precision-driven designs for real-world solutions",
     bullets: [
       "Multidisciplinary expertise",
@@ -171,7 +171,7 @@ const slides = [
     ],
   },
   {
-    imageSrc: "/images/home-banner/banner.png",
+    imageSrc: "/images/home/banner/home-banner-img-3.jpg",
     title: "Trusted partners for sustainable growth",
     bullets: [
       "Delivering quality, consistency and trust",
@@ -179,6 +179,24 @@ const slides = [
       "Enduring relationships",
     ],
   },
+  // {
+  //   imageSrc: "/images/home/banner/home-banner-img-1.jpg",
+  //   title: "Trusted partners for sustainable growth",
+  //   bullets: [
+  //     "Delivering quality, consistency and trust",
+  //     "Decades of experience",
+  //     "Enduring relationships",
+  //   ],
+  // },
+  // {
+  //   imageSrc: "/images/home/banner/home-banner-img-1.jpg",
+  //   title: "Trusted partners for sustainable growth",
+  //   bullets: [
+  //     "Delivering quality, consistency and trust",
+  //     "Decades of experience",
+  //     "Enduring relationships",
+  //   ],
+  // },
 ];
 
 export default function Hero() {

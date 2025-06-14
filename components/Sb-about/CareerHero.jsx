@@ -47,7 +47,7 @@ export default function CareerHero() {
             >
               <Image
                 alt=""
-                src="/images/about/pic5.jpg"
+                src="/images/Careers/build-your-future.jpg"
                 width="600"
                 height="722"
                 style={{ borderRadius: "3px" }}

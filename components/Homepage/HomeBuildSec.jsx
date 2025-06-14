@@ -9,7 +9,7 @@ const HomeBuildSec = () => {
         {/* Left Side */}
         <div className="col-12 col-sm-6 col-lg-6 col-md-12 build-text-area py-5 build-content-sec">
           <h2 className="main-ti ">
-            Powered by modern technology and deep domain expertise <br /> and deep domain expertise.
+            Powered by modern technology and deep domain expertise.
           </h2>
           <p className=" mb-4">
             From rigorous quality control to cutting-edge technology, our solutions are designed to last and built to perform.
