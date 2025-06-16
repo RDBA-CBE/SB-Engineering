@@ -4378,7 +4378,15 @@ blockquote:before {
   }
 }
 
-@media only screen and (max-width: 1440px) {
+.mbl-nav-img{
+    display: none;
+  }
+
+@media only screen and (max-width: 1439px) {
+  .mbl-nav-img{
+    display: block;
+  }
+
   .header-nav {
     clear: both;
     margin: 0 -15px;
@@ -16412,7 +16420,7 @@ ol.commentlist li .star-rating {
 }
 
 /* Google Recaptcha */
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .mo-left .header-nav.nav-dark {
     background-color: #202020;
   }
@@ -16449,7 +16457,7 @@ ol.commentlist li .star-rating {
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
     margin: 0;
-    width: 360px;
+    width: 320px;
   }
 
   .mo-left .navbar-toggler.open:after {
@@ -16479,7 +16487,7 @@ ol.commentlist li .star-rating {
     height: auto;
     max-width: 100%;
     padding: 30px 15px;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .mo-left .header-nav .logo-header img {

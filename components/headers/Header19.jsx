@@ -91,7 +91,7 @@ export default function Header19() {
               className='header-nav navbar-collapse collapse justify-content-around'
               id='navbarNavDropdown'
             >
-              <div className='logo-header d-md-block d-xxl-none'>
+              <div className='logo-header  mbl-nav-img'>
                 <Link href={`/`}>
                   <img
                     alt=''
