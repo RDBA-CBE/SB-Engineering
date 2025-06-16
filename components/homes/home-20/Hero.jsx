@@ -214,6 +214,7 @@ export default function Hero() {
           clickable: true,
           el: ".sph2",
         }}
+        autoplay={true}
         className="swiper mySwiper relative"
       >
         {slides.map((slide, index) => (

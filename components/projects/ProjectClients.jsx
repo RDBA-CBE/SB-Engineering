@@ -88,7 +88,7 @@ reliability, technical excellence and collaborative approach.</p>
             <div className="ow-client-logo wow fadeInUp will-animate">
               <div className={`client-logo ${border ? "border" : ""}`}>
                 <a href="#">
-                  <Image width={80} height={200} src={logoSrc} alt="" />
+                  <Image width={80} height={200} src={logoSrc} alt="" style={{width:'150px' , height:'60px'}} />
                 </a>
               </div>
             </div>

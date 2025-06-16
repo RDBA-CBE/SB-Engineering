@@ -52,8 +52,8 @@ export default function HomeClients({
 
                 <div className="container mt-5">
                     <Swiper
-        // slidesPerView={5}
-        // spaceBetween={10}
+        slidesPerView={5}
+        spaceBetween={10}
         slidesPerGroup={2}
         style={{ maxWidth: "100vw", overflow: "hidden", margin:"auto" }}
         loop
@@ -86,7 +86,7 @@ export default function HomeClients({
             <div className="ow-client-logo wow fadeInUp will-animate">
               <div className={`client-logo ${border ? "border" : ""}`}>
                 <a href="#">
-                  <Image width={80} height={200} src={logoSrc} alt="" />
+                  <Image width={80} height={200} src={logoSrc} alt="" style={{ width:'150px' , height:'60px'}}/>
                 </a>
               </div>
             </div>

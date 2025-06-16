@@ -62,9 +62,9 @@ export default function HomeProjects() {
         loop
          observer={true}
   observeParents={true}
-        // autoplay={{
-        //   delay: 4000,
-        // }}
+        autoplay={{
+          delay: 4000,
+        }}
         speed={2500}
         centeredSlides
         modules={[Pagination, Autoplay, Navigation]}
