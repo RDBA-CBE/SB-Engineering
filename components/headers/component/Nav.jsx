@@ -20,6 +20,7 @@ import {
   ProjectLink,
   ProjectPortfolioLink,
   ServicesLink,
+  ServicesMblLink,
   shopLinks,
   ZingfluenceLink,
 } from "@/data/menu";
@@ -224,11 +225,11 @@ export default function Nav() {
       </li> */}
 
       <li
-        className={` ${isMenuActive(ServicesLink) ? "active" : ""} ${
+        className={`d-none d-xxl-block ${isMenuActive(ServicesLink) ? "active" : ""} ${
           menuOpen1 == "features" ? "open" : ""
         }`}
       >
-        <a
+        <a href="/service"
           onClick={() =>
             setMenuOpen1((pre) => (pre == "features" ? "" : "features"))
           }
@@ -242,6 +243,110 @@ export default function Nav() {
           style={{ marginTop: "70px" }}
         >
           {ServicesLink.map((item, index) =>
+            item.links ? (
+              // <li
+              //   key={index}
+              //   className={`${menuOpen2 == item.title ? "open" : ""}`}
+              // >
+              //   <div className="submenu-header">
+              //     <Link
+              //       href={item.href}
+              //       className={isMenuActive(item) ? "menuActive" : ""}
+              //       onClick={(e) => e.stopPropagation()}
+              //     >
+              //       {item.title}
+              //     </Link>
+              //     <i
+              //       className={item.iconClass}
+              //       onClick={() =>
+              //         setMenuOpen2((pre) =>
+              //           pre == item.title ? "" : item.title
+              //         )
+              //       }
+              //     />
+              //   </div>
+
+              //   <ul className="sub-menu">
+              //     {item.links.map((link, linkIndex) => (
+              //       <li key={linkIndex}>
+              //         <Link
+              //           className={isMenuActive(link) ? "menuActive" : ""}
+              //           href={link.href}
+              //         >
+              //           {link.label}
+              //         </Link>
+              //       </li>
+              //     ))}
+              //   </ul>
+              // </li>
+              <li
+                key={index}
+                className={`${menuOpen2 == item.title ? "open" : ""}`}
+              >
+                <div
+                  className="submenu-header d-flex"
+                  onClick={() =>
+                    setMenuOpen2((pre) =>
+                      pre === item.title ? "" : item.title
+                    )
+                  }
+                >
+                  <span
+                    className={`submenu-title ${
+                      isMenuActive(item) ? "menuActive" : ""
+                    }`}
+                  >
+                    {item.title}
+                  </span>
+                  <i className={`submenu-icon ${item.iconClass} `} />
+                </div>
+
+                <ul className="sub-menu">
+                  {item.links.map((link, linkIndex) => (
+                    <li key={linkIndex}>
+                      <Link
+                        className={isMenuActive(link) ? "menuActive" : ""}
+                        href={link.href}
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li key={index}>
+                <Link
+                  className={isMenuActive(item) ? "menuActive" : ""}
+                  href={item.href}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            )
+          )}
+        </ul>
+      </li>
+
+      <li
+        className={`d-block d-xxl-none ${isMenuActive(ServicesMblLink) ? "active" : ""} ${
+          menuOpen1 == "features" ? "open" : ""
+        }`}
+      >
+        <a 
+          onClick={() =>
+            setMenuOpen1((pre) => (pre == "features" ? "" : "features"))
+          }
+        >
+          Services
+          <i className="fas fa-chevron-down" />
+        </a>
+
+        <ul
+          className="sub-menu tab-content sub-sub-menu"
+          style={{ marginTop: "70px" }}
+        >
+          {ServicesMblLink.map((item, index) =>
             item.links ? (
               // <li
               //   key={index}
