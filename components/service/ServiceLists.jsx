@@ -7,7 +7,7 @@ export default function Service({ serviceContent })  {
     <div className='section-full content-inner whySbEng'>
       <div className='container'>
         <div className='text-center'>
-          <h2 className='main-ti'>Service</h2>
+          <h2 className='main-ti'>Services</h2>
           <p>Backed by decades of experience and adherence to global benchmarks.</p>
         </div>
         <div className='section-content row mt-5'>

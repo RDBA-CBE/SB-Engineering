@@ -94,18 +94,18 @@ export default function page() {
         <Header19 />
         <div className="page-content bg-white">
          
-         <ServiceBanner banner={banner}/>
-         <MblBanner title="Precast Detailing"/>
-          <Innovativesolutions innovativesolutions={innovativesolutions}/>
+        <ServiceBanner banner={banner}/>
+        <MblBanner title="Precast Detailing"/>
+        <Innovativesolutions innovativesolutions={innovativesolutions}/>
 
         {/* <ServiceExtpertise serviceContent={serviceContent} /> */}
 
          <ExpertiseTableThree
                     serviceContent1={serviceContent1}
                     serviceContent2={serviceContent2}
-                     serviceContent3={serviceContent3}
-                     serviceContent4={serviceContent4}
-                     serviceContent5={serviceContent5}
+                    serviceContent3={serviceContent3}
+                    serviceContent4={serviceContent4}
+                    serviceContent5={serviceContent5}
 
                   />
 

@@ -356,7 +356,6 @@ export const Companylink = [
   { href: "/about-us", label: "About Us" },
   { href: "/why-sb-engineers", label: "Why SB Engineers" },
   { href: "/infrastructure", label: "Infrastructure" },
-  { href: "/careers", label: "Careers" },
  
 ];
 
@@ -421,6 +420,10 @@ export const ProjectPortfolioLink = [
 export const ContactLink = {
   href: "/contact",
   label: "Contact Us",
+};
+export const CareersLink = {
+  href: "/careers",
+  label: "Careers",
 };
 
 

@@ -88,7 +88,7 @@ export default function ExpertiseTableTwo({serviceContent1, serviceContent2,serv
             </Link> */}
           </div>
     </div>
-    <div class="pricingBox-card pricingBox-extended">
+    <div class="pricingBox-card pricingBox-basic">
         <div className=" ">
             <h2
               className="main-sub-ti text-center"
@@ -132,10 +132,10 @@ export default function ExpertiseTableTwo({serviceContent1, serviceContent2,serv
   </div>
 
   <div class="pricingBox-row pricingBox-row-1">
-    <div class="pricingBox-card pricingBox-basic">
+    <div class="pricingBox-card pricingBox-professional">
        <div className=" ">
             <h2
-              className="main-sub-ti text-center"
+              className="main-sub-ti text-center text-white"
               dangerouslySetInnerHTML={{ __html: serviceContent4?.title }}
             ></h2>
             <ul>
@@ -143,19 +143,19 @@ export default function ExpertiseTableTwo({serviceContent1, serviceContent2,serv
                 <p className="expertise-p d-flex">
                   <span
                     className="icon-div-pri"
-                    style={{ padding: "0 6px", backgroundColor: "#000",height:"27px" }}
+                    style={{ padding: "0 6px", backgroundColor: "#fff",height:"27px" }}
                   >
                     <Check
                       className="icon-sm-new "
                       style={{
-                        color: "#fff",
+                        color: "#000",
                         width: "12px",
                         height: "15px",
                         fontWeight: "700",
                       }}
                     />
                   </span>{" "}
-                  <span style={{ color: "#000", fontWeight: "400" }}>
+                  <span style={{ color: "#fff", fontWeight: "400" }}>
                     {li}
                   </span>{" "}
                 </p>
@@ -173,10 +173,10 @@ export default function ExpertiseTableTwo({serviceContent1, serviceContent2,serv
             </Link> */}
           </div>
     </div>
-    <div class="pricingBox-card pricingBox-professional">
+    <div class="pricingBox-card pricingBox-basic">
       <div className=" ">
             <h2
-              className="main-sub-ti text-center text-white"
+              className="main-sub-ti text-center"
               dangerouslySetInnerHTML={{ __html: serviceContent5?.title }}
             ></h2>
             <ul>
@@ -184,19 +184,19 @@ export default function ExpertiseTableTwo({serviceContent1, serviceContent2,serv
                 <p className="expertise-p d-flex">
                   <span
                     className="icon-div-pri"
-                    style={{ padding: "0 6px", backgroundColor: "#fff",height:"27px" }}
+                    style={{ padding: "0 6px", backgroundColor: "#000",height:"27px" }}
                   >
                     <Check
                       className="icon-sm-new "
                       style={{
-                        color: "#000",
+                        color: "#fff",
                         width: "12px",
                         height: "15px",
                         fontWeight: "700",
                       }}
                     />
                   </span>{" "}
-                  <span style={{ color: "#fff", fontWeight: "400" }}>
+                  <span style={{ color: "#000", fontWeight: "400" }}>
                     {li}
                   </span>{" "}
                 </p>

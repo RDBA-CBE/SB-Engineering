@@ -468,6 +468,15 @@ export default function Nav() {
         </Link>
       </li>
 
+      <li className={isMenuActive(CareersLink) ? "active" : ""}>
+        <Link
+          href={CareersLink.href}
+          className={isMenuActive(CareersLink) ? "menuActive" : ""}
+        >
+          {CareersLink.label}
+        </Link>
+      </li>
+
       <li className={isMenuActive(ContactLink) ? "active" : ""}>
         <Link
           href={ContactLink.href}

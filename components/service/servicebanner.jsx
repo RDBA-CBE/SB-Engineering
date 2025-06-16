@@ -6,7 +6,7 @@ const ServiceBanner = () => {
     <div className="projectBanner-wrapper">
       <div className="projectBanner-parallax" style={{ backgroundImage: 'url(/images/about/event/why-sb-engg-banner-image.jpg)'}}>
         <div className="container h-100 d-flex flex-column justify-content-center align-items-start">
-          <h1 className="projectBanner-title">Service</h1>
+          <h1 className="projectBanner-title">Services</h1>
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb projectBanner-breadcrumb">
               <li className="breadcrumb-item">
