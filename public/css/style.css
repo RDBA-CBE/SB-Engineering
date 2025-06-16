@@ -18562,18 +18562,39 @@ font-size: 22px;
   font-size: 14px;
   color: #fff;
 }
+ .projectMblBanner-wrapper{
+    display: none;
+ }
 
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .projectBanner-parallax {
-    height: 300px;
+  .projectBanner-wrapper{
+    display: none;
+  }
+  .projectMblBanner-wrapper{
+    display: block;
+ width: 100%;
+    overflow: hidden;
+  }
+  
+ .projectMblBanner-wrapper .projectBanner-parallax {
+       
+    height: 120px;
     background-attachment: scroll;
+    background-color: #000;
   }
 
-  .projectBanner-title {
-    font-size: 2rem;
-  }
+  .projectMblBanner-wrapper .projectBanner-title {
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+}
+  
 }
 
 @media (max-width: 480px) {
