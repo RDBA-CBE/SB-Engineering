@@ -3,6 +3,7 @@ import Footer25 from "@/components/footers/Footer25";
 import Header19 from "@/components/headers/Header19";
 import React from "react";
 import ServiceBanner from "@/components/SBService/ServiceBanner";
+import MblBanner from "@/components/Sb-about/MblBanner";
 import ServiceExtpertise from "@/components/SBService/ServiceExtpertise";
 import AddedValue from "@/components/SBService/AddedValue";
 
@@ -56,6 +57,7 @@ export default function page() {
         <div className="page-content bg-white">
          
         <ServiceBanner banner={banner}/>
+        <MblBanner title="Architectural Design"/>
         <Innovativesolutions innovativesolutions={innovativesolutions}/>
         <ServiceExtpertise serviceContent={serviceContent} />
         <AddedValue addedValue={addedValue}/>

@@ -1,6 +1,7 @@
 import ContactSection from '@/components/contact/ContactSection';
 import Footer25 from '@/components/footers/Footer25';
 import Header19 from '@/components/headers/Header19';
+import MblBanner from "@/components/Sb-about/MblBanner";
 import ServiceBanner from '@/components/SBService/ServiceBanner';
 import {
   LucidePhone,
@@ -31,7 +32,7 @@ export default function page() {
         <Header19 />
         <div className='page-content bg-gray'>
           <ServiceBanner banner={banner} />
-
+          <MblBanner title="Contact"/>
           <ContactSection />
           {/* <div className='container' style={{ marginBottom: '-130px' }}>
             <div className='c-foot offset-lg-4 col-sm-12 col-md-12 col-lg-7 d-flex flex-wrap justify-content-between'>

@@ -3,6 +3,7 @@ import Footer25 from "@/components/footers/Footer25";
 import Header19 from "@/components/headers/Header19";
 
 import WhySbBanner from "@/components/Sb-about/WhySbBanner";
+import MblBanner from "@/components/Sb-about/MblBanner";
 import WhySBEngineers from "@/components/Sb-about/WhySBEngineers";
 import React from "react";
 
@@ -61,9 +62,9 @@ export default function page() {
         <Header19 />
         <div className="page-content bg-white">
          
-         <WhySbBanner/>
+        <WhySbBanner/>
 
-        
+        <MblBanner title="Why SB Engineers"/>
 
         <WhySBEngineers/>
 

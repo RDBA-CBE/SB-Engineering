@@ -3,6 +3,7 @@ import Footer25 from "@/components/footers/Footer25";
 import Header19 from "@/components/headers/Header19";
 
 import ProjectBanner from "@/components/projects/Projectbanner";
+import MblBanner from "@/components/Sb-about/MblBanner";
 import ProjectClients from "@/components/projects/ProjectClients";
 import ProjectsItems from "@/components/projects/ProjectsItems";
 import React from "react";
@@ -19,7 +20,7 @@ export default function page() {
          
 
           <ProjectBanner/>
-          
+          <MblBanner title="Project Portfolio"/>
           <ProjectsItems/>
           <ProjectClients/>
           

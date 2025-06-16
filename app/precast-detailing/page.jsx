@@ -3,6 +3,7 @@ import Footer25 from "@/components/footers/Footer25";
 import Header19 from "@/components/headers/Header19";
 import React from "react";
 import ServiceBanner from "@/components/SBService/ServiceBanner";
+import MblBanner from "@/components/Sb-about/MblBanner";
 import ServiceExtpertise from "@/components/SBService/ServiceExtpertise";
 import AddedValue from "@/components/SBService/AddedValue";
 
@@ -15,8 +16,8 @@ export const metadata = {
 export default function page() {
 
     const banner ={
-        title:"Structural Steel Detailing",
-        link:"structural-steel-detailing",
+        title:"Precast Detailing",
+        link:"precast-detailing",
         img:"/images/about/event/precast-banner.jpg",
       }
 
@@ -94,6 +95,7 @@ export default function page() {
         <div className="page-content bg-white">
          
          <ServiceBanner banner={banner}/>
+         <MblBanner title="Precast Detailing"/>
           <Innovativesolutions innovativesolutions={innovativesolutions}/>
 
         {/* <ServiceExtpertise serviceContent={serviceContent} /> */}

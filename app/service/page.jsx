@@ -2,6 +2,7 @@ import Footer25 from "@/components/footers/Footer25";
 import Header19 from "@/components/headers/Header19";
 
 import ServiceBanner from "@/components/service/servicebanner.jsx";
+import MblBanner from "@/components/Sb-about/MblBanner";
 import Service from "@/components/service/ServiceLists.jsx";
 import React from "react";
 
@@ -91,7 +92,9 @@ export default function Page() {
       <Header19 />
       <div className="page-content bg-white">
         <ServiceBanner />
+        <MblBanner title="Services"/>
         <Service serviceContent={service1} />
+
       </div>
       <div className="footertop">
         <Footer25 />
