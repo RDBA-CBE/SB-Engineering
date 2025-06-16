@@ -73,7 +73,14 @@ export default function Header19() {
 
                 <div className='flex items-center space-x-1'>
                   <MapPin className='w-4 h-4 text-yellow' />
-                  <span className='ps-2'>4th West Cross Road, Vellore</span>
+                  <span className='ps-2'>
+                    <a href='https://maps.app.goo.gl/H8fVie9wSCAPeVCu8' target='_blank'>Vellore</a>
+                  
+                  </span> 
+                  <span> | </span>
+                  <span>
+                    <a href='https://maps.app.goo.gl/qfALqpXHmSCAUB377' target='_blank'>Coimbatore</a>
+                  </span>
                 </div>
               </div>
             </div>
