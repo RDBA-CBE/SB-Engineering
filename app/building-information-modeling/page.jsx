@@ -9,7 +9,7 @@ import AddedValue from "@/components/SBService/AddedValue";
 import ExpertiseTable from "@/components/SBService/ExpertiseTable";
 
 export const metadata = {
-  title: "About",
+  title: "Building Information Modeling",
   description: "",
 };
 export default function page() {

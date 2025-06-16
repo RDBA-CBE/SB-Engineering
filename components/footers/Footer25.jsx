@@ -74,7 +74,7 @@ export default function Footer25() {
                   </li>
                   <li>
                     <Link
-                      href='/architectural-design'
+                      href='/service'
                       style={{ color: '#fff' }}
                     >
                       Services
