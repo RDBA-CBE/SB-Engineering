@@ -1,132 +1,130 @@
- "use client"
- 
- import React from "react";
- import Image from "next/image";
- import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
-import { ArrowRight } from "lucide-react";
+'use client';
 
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { ArrowRight } from 'lucide-react';
 
+export default function HomeBlog() {
+  const serviceContent = [
+    {
+      title: 'Architectural <br/> Design',
+      img: '/images/home/services/1.png',
+      cap: 'Futuristic architectural solutions blending aesthetics, functionality and sustainability across every project stage.',
+      link: 'architectural-design',
+    },
+    {
+      title: 'Structural <br/> Engineering',
+      img: '/images/home/services/2.png',
+      cap: 'Reliable structural engineering that ensures safety, durability and efficiency through cutting-edge analysis and design.',
+      link: 'structural-engineering',
+    },
+    {
+      title: 'MEP <br/> Engineering',
+      img: '/images/home/services/3.png',
+      cap: 'Integrated MEP systems engineered for energy efficiency, safety, performance and seamless building functionality.',
+      link: 'mep-engineering',
+    },
+  ];
+  return (
+    <div className='section-full bg-white content-inner home-blog'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-12'>
+            <div className='text-center'>
+              <p className='upper-cap'>Our clients who trust us</p>
+              <h2 className='main-ti'>Our services transcend expectations</h2>
+            </div>
 
- export default function HomeBlog() {
-    const serviceContent = [
-        {
-            title:"Architectural <br/> Design",
-        img:"/images/home/services/1.png",
-        cap:"Futuristic architectural solutions blending aesthetics, functionality and sustainability across every project stage."
-        },
-         {
-            title:"Structural <br/> Engineering",
-        img:"/images/home/services/2.png",
-        cap:"Reliable structural engineering that ensures safety, durability and efficiency through cutting-edge analysis and design."
-        },
-        {
-            title:"MEP <br/> Engineering",
-        img:"/images/home/services/3.png",
-        cap:"Integrated MEP systems engineered for energy efficiency, safety, performance and seamless building functionality."
-        }
-  
-  
-]
-   return (
-   
-   <div className="section-full bg-white content-inner home-blog">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
+            {/* Event post Carousel with no margin */}
+            <div className='section-content box-sort-in m-b30 button-example mt-5'>
+              <Swiper
+                slidesPerView={3}
+                spaceBetween={30}
+                slidesPerGroup={1}
+                loop
+                autoplay={{
+                  delay: 4000,
+                }}
+                speed={2500}
+                modules={[Autoplay]}
+                className='blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-2 primary'
+                breakpoints={{
+                  0: {
+                    slidesPerView: 1,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                  },
+                  991: {
+                    slidesPerView: 2,
+                  },
+                  1000: {
+                    slidesPerView: 3,
+                  },
+                }}
+              >
+                {serviceContent.map((elm, i) => (
+                  <SwiperSlide key={i}>
+                    <div className='item'>
+                      <div className='dlab-box   h-100'>
+                        <div className='dlab-info p-a20 bg-white h-100'>
+                          <h4 className='main-sub-ti m-t0'>
+                            <Link
+                              href={elm.link}
+                              className='text-decoration-none'
+                            >
+                              <span
+                                dangerouslySetInnerHTML={{ __html: elm.title }}
+                              />
+                            </Link>
+                          </h4>
 
-                <div className="text-center">
-                    <p className="upper-cap">Our clients who trust us</p>
-                    <h2 className="main-ti">Our services transcend expectations</h2>
-                </div>
-               
-                {/* Event post Carousel with no margin */}
-                <div className="section-content box-sort-in m-b30 button-example mt-5">
-                  <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    slidesPerGroup={1}
-                    loop
-                    autoplay={{
-                      delay: 4000,
-                    }}
-                    speed={2500}
-                    modules={[Autoplay]}
-                    className="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-2 primary"
-                    breakpoints={{
-                      0: {
-                        slidesPerView: 1,
-                      },
-                      768: {
-                        slidesPerView: 2,
-                      },
-                      991: {
-                        slidesPerView: 2,
-                      },
-                      1000: {
-                        slidesPerView: 3,
-                      },
-                    }}
-                  >
-                    {serviceContent.map((elm, i) => (
-                      <SwiperSlide key={i}>
-                        <div className="item">
-                          <div className="dlab-box   h-100">
-                             <div className="dlab-info p-a20 bg-white h-100">
-                             
-                              <h4 className="main-sub-ti m-t0">
-                                <a href="#" dangerouslySetInnerHTML={{__html:elm?.title}}></a>
-                              </h4>
-                              <p className="mb-4 sub-des">
-                               {elm?.cap}
-                               </p>
+                          <p className='mb-4 sub-des'>{elm?.cap}</p>
 
-                               <a href="" className="link a-new " >
-                                <span className="icon-div">
-                                    <ArrowRight className="icon-sm-new "/>
-                                </span>
-                                
-                                Read More</a>
-                            </div>
-
-                            <div className="dlab-media h-100">
-                              <a href="#">
-                                <Image
-                                  alt=""
-                                  src={elm?.img}
-                                  width="700"
-                                  height="500"
-                                />
-                              </a>
-                            </div>
-                           
-                          </div>
+                          <Link href={elm.link} className='link a-new'>
+                            <span className='icon-div'>
+                              <ArrowRight className='icon-sm-new' />
+                            </span>
+                            Read More
+                          </Link>
                         </div>
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-                </div>
 
-                <div className="text-center pt-4">
-                   <Link
-                href={`/portfolio-grid-2`}
-                className="btn__secondary_in  text-decoration-none"
+                        <div className='dlab-media h-100'>
+                          <a href='#'>
+                            <Image
+                              alt=''
+                              src={elm?.img}
+                              width='700'
+                              height='500'
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+
+            <div className='text-center pt-4'>
+              <Link
+                href={`/service`}
+                className='btn__secondary_in  text-decoration-none'
                 // style={{zIndex:"1000"}}
               >
-                 <span className="icon-div-pri">
-                                    <ArrowRight className="icon-sm-new "/>
-                                </span>
-                View More 
+                <span className='icon-div-pri'>
+                  <ArrowRight className='icon-sm-new ' />
+                </span>
+                View More
               </Link>
-                </div>
-
-                
-              </div>
             </div>
           </div>
-          {/* Event post Carousel with no margin END */}
         </div>
-
-         );
+      </div>
+      {/* Event post Carousel with no margin END */}
+    </div>
+  );
 }

@@ -33,7 +33,7 @@ export default function HomeProjects() {
     },
     {
       id: 38,
-      image: "/images/home/projects/3.png",
+      image: "/images/home/projects/4.jpg",
       title: "Ocean Freight and Shipping",
       description:
         "There are many variations of passages of Lorem Ipsum typesetting industry has been the industry.",
@@ -41,7 +41,7 @@ export default function HomeProjects() {
     },
     {
       id: 39,
-      image: "/images/home/projects/3.png",
+      image: "/images/home/projects/5.jpg",
       title: "Ocean Freight and Shipping",
       description:
         "There are many variations of passages of Lorem Ipsum typesetting industry has been the industry.",
