@@ -24,7 +24,7 @@ export default function page() {
          content1:"At SB Engineers, our Quantity Surveying services are designed to add value at every stage of your project. With a deep understanding of construction processes, financial planning and client goals, we go beyond conventional cost estimation to offer comprehensive cost control, risk assessment and contract advisory services.",
          content2:"Our team of experienced Quantity Surveyors works closely with clients, consultants and contractors to ensure every financial aspect of the project is accounted for, from feasibility to final account settlement. We prioritize transparency, efficiency and sustainability to support project delivery within scope, time and budget.",
          content3:"Whether you're developing a large-scale commercial complex or a public infrastructure asset, we have the expertise to effectively allocate resources, monitor costs rigorously, and maximize value.",
-         img:"/images/about/event/about3.jpg"
+         img:"/images/about/event/quantity-surveying.jpg"
     }
 
 
