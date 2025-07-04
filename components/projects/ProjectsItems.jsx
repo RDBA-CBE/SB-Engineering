@@ -59,20 +59,22 @@ export default function ProjectsItems() {
                 <SwiperSlide className='item' key={index}>
                   <div className='dlab-box project-bx'>
                     <div className='dlab-media radius-sm dlab-img-overlay1 dlab-img-effect zoom'>
-                      <Link href={`/portfolio-details/${item.title}`}>
-                        <Image
+                      <Image
                           src={item.imgSrc}
                           width={500}
                           height={900}
                           alt={item.title}
                         />
-                      </Link>
+                      {/* <Link href={`/portfolio-details/${item.title}`}>
+                        
+                      </Link> */}
                     </div>
                     <div className='dlab-info'>
-                      <h5 className='dlab-title'>
-                        <Link href={`/portfolio-details/${item.title}`}>
-                          {item.title}
-                        </Link>
+                      <h5 className="dlab-title text-white text-[18px] font-bold" >
+                        {item.title}
+                        {/* <Link href={`/portfolio-details/${item.title}`}>
+                          
+                        </Link> */}
                       </h5>
                       <p>{item?.description}</p>
                     </div>

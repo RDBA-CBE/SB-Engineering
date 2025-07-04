@@ -18934,6 +18934,10 @@ font-size: 22px;
   justify-content: center;
   height: 60px;
 }
-
+.project-bx .dlab-info .dlab-title {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 
