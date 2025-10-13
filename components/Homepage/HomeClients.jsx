@@ -27,7 +27,7 @@ export default function HomeClients({
         "/images/home/Clients/logos-15.png",
         "/images/home/Clients/logos-16.png",
         "/images/home/Clients/logos-17.png",
-        "/images/home/Clients/logos-18.png",
+       // "/images/home/Clients/logos-18.png",
         "/images/home/Clients/logos-19.png",
         "/images/home/Clients/logos-20.png",
         "/images/home/Clients/logos-21.png",
@@ -49,8 +49,32 @@ export default function HomeClients({
                     <p className="upper-cap">Quality, collaboration and consistent delivery</p>
                     <h2 className="main-ti">Our clients who trust us</h2>
                 </div>
+            <div className="container-full mt-5">
+  <div className="d-flex flex-wrap justify-content-center align-items-center gap-4">
+    {clientsLogo.map((logoSrc, index) => (
+      <div
+        key={index}
+        className="ow-client-logo wow fadeInUp will-animate"
+        data-wow-delay={`${index * 0.1}s`}
+      >
+        <div className={`client-logo ${border ? "border" : ""}`}>
+          <a href="#">
+            <Image
+              width={250}
+              height={100}
+              src={logoSrc}
+              alt={`Client logo ${index + 1}`}
+              style={{ width: "250px", height: "100px", objectFit: "contain" }}
+            />
+          </a>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
-                <div className="container mt-5">
+
+                {/* <div className="container mt-5">
                     <Swiper
         slidesPerView={5}
         spaceBetween={10}
@@ -93,7 +117,7 @@ export default function HomeClients({
           </SwiperSlide>
         ))}
       </Swiper>
-                </div>
+                </div> */}
 
       
     </>
