@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Phone } from 'lucide-react';
+import { Smartphone } from "lucide-react";
 
 
 <ul className='footer-links list-unstyled'>
@@ -51,17 +52,18 @@ export default function Footer25() {
           <div className='col-lg-9 footer-black px-5 pt-5 pb-0'>
             <div className='row'>
               {/* About */}
-              <div className='col-md-5 mb-4 pt-5 pe-5'>
+              <div className='col-md-5 mb-4 pt-0 pe-5'>
                 <h5 className='footer-subheading'>SB Engineers</h5>
                 <p className='footer-info'>
-                  SB Engineers is a premier engineering design firm dedicated to
+                  {/* SB Engineers is a premier engineering design firm dedicated to
                   delivering comprehensive solutions for a diverse range of
-                  structural projects.
+                  structural projects. */}
+                SB Engineers provides specialized engineering design and consulting services covering all aspects of Architectural, Structural, and MEP projects. Our integrated approach combines Structural Engineering, Mechanical, Electrical, and Plumbing design with advanced Tekla Detailing to deliver optimized, cost-effective, and sustainable solutions.
                 </p>
               </div>
 
               {/* Links */}
-              <div className='col-md-3 mb-4 pt-0 pt-md-5'>
+              <div className='col-md-3 mb-4 pt-0 pt-md-0'>
                 <h5 className='footer-subheading'>Quick Links</h5>
                 <ul
                   className='footer-links list-unstyled'
@@ -105,22 +107,23 @@ export default function Footer25() {
               </div>
 
               {/* Contact */}
-              <div className='col-md-4 mb-4 pt-0 pt-md-5'>
+              <div className='col-md-4 mb-4 pt-0 pt-md-0'>
                 <h5 className='footer-subheading'>Quick Contact</h5>
                 <p className='footer-info'>
-                  2, 4th West Cross Road,<br /> Gandhi Nagar,Katpadi,
-                 
-                  Vellore - 632006, Tamil Nadu
+                  2, 4th West Cross Road,<br /> Gandhi Nagar, Katpadi,                 
+                  <br/>Vellore - 632006, Tamil Nadu.
+                  <br/>Ph: 0416-4237307
                 </p>
                 <p className='footer-info'>
-                  2, 7th St Ext, 3rd Floor, D.479, <br />7th St Extension,
-                  
-                  Gandhipuram, Coimbatore - 641012
+                  2, 7th St Ext, 3rd Floor, D.479, <br />7th St Extension,                  
+                  Gandhipuram, <br/>Coimbatore - 641012, Tamil Nadu.
+                   <br/>Ph: 0422-4577307
                 </p>
-                <p className='footer-phone'>
-                  <Phone style={{ color: '#fdd104', marginRight: '8px' }} />
-                  <a href="tel:0422-4577307" style={{ color: '#fff' }}>0422-4577307</a>
-                </p>
+                 <h5 className='footer-subheading'>For Queries</h5>
+                <p className='footer-mobile'>
+  <Smartphone style={{ color: '#fdd104', marginRight: '8px' }} />
+  <a href="tel:0422-4577307" style={{ color: '#fff' }}>+91 63807 63877</a>
+</p>
               </div>
             </div>
           </div>

@@ -3,6 +3,7 @@ import Header19 from "@/components/headers/Header19";
 
 import AboutBanner from "@/components/Sb-about/AboutBanner";
 import AboutSec from "@/components/Sb-about/AboutSec";
+import ManagementSec from "@/components/Sb-about/ManagementSec";
 import MblBanner from "@/components/Sb-about/MblBanner";
 import VisionMissionSec from "@/components/Sb-about/VisionMissionSec";
 import React from "react";
@@ -25,6 +26,8 @@ export default function page() {
         <AboutSec/>
 
         <VisionMissionSec/>
+        <ManagementSec/>
+
 
 
 

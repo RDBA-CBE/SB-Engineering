@@ -22,7 +22,7 @@ const CareerForm = () => {
             </div>
 
             {/* Right Side - Form */}
-            <div className="col-12 col-md-7 p-4 p-md-5">
+            <div className="col-12 col-md-7 p-4 p-md-5" id="applyform">
               <h5 className="main-sub-ti">Career Form</h5>
               <p className="mb-4">
                 Please fill out the form below and our team will get back to you shortly.
