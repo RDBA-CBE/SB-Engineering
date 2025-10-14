@@ -18961,3 +18961,7 @@ a.apply-link{background-color: #fdb900; color:#000; font-weight: 400; padding:10
   font-weight: 600;
   border-radius: 6px;
 }
+ul.services-list-item li{ padding: 5px 0px 0px 0px; }
+ul.services-list-item li p{line-height: 18px;}
+.deliverables{ color: #000; font-size:16px; font-weight: 400;}
+.deliverables ul{margin:0px 10px;}

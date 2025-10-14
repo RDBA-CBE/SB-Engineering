@@ -373,12 +373,11 @@ export const ServicesLink = [
       { href: "/steel-&-rebar-detailing", label: "Overview" },
       { href: "/structural-steel-detailing", label: "Structural Steel Detailing" },
       { href: "/precast-detailing", label: "Precast Detailing" },
-      { href: "/eebar-detailing", label: "Rebar Detailing" },
+      { href: "/rebar-detailing", label: "Rebar Detailing" },
      
     ],
   },
   { href: "/project-management", label: "Project Management" },
-  { href: "/quantity-surveying", label: "Quantity Surveying" },
   { href: "/building-information-modeling", label: "Building Information Modeling" },
  
 ];
@@ -397,7 +396,7 @@ export const ServicesMblLink = [
       { href: "/steel-&-rebar-detailing", label: "Overview" },
       { href: "/structural-steel-detailing", label: "Structural Steel Detailing" },
       { href: "/precast-detailing", label: "Precast Detailing" },
-      { href: "/eebar-detailing", label: "Rebar Detailing" },
+      { href: "/rebar-detailing", label: "Rebar Detailing" },
      
     ],
   },

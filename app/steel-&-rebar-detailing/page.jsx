@@ -45,7 +45,7 @@ export default function page() {
     //   description:
     //     'We work closely with our clients at each phase, listening, adapting and designing solutions that reflect their vision and needs.',
       delay: '0.6s',
-      link: 'eebar-detailing',
+      link: 'rebar-detailing',
     },]
     
     const banner ={

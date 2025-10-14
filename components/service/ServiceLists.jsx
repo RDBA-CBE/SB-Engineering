@@ -14,7 +14,7 @@ export default function Service({ serviceContent })  {
           {serviceContent.map((service, index) => (
             <div
               key={index}
-              className='col-md-3 col-lg-3 col-sm-12 service-box style3 wow fadeInUp d-flex align-items-stretch'
+              className='col-md-4 col-lg-4 col-sm-12 service-box style3 wow fadeInUp d-flex align-items-stretch'
               data-wow-duration='2s'
               data-wow-delay={service.delay}
             >

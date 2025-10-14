@@ -58,28 +58,18 @@ export default function Page() {
       id: 86,
       name: '05',
       image: '/images/about-us/project-management.png',
-      title: 'Project Management',
+      title: 'PMC Services',
     //   description:
     //     "The engineering domain is constantly evolving, that’s why we use the latest tools and technologies to deliver modern, efficient and future-ready designs that push the boundaries of what's possible.",
       delay: '0.8s',
       link: 'steel-&-rebar-detailing',
     },
+       
     {
       id: 87,
-      name: '06',
-      image: '/images/about-us/quantity-surveying.png',
-      title: 'Quantity Surveying',
-    //   description:
-    //     "The engineering domain is constantly evolving, that’s why we use the latest tools and technologies to deliver modern, efficient and future-ready designs that push the boundaries of what's possible.",
-      delay: '0.8s',
-      link: 'quantity-surveying',
-    },
-    
-    {
-      id: 88,
       name: '07',
       image: '/images/about-us/bim.png',
-      title: 'Building Information Modeling',
+      title: 'BIM Services',
     //   description:
     //     "The engineering domain is constantly evolving, that’s why we use the latest tools and technologies to deliver modern, efficient and future-ready designs that push the boundaries of what's possible.",
       delay: '0.8s',

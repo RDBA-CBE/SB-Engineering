@@ -56,51 +56,37 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
-export default function AddedValue({ addedValue }) {
+export default function Deliverables(){
   return (
     <div className="section-full content-inner bg-white py-5">
       <div className="container">
-        <div className="row align-items-center gy-4">
-          {/* Image: Order 1 on mobile, Order 2 on desktop */}
-          <div className="col-12 col-lg-6 order-1 order-lg-2">
-            <div className="w-100">
-              <Image
-                className="img-fluid rounded"
-                alt="Added Value"
-                src={addedValue?.img}
-                width={600}
-                height={722}
-                style={{ objectFit: "cover", width: "100%", height: "auto" }}
-              />
-            </div>
+         <hr></hr>
+         <div className="row align-items-center gy-4" style={{ margintop:'60px', clear:'both'}}>
+          <div className="col-lg-6 ">
+              <Image 
+  src="/images/about-us/banner.jpg" 
+  alt="Architectural Design" 
+  width={800} 
+  height={80} 
+/>
+           </div>
+           <div className="col-lg-6 col-md-6">
+            <h2  className="main-ti">Deliverables</h2>
+                <div className="deliverables">
+          <ul>
+            <li>Fabrication & Shop Drawings (with tags, views, part marks)</li>
+    <li>Connection Detail Sheets</li>
+    <li>3D Model (in .ifc, .dwg, or native formats)</li>
+    <li>Erection Plans and Anchor Bolt Layouts</li>
+     <li>CNC and DXF Outputs (optional)</li>
+    <li>BoM / Material Take-Offs</li>
+          </ul>
           </div>
-
-          {/* Text: Order 2 on mobile, Order 1 on desktop */}
-          <div className="col-12 col-lg-6 order-2 order-lg-1">
-            <div className="our-story">
-              <h2
-                className="main-ti mb-3"
-                dangerouslySetInnerHTML={{ __html: addedValue?.title }}
-              />
-              <p dangerouslySetInnerHTML={{ __html: addedValue?.content1 }} />
-              {addedValue?.content2 && (
-                <p dangerouslySetInnerHTML={{ __html: addedValue?.content2 }} />
-              )}
-
-              {/* Optional Button */}
-              {/* 
-              <Link
-                href="/portfolio-grid-2"
-                className="btn btn-primary d-inline-flex align-items-center gap-2 mt-3"
-              >
-                <ArrowRight size={18} />
-                More About Us
-              </Link>
-              */}
-            </div>
-          </div>
-        </div>
-
+           </div>
+           
+          
+         </div>
+   
       
       </div>
     </div>

@@ -86,9 +86,8 @@ export default function ServiceExtpertise({serviceContent}) {
                       }}
                     />
                   </span>{" "}
-                  <span style={{ color: "#fff", fontWeight: "400" }}>
-                    {li}
-                  </span>{" "}
+                  <span style={{ color: "#fff", fontWeight: "400" }} dangerouslySetInnerHTML={{__html:li}}>
+                   </span>{" "}
                 </p>
               ))}
             </ul>

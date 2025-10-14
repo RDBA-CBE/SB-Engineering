@@ -8,6 +8,7 @@ import ServiceExtpertise from "@/components/SBService/ServiceExtpertise";
 import AddedValue from "@/components/SBService/AddedValue";
 
 import ExpertiseTableThree from "@/components/SBService/ExpertiseTableThree";
+import ServiceIntro from "@/components/SBService/ServiceIntro";
 
 export const metadata = {
   title: "About",
@@ -23,19 +24,31 @@ export default function page() {
 
     const innovativesolutions ={
         title:"",
-         content1:"At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
-         content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
+         content1:"At SB Engineers, our Precast Detailing Services are crafted to bring precision, efficiency, and reliability to every precast concrete project — from concept through fabrication to erection.",
+        // content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
          img:"/images/about/event/precast.jpg"
     }
 
 
       const addedValue={
-        title:"How we add value",
-         content1:"Our precast detailing services are engineered to improve constructability and eliminate rework. By working in synergy with contractors, engineers and manufacturers, we ensure each precast element is modelled and detailed for precision assembly and long-term performance.",
+        title:"Why Choose SB Engineers for Precast Detailing",
+         content1:"<ul class='services-list-item'><li><b>Reduced Errors & Faster Turnaround</b><p>With detailed shop, erection and fabrication drawings, mistakes are caught early minimizing rework on site.</p></li><li><b>Cost & Time Savings </b><p>Optimized detailing, precise take-offs, and efficient workflow cut down waste, lower fabrication and installation costs, and speed up project completion.</p></li><li><b>Seamless Coordination </b><p>Strong integration with architects, structural engineers, fabricators and site teams to ensure everything fits together — literally.</p></li><li><b>Durability & Structural Integrity</b><p> Correct reinforcement, connection and cast-in detail ensures long-term performance and safety.</p></li><li><b>Expert Team & Tech-Driven Solutions</b><p>Our engineers bring both field experience and mastery of the latest tools (2D & 3D CAD/BIM) to every project.</p></li></ul>",
         
          img:"/images/about/event/how-we-do-precast.jpg"
       }
-
+       const serviceContent = {
+    title: "What We Offer",
+    img: "/images/about/about3.jpg",
+    list: [
+      "<b>Precast Shop & Fabrication Drawings</b><p>Detailed drawings covering formwork geometry, mould/form layout, reinforcement, cast-in inserts/plates, connection points, and finish specifications for every precast element: panels, beams, columns, slabs, stairs, hollow & solid wall panels, etc.</p>",
+      "<b>Erection & Installation Drawings</b><p>Clear plans, elevations, sections showing how precast elements fit together on site. Includes erection sequence, lifting & handling details (lifting hooks, inserts), bracket and support location, and alignment guidance.</p>",
+      "<b>Reinforcement Detailing & Bar Bending Schedule (BBS)</b><p>Precise specification for rebar placement, bend shapes, lengths, lap splices, cover, and all reinforcement within each precast component. Accompanied by complete BBS for manufacturing and procurement.</p>",
+      "<b>Connection Design & Cast-in Components</b><p>Designing and detailing connections between precast units and other structural or architectural elements. This includes all embedded plates, dowels, grout joints, and cast-in accessories.</p>",
+      "<b>Quantity Take-Off & Material Estimation</b><p>Accurate calculation of material volumes (concrete, reinforcement, inserts), fittings, and accessories to support budgeting, ordering, and reduction of waste.</p>",
+      "<b>3D Modeling & BIM Coordination</b><p>Use of advanced CAD/BIM tools (e.g. Revit, Tekla, AutoCAD) to model the precast components, detect clashes (structure, MEP), validate dimensions, and optimize for manufacture and erection.</p>",
+      "<b>Quality Assurance and Standards Compliance</b><p>Ensuring all detailing adheres to relevant local and international codes and best practices. Strict quality checks on drawings, review loops, and deliverables in formats usable by fabrication plants and site teams.</p>",
+    ],
+  };
        const serviceContent1 = {
     title: "Precast Panel Detailing Services",
     img: "/images/about/about3.jpg",
@@ -96,10 +109,10 @@ export default function page() {
          
         <ServiceBanner banner={banner}/>
         <MblBanner title="Precast Detailing"/>
-        <Innovativesolutions innovativesolutions={innovativesolutions}/>
+        <ServiceIntro innovativesolutions={innovativesolutions}/>
 
-        {/* <ServiceExtpertise serviceContent={serviceContent} /> */}
-
+        <ServiceExtpertise serviceContent={serviceContent} />
+{/* 
          <ExpertiseTableThree
                     serviceContent1={serviceContent1}
                     serviceContent2={serviceContent2}
@@ -107,7 +120,7 @@ export default function page() {
                     serviceContent4={serviceContent4}
                     serviceContent5={serviceContent5}
 
-                  />
+                  /> */}
 
         <AddedValue addedValue={addedValue}/>
 
