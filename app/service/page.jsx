@@ -62,7 +62,7 @@ export default function Page() {
     //   description:
     //     "The engineering domain is constantly evolving, that’s why we use the latest tools and technologies to deliver modern, efficient and future-ready designs that push the boundaries of what's possible.",
       delay: '0.8s',
-      link: 'steel-&-rebar-detailing',
+      link: 'project-management',
     },
        
     {

@@ -65,22 +65,23 @@ export default function Header19() {
                 <div className='flex items-center space-x-1'>
                   <Mail className='w-4 h-4 text-yellow' />
                   <span className='ps-2'>
-                    <a href='mailto:sbengineers23@gmail.com'>
-                      sbengineers23@gmail.com
+                    <a href='mailto:admin@sbecc.in'>
+                     admin@sbecc.in
                     </a>
                   </span>
                 </div>
 
                 <div className='flex items-center space-x-1'>
                   <MapPin className='w-4 h-4 text-yellow' />
+                
                   <span className='ps-2'>
+                    <a href='https://maps.app.goo.gl/qfALqpXHmSCAUB377' target='_blank'>Coimbatore</a>
+                  </span>
+                    <span> | </span>
+                     <span >
                     <a href='https://maps.app.goo.gl/H8fVie9wSCAPeVCu8' target='_blank'>Vellore</a>
                   
                   </span> 
-                  <span> | </span>
-                  <span>
-                    <a href='https://maps.app.goo.gl/qfALqpXHmSCAUB377' target='_blank'>Coimbatore</a>
-                  </span>
                 </div>
               </div>
             </div>

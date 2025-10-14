@@ -20,7 +20,7 @@ export default function HomeAbout() {
                 style={{ borderRadius: '3px' }}
               />
               <div className='home-about-cont'>
-                <h4 className='home-about__subtitle '>40</h4>
+                <h4 className='home-about__subtitle '>20</h4>
                 <h5 className='home-about__title '>Years Of Experience!</h5>
                 <a href='/about-us'>
                   <span className='icon-div'>
@@ -38,7 +38,7 @@ export default function HomeAbout() {
                 <p>
                   SB Engineers is a premier engineering design firm recognized
                   for delivering end-to-end solutions across a wide spectrum of
-                  structural and MEP projects. Driven by knowledge and
+                  Architectural, Structural, MEP and PMC projects. Driven by knowledge and
                   experience, our expert team ensures every project is executed
                   with precision and confidence.
                 </p>

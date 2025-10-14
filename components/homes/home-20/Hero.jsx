@@ -245,7 +245,7 @@ export default function Hero() {
                 ))}
               </div>
               <div className="dz-btns d-flex align-items-center ">
-                <Link
+                {/* <Link
                   href="/services-1"
                   className="btn__secondary text-decoration-none"
                 >
@@ -253,7 +253,7 @@ export default function Hero() {
                     <ArrowRight className="icon-sm-new" />
                   </span>
                   Know More
-                </Link>
+                </Link> */}
               </div>
             </div>
           </SwiperSlide>
