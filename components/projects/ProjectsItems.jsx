@@ -33,7 +33,7 @@ export default function ProjectsItems() {
         </div>
       </div>
 
-      <div className="container-full">
+      <div className="container-full" style={{marginLeft:"5%", marginRight: "5%"}}>
  <LightGallery
   speed={500}
   plugins={[lgThumbnail, lgZoom]}

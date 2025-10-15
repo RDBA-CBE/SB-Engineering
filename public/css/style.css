@@ -18970,6 +18970,7 @@ ul.services-list-item li p{line-height: 18px;}
 .lg-download{display: none !important;} 
 .lg-sub-html h4{font-size:20px !important; color:#fff;}
 .txtcenter{text-align: center;}
-.ghtag-btm{margin-bottom: 15px;}
+.ghtag-btm{padding-bottom: 20px !important;}
 /* Gallery container */
 
+.dlab-img-effect img{ border:1px solid rgb(253, 209, 4);}
