@@ -70,7 +70,7 @@ export const galleryItems3 = [
     exthumbimage: "/images/project/portfolio/ai-batinah-international-school-sohar.webp",
     src: "/images/project/portfolio/ai-batinah-international-school-sohar.webp",
     title: "Al Batinah International School, Sohar",
-    description:"Educational"
+    description:""
     
   },
 
@@ -79,7 +79,7 @@ export const galleryItems3 = [
     exthumbimage: "/images/project/portfolio/ai-bahja-mall-car-parking-muscat.webp",
     src: "/images/project/portfolio/ai-bahja-mall-car-parking-muscat.webp",
     title: "Al Bahja Mall Car Parking, Muscat",
-    description:"Car Parking"
+    description:""
     
   },
   {
@@ -103,7 +103,7 @@ export const galleryItems3 = [
     exthumbimage: "/images/project/portfolio/ai-meera-car-parking-muscat.webp",
     src: "/images/project/portfolio/ai-meera-car-parking-muscat.webp",
     title: "Al Meera Car Parking , Muscat",
-    description:"Car Parking"
+    description:""
     
   },
   {
@@ -111,7 +111,7 @@ export const galleryItems3 = [
     exthumbimage: "/images/project/portfolio/ai-mina-residences-muscat.webp",
     src: "/images/project/portfolio/ai-mina-residences-muscat.webp",
     title: "Al Mina Residences, Muscat",
-    description:"Residences"
+    description:""
     
   },
   {
@@ -119,7 +119,7 @@ export const galleryItems3 = [
     exthumbimage: "/images/project/portfolio/aster-hospital-muscat.webp",
     src: "/images/project/portfolio/aster-hospital-muscat.webp",
     title: "Aster Hospital, Muscat",
-    description:"Industry"
+    description:""
     
   },
   {
@@ -127,7 +127,7 @@ export const galleryItems3 = [
     exthumbimage: "/images/project/portfolio/avenues-mall,-muscat.webp",
     src: "/images/project/portfolio/avenues-mall,-muscat.webp",
     title: "Avenues mall, Muscat",
-    description:"Commercial"
+    description:""
     
   },
   {
@@ -135,7 +135,7 @@ export const galleryItems3 = [
     exthumbimage: "/images/project/portfolio/bakery-at-hedri.webp",
     src: "/images/project/portfolio/bakery-at-hedri.webp",
     title: "Kitchen at Hedri",
-    description:"Industry"
+    description:""
     
   },
   {
@@ -143,7 +143,7 @@ export const galleryItems3 = [
     exthumbimage: "/images/project/portfolio/bakery-at-konsari.webp",
     src: "/images/project/portfolio/bakery-at-konsari.webp",
     title: "Bakery at Konsari",
-    description:"Industry"
+    description:""
     
   },
 {
