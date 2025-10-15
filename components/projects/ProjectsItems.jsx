@@ -30,15 +30,20 @@ export default function ProjectsItems() {
       </div>
 
 <div className="container-full">
-  <div className="widget widget_gallery gallery-grid-4" style={{ marginLeft:'7%'}}>
+  <div className="widget widget_gallery gallery-grid-4" style={{ marginLeft: '7%' }}>
     <ul id="lightgallery" className="lightgallery">
       <GallaryWrapper>
-        {galleryItems3.slice(0, 50).map((item, i) => (
+        {galleryItems3.slice(0, 100).map((item, i) => (
           <li
             key={i}
             data-exthumbimage={item.src}
             data-src={item.src}
-            title={item.title}
+            data-sub-html={`
+              <div class="lg-caption">
+                <h3 class="text-white text-lg font-semibold" style="margin-bottom:0px;">${item.title}</h3>
+                <h5 class="text-white text-sm">${item.description || ''}</h6>
+              </div>
+            `} 
             className="img-effect2 overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300 text-center"
           >
             <span className="check-km block">
@@ -50,13 +55,14 @@ export default function ProjectsItems() {
                 className="object-cover rounded-md w-full h-auto"
               />
             </span>
-            <h6 className="mt-3 text-base font-semibold text-gray-800">{item.title}</h6>
+            <h5 className="mt-3 text-base font-semibold text-gray-800">{item.title}</h5>
           </li>
         ))}
       </GallaryWrapper>
     </ul>
   </div>
 </div>
+
 
 
     </div>

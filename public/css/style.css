@@ -18987,8 +18987,8 @@ ul.services-list-item li p{line-height: 18px;}
   background: #fff;
   transition: transform 0.3s ease;
   text-align: center;
-  flex: 1 1 calc(20% - 24px); /* 5 per row */
-  max-width: calc(20% - 24px);
+  flex: 1 1 calc(25% - 24px); /* 5 per row */
+  max-width: calc(25% - 24px);
 }
 
 /* Image styles */
@@ -19042,4 +19042,4 @@ ul.services-list-item li p{line-height: 18px;}
   }
 }
 .lg-sub-html{font-size:20px !important;}
-#lg-download-2{display: none;}
+.lg-download{display: none !important;}

@@ -26,7 +26,7 @@ export default function page() {
         title:"",
          content1:"At SB Engineers, our Precast Detailing Services are crafted to bring precision, efficiency, and reliability to every precast concrete project — from concept through fabrication to erection.",
         // content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
-         img:"/images/about/event/precast.jpg"
+         img:"/images/precast/what-we-offer.webp"
     }
 
 
@@ -34,11 +34,11 @@ export default function page() {
         title:"Why Choose SB Engineers for Precast Detailing",
          content1:"<ul class='services-list-item'><li><b>Reduced Errors & Faster Turnaround</b><p>With detailed shop, erection and fabrication drawings, mistakes are caught early minimizing rework on site.</p></li><li><b>Cost & Time Savings </b><p>Optimized detailing, precise take-offs, and efficient workflow cut down waste, lower fabrication and installation costs, and speed up project completion.</p></li><li><b>Seamless Coordination </b><p>Strong integration with architects, structural engineers, fabricators and site teams to ensure everything fits together — literally.</p></li><li><b>Durability & Structural Integrity</b><p> Correct reinforcement, connection and cast-in detail ensures long-term performance and safety.</p></li><li><b>Expert Team & Tech-Driven Solutions</b><p>Our engineers bring both field experience and mastery of the latest tools (2D & 3D CAD/BIM) to every project.</p></li></ul>",
         
-         img:"/images/about/event/how-we-do-precast.jpg"
+         img:"/images/precast/whychoose.webp"
       }
        const serviceContent = {
     title: "What We Offer",
-    img: "/images/about/about3.jpg",
+    img: "/images/precast/what-we-offer.webp",
     list: [
       "<b>Precast Shop & Fabrication Drawings</b><p>Detailed drawings covering formwork geometry, mould/form layout, reinforcement, cast-in inserts/plates, connection points, and finish specifications for every precast element: panels, beams, columns, slabs, stairs, hollow & solid wall panels, etc.</p>",
       "<b>Erection & Installation Drawings</b><p>Clear plans, elevations, sections showing how precast elements fit together on site. Includes erection sequence, lifting & handling details (lifting hooks, inserts), bracket and support location, and alignment guidance.</p>",

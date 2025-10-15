@@ -34,11 +34,11 @@ export default function page() {
         title:"Why Choose Our Rebar Detailing",
          content1:"<ul class='services-list-item'><li><b>Precision and Clarity</b><p>We prepare clear, unambiguous drawings that reduce errors on-site.</p></li><li><b>Standards Compliance</b><p>We follow relevant standards (local & international) to ensure safety and structural integrity.</p></li><li><b>Cost & Time Efficiency</b><p>By optimizing bar schedules, avoiding clashes, and giving reliable take-offs, we help you save time and reduce wastage.</p></li><li><b>Experienced Team</b><p>Our engineers and detailers bring solid hands-on experience in varied building, infrastructure, and industrial projects.</p></li><li><b>Smooth Coordination</b><p>Seamless integration with structural, architectural, and fabrication teams to ensure coherence in project execution.</p></li></ul> ",
         
-         img:"/images/about/event/eeber-how-we-add.jpg"
+         img:"/images/rebar/why-choose-ou-reba-detailing.webp"
       }
       const serviceContent = {
     title: "What We Provide",
-    img: "/images/about/event/about3.jpg",
+    img: "/images/rebar/whst-we-provide.webp",
     list: [
       "<b>Shop & Placement Drawings</b><p>Detailed drawings that show exact dimensions, bends, hooks, lap splices, anchoring, cover, and positioning of rebars aligned with structural and architectural design.</p>",
       "<b>Bar Bending Schedule (BBS)</b><p>Complete schedules listing the shape, length, size, weight, and quantity of each rebar. Clearly formatted for fabrication and procurement.</p>",

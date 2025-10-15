@@ -30,7 +30,7 @@ export default function page() {
 
       const serviceContent = {
         title: "What We Do",
-         img:"/images/about/event/our-project.jpg",
+         img:"/images/pmc/what-we-do.webp",
         list: [
           "<b>Pre-construction Planning & Feasibility</b><p>Assess project viability, develop feasibility studies, carry out preliminary cost estimates, and help define project scope. Establish budgets, timelines, and key deliverables before construction begins.</p>",
           "<b>Design Coordination & Value Engineering</b><p>Manage the design process — architectural, structural, MEP, and others — ensuring consistency, constructability, and compliance with local/international standards. Identify cost-effective alternatives and optimize materials and methods without sacrificing quality.</p>",
@@ -46,7 +46,7 @@ export default function page() {
         title:"Why SB Engineers?",
          content1:"<ul class='services-list-item'><li><b>Holistic Management</b><p>We cover every phase of the project, from inception through to final handover.</p></li><li><b>Risk-Smart Approach</b><p>We identify risks early, manage changes efficiently, and aim for minimal disruption.</p></li><li><b>Cost & Time Optimisation</b><p>Through value engineering, strong procurement practices and schedule vigilance, we aim to save you both time and money.</p></li><li><b>Quality & Standards Compliance</b><p>All work adheres to relevant codes, norms, and best practices.</p></li><li><b>Transparent Collaboration</b><p>You stay informed and involved; your goals guide our decisions.</p></li></ul>",
         
-         img:"/images/about/event/how-we-project.jpg"
+         img:"/images/pmc/whychoose.webp"
       }
   return (
     <>

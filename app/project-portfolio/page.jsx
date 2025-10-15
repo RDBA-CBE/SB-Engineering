@@ -22,8 +22,8 @@ export default function page() {
           <ProjectBanner/>
           <MblBanner title="Project Portfolio"/>
           <ProjectsItems/>
-          <ProjectClients/>
-          <div className="dlab-divider bg-gray-dark tb10 mt-5" />
+          {/* <ProjectClients/> */}
+          {/* <div className="dlab-divider bg-gray-dark tb10 mt-5" /> */}
 
         </div>
         <div className="footertop">

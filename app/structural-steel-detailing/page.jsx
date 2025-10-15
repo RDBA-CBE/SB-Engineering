@@ -27,7 +27,7 @@ export default function page() {
          content1:"At SB Engineers, we specialize in delivering high-precision structural steel detailing solutions that form the backbone of efficient steel fabrication and erection. Our services support fabricators, contractors, structural engineers, and EPC firms — offering detailed drawings, 3D models, and bills of materials that eliminate guesswork, reduce delays, and minimize on-site issues.",
         // content2:"We use advanced software like Tekla Xsteel for 2D drafting and 3D modelling to help fabricators, contractors and engineers bring complex steel structures to life. Our services cater to a wide range of sectors including residential, commercial, industrial and infrastructure.",
         // content3:"Our experienced detailing team work closely with clients to produce shop-ready drawings and models that eliminate ambiguities, reduce material wastage and enhance project timelines. Whether you're building from the ground up or upgrading existing infrastructure, our steel detailing services are designed to meet your unique project specifications.",
-         img:"/images/about/event/struct-img.jpg"
+         img:"/images/structural-steel-detailing/structural-steel-detailing.webp"
     }
 
 
@@ -35,12 +35,12 @@ export default function page() {
         title:"What Sets Us Apart",
          content1:"<ul class='services-list-item'><li><b>Precision & Compliance</b><p> Drawings adhere to international standards like AISC, IS, BS, and Eurocodes.</p></li><li><b>Constructability Focus</b><p>We prioritize real-world assembly feasibility and avoid over-engineered or impractical detailing.</p></li><li><b>Fast Turnarounds</b><p>Agile processes and an experienced team help us meet tight schedules without sacrificing quality.</p></li><li><b>3D Coordination</b><p>We work closely with other disciplines (structural, MEP, architectural) to ensure all conflicts are resolved before they reach the site.</p></li><li><b>Global Experience</b><p>We’ve successfully detailed projects across commercial, industrial, infrastructure, and residential sectors worldwide.</p></li></ul>",
         
-         img:"/images/about/event/how-we-struc-steel.jpg"
+         img:"/images/structural-steel-detailing/what-sets.webp"
       }
 
        const serviceContent = {
     title: "Our Capabilities",
-    img: "/images/about/event/our-structural.jpg",
+    img: "/images/structural-steel-detailing/our-capabilities.webp",
     list: [
       "<b>Shop & Fabrication Drawings</b><p>Complete detailing for columns, beams, trusses, braces, stairs, handrails, ladders, and more — ready for direct fabrication.</p>",
       "<b>Connection Detailing</b><p>We develop clear detailing for welded and bolted joints, including base plates, splice plates, stiffeners, and gussets — per structural engineer's specifications or design-build inputs.</p>",

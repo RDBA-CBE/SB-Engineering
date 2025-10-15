@@ -25,12 +25,12 @@ export default function page() {
       "At SB Engineers, we harness the power of Building Information Modeling (BIM) to deliver smarter, more efficient, and highly coordinated building & infrastructure solutions. Our BIM services integrate multi-disciplinary design data into a unified digital model—allowing better planning, visualization, and collaboration across every phase of your project.SB Engineers is at the forefront of delivering competent Structural BIM Services.",
     content2:
       "We integrate  engineering precision and cutting-edge technology to enhance structural design, coordination and construction efficiency. With deep domain expertise and a client-centric approach, we enable smarter decision-making through every phase of the structural lifecycle, from conceptual design and analysis to detailing and documentation.",
-    img: "/images/about/event/building-info.jpg",
+    img: "/images/bim-service/bim-services.webp",
   };
 
   const serviceContent = {
     title: "What We Do",
-    img: "/images/about/about3.jpg",
+    img: "/images/bim-service/what-we-do.webp",
     list: [
       "<b>Architectural BIM Modeling</b><p>We create accurate, parametric 3D architectural models, incorporating design intent, materials, and spatial relationships. These models help architects, clients, and stakeholders visualize the project before construction begins.</p>",
       "<b>Structural BIM Modeling</b><p>Our structural engineers produce detailed BIM models for beams, columns, slabs, and reinforcement layouts—supporting reliable structural analysis, clash detection, and coordinated detailing.</p>",
@@ -74,7 +74,7 @@ export default function page() {
     content1:
       "<ul class='services-list-item'><li><b>End-to-End Integration</b><p>From architecture through structure, MEP, scheduling, and cost — we provide a full BIM continuum under one skilled team.</p></li><li><b>Improved Efficiency & Risk Mitigation</b><p>Early clash detection, coordinated design reviews, and virtual mock-ups reduce costly rework and site conflicts.</p></li><li><b>Greater Transparency & Control</b><p>Clients can visually track progress, review design alternatives, and make data-driven decisions based on the BIM model.</p></li><li><b>Scalability & Adaptability</b><p>Whether it’s a small renovation or a large-scale industrial complex, we tailor the level of detail (LOD) and scope to match project needs.</p></li><li><b>Data-driven Operations</b><p>Our BIM models are not just 3D visuals — they carry intelligent data (metadata, schedules, cost, specs) to support operations and lifecycle management.</p></li></ul>",
 
-    img: "/images/about/event/how-we-build.jpg",
+    img: "/images/bim-service/why-choose-sb-engineers.webp",
   };
   return (
     <>

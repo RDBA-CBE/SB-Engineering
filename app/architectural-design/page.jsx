@@ -23,13 +23,13 @@ export default function page() {
         title:"Innovative solutions for sustainable impact",
          content1:"At SB Engineers, our expertise and client-centric approach enable us to deliver cutting-edge architectural design solutions that include the entire project lifecycle, from initial planning and conceptualization to final completion. With a strong focus on sustainability, we ensure our architectural designs are best-in-class, environmentally responsible and future-ready.",
          content2:"We work closely with clients to understand their vision and objectives, translating them into innovative, practical designs that optimize space, functionality and aesthetics. Whether you are embarking on a new development or redesigning an existing space, we deliver architectural designs tailored to your unique project goals.",
-         img:"/images/about/event/innovative-solutions.jpg"
+         img:"/images/architectural-design/innovative-solutions.webp"
     }
 
 
       const serviceContent = {
         title: "Our architectural design expertise covers",
-        img:"/images/about/event/our-architectural-design.jpg",
+        img:"/images/architectural-design/our-architectural-design.webp",
         list: [
           "Master Planning & Urban Design",
           "Residential",
@@ -48,7 +48,7 @@ export default function page() {
         title:"How we add value",
          content1:"Our architectural design services go beyond aesthetics. We integrate sustainable design principles to lower environmental impact and operational costs. We prioritize open communication and teamwork through each phase of the process, ensuring that your project is delivered on time, within budget and complies with industry benchmarks.",
         
-         img:"/images/about/event/how-we-add-value.jpg"
+         img:"/images/architectural-design/how-we-add-value.webp"
       }
   return (
     <>

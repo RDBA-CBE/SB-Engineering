@@ -64,8 +64,8 @@ export default function Deliverables(){
          <div className="row align-items-center gy-4" style={{ margintop:'60px', clear:'both'}}>
           <div className="col-lg-6 ">
               <Image 
-  src="/images/about-us/banner.jpg" 
-  alt="Architectural Design" 
+  src="/images/structural-steel-detailing/deliverables.webp" 
+  alt="Deliverables" 
   width={800} 
   height={80} 
 />
