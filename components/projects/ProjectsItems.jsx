@@ -4,6 +4,8 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
+import GallaryWrapper from '../common/GallaryWrapper';
+import { galleryItems3 } from '@/data/gallery';
 export default function ProjectsItems() {
   return (
     <div
@@ -13,88 +15,51 @@ export default function ProjectsItems() {
     >
       <div className='container'>
         <div className='text-center'>
-          <h2 className='main-ti '> Our Project</h2>
-          <p>
+       
+          <h4>
             We have successfully delivered projects across diverse sectors, they
             reflect our commitment to quality, efficiency and futuristic
             engineering. We take pride in our ability to bring visionary ideas
             to life, delivering value-driven solutions that exceed client
             expectations and set new benchmarks in the built environment.
-          </p>
+          </h4>
+          <br></br>
         </div>
 
-        <div className='row'>
-          <div className='fw-swiper  fw2 col-lg-12 col-md-12 position-relative'>
-            <Swiper
-              slidesPerView={4}
-              spaceBetween={10}
-              slidesPerGroup={1}
-              loop
-              pagination={{
-                clickable: true,
-                el: '.sph2',
-              }}
-              //   autoplay={{
-              //     delay: 4000,
-              //   }}
-              speed={2500}
-              modules={[Pagination, Autoplay]}
-              breakpoints={{
-                0: {
-                  slidesPerView: 1,
-                },
-                480: {
-                  slidesPerView: 2,
-                },
-                1024: {
-                  slidesPerView: 3,
-                },
-                1200: {
-                  slidesPerView: 4,
-                },
-              }}
-              className='img-carousel-dots-nav owl-theme owl-dots-none owl-carousel owl-btn-center-lr owl-btn-3 relative'
-            >
-              {projects.map((item, index) => (
-                <SwiperSlide className='item' key={index}>
-                  <div className='dlab-box project-bx'>
-                    <div className='dlab-media radius-sm dlab-img-overlay1 dlab-img-effect zoom'>
-                      <Image
-                          src={item.imgSrc}
-                          width={500}
-                          height={900}
-                          alt={item.title}
-                        />
-                      {/* <Link href={`/portfolio-details/${item.title}`}>
-                        
-                      </Link> */}
-                    </div>
-                    <div className='dlab-info'>
-                      <h5 className="dlab-title text-white text-[18px] font-bold" >
-                        {item.title}
-                        {/* <Link href={`/portfolio-details/${item.title}`}>
-                          
-                        </Link> */}
-                      </h5>
-                      <p>{item?.description}</p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-
-              <div
-                style={{
-                  position: 'absolute',
-                  bottom: '8px',
-                  zIndex: '1',
-                  left: 'calc(50% - 56px)',
-                }}
-                className='swiper-pagination style-1 swiper-pagination-bullets swiper-pagination-horizontal sph2'
-              ></div>
-            </Swiper>
-          </div>
-        </div>
+          
       </div>
+
+<div className="container-full">
+  <div className="widget widget_gallery gallery-grid-4" style={{ marginLeft:'7%'}}>
+    <ul id="lightgallery" className="lightgallery">
+      <GallaryWrapper>
+        {galleryItems3.slice(0, 50).map((item, i) => (
+          <li
+            key={i}
+            data-exthumbimage={item.src}
+            data-src={item.src}
+            title={item.title}
+            className="img-effect2 overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300 text-center"
+          >
+            <span className="check-km block">
+              <Image
+                alt={item.title}
+                src={item.src}
+                width={300}
+                height={350}
+                className="object-cover rounded-md w-full h-auto"
+              />
+            </span>
+            <h6 className="mt-3 text-base font-semibold text-gray-800">{item.title}</h6>
+          </li>
+        ))}
+      </GallaryWrapper>
+    </ul>
+  </div>
+</div>
+
+
     </div>
+
   );
 }

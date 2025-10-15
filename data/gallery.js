@@ -65,77 +65,91 @@ export const galleryItems2 = [
 ];
 
 export const galleryItems3 = [
-  {
+{
     id: 1,
-    exthumbimage: "/images/gallery/pic1.jpg",
-    src: "/images/gallery/gallery-min/pic1.jpg",
-    title: "Title Come here 1",
+    exthumbimage: "/images/project/puzzle-parking.jpg",
+    src: "/images/project/puzzle-parking.jpg",
+    title: "Puzzle Parking",
+    description:"Automated Parking- Dubai"
+    
   },
   {
     id: 2,
-    exthumbimage: "/images/gallery/pic2.jpg",
-    src: "/images/gallery/gallery-min/pic2.jpg",
-    title: "Title Come here 2",
+    exthumbimage: "/images/project/robotic-parking.jpg",
+    src: "/images/project/robotic-parking.jpg",
+     title: "Robotic Parking",
+    description:"Automated Parking- Dubai"
   },
   {
     id: 3,
-    exthumbimage: "/images/gallery/pic3.jpg",
-    src: "/images/gallery/gallery-min/pic3.jpg",
-    title: "Title Come here 3",
+    exthumbimage: "/images/project/al-bahja-mall-car-praking.jpg",
+    src: "/images/project/al-bahja-mall-car-praking.jpg",
+    title: "Al Bahja Mall Car Parking",
+    description:"Car Parking"
   },
   {
     id: 4,
-    exthumbimage: "/images/gallery/pic4.jpg",
-    src: "/images/gallery/gallery-min/pic4.jpg",
-    title: "Title Come here 4",
+    exthumbimage: "/images/project/al-meera-car-parking.jpg",
+    src: "/images/project/al-meera-car-parking.jpg",
+    title: "Al Meera Car Parking",
+    description:"Car Parking"
   },
   {
     id: 5,
-    exthumbimage: "/images/gallery/pic5.jpg",
-    src: "/images/gallery/gallery-min/pic5.jpg",
-    title: "Title Come here 5",
+    exthumbimage: "/images/project/city-centre-sohar.jpg",
+    src: "/images/project/city-centre-sohar.jpg",
+    title: "City Centre Sohar",
+    description:"Commercial",
   },
   {
     id: 6,
-    exthumbimage: "/images/gallery/pic6.jpg",
-    src: "/images/gallery/gallery-min/pic6.jpg",
-    title: "Title Come here 6",
+    exthumbimage: "/images/project/nesto-hypermarket.jpg",
+    src: "/images/project/nesto-hypermarket.jpg",
+   title: "Nesto Hypermarket",
+    description:"Commercial",
   },
   {
     id: 7,
-    exthumbimage: "/images/gallery/pic7.jpg",
-    src: "/images/gallery/gallery-min/pic7.jpg",
-    title: "Title Come here 7",
+    exthumbimage: "/images/project/al-batinah-international-school.jpg",
+    src: "/images/project/al-batinah-international-school.jpg",
+    title: "Al Batinah International School",
+    description:"Educational",
   },
   {
     id: 8,
-    exthumbimage: "/images/gallery/pic8.jpg",
-    src: "/images/gallery/gallery-min/pic8.jpg",
-    title: "Title Come here 8",
+    exthumbimage: "/images/project/indian-schoo-bousher, Muscat.jpg",
+    src: "/images/project/indian-schoo-bousher, Muscat.jpg",
+     title: "Indian School Bousher, Muscat",
+    description:"Educational",
   },
   {
     id: 9,
-    exthumbimage: "/images/gallery/pic9.jpg",
-    src: "/images/gallery/gallery-min/pic9.jpg",
-    title: "Title Come here 9",
+    exthumbimage: "/images/project/taiba-pharmacy.jpg",
+    src: "/images/project/taiba-pharmacy.jpg",
+     title: "Aster Hospital",
+    description:"Hospitals",
   },
+ 
   {
     id: 10,
-    exthumbimage: "/images/gallery/pic10.jpg",
-    src: "/images/gallery/gallery-min/pic10.jpg",
-    title: "Title Come here 10",
+    exthumbimage: "/images/project/brigade-benson-t.jpg",
+    src: "/images/project/brigade-benson-t.jpg",
+    title: "Brigade Benson-T",
+    description:"India",
   },
   {
     id: 11,
-    exthumbimage: "/images/gallery/pic1.jpg",
-    src: "/images/gallery/gallery-min/pic1.jpg",
-    title: "Title Come here 11",
+    exthumbimage: "/images/project/salarpuria-aristocracy-bengaluru.jpg",
+    src: "/images/project/salarpuria-aristocracy-bengaluru.jpg",
+   title: "Salarpuria Aristocracy Bengaluru",
+    description:"India",
   },
-  {
+   {
     id: 12,
-    exthumbimage: "/images/gallery/pic2.jpg",
-    src: "/images/gallery/gallery-min/pic2.jpg",
-    title: "Title Come here 12",
+    exthumbimage: "/images/project/taiba-pharmacy.jpg",
+    src: "/images/project/taiba-pharmacy.jpg",
+    title: "Taiba Pharmacy",
+    description:"Hospitals",
   },
 ];
 

@@ -46,7 +46,7 @@ const ContactSection = () => {
         <>
           Elancheliyan & Partners LLC, Villa No. 4527, 
           <br />
-         Way No. 4272, Al Ghoubrah, MUSCAT 
+         Way No. 4272, Al Ghoubrah, Muscat 
         </>
       ),
        email: 'admin@sbecc.in , sbengineers23@gmail.com',

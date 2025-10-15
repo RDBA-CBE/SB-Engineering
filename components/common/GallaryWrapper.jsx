@@ -14,7 +14,7 @@ export default function GallaryWrapper({ children }) {
         exThumbImage="data-exthumbimage"
         selector={"[data-src]"}
         speed={500}
-        plugins={[lgThumbnail, lgZoom, Autoplay, Shaire, Hash]}
+        plugins={[lgThumbnail, lgZoom, Hash]}
       >
         {children}
       </LightGallery>

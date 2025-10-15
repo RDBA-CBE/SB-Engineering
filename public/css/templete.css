@@ -811,12 +811,12 @@ h6 {
 .lg-actions .lg-prev,
 .lg-sub-html,
 .lg-toolbar {
-  background-color: var(--color-primary) !important;
+  background-color: #000 !important;
 }
 
 .lg-next,
 .lg-prev {
-  background-color: var(--color-primary) !important;
+  background-color:  #000 !important;
   color: #fff !important;
 }
 
@@ -828,7 +828,7 @@ h6 {
 .lg-outer .lg-thumb-outer,
 .lg-outer .lg-img-wrap,
 .lg-outer .lg-item {
-  background-color: var(--color-secondry);
+ /* background-color: var(--color-secondry);*/background-color: #ededed;
 }
 
 .lg-outer .lg-toogle-thumb,
