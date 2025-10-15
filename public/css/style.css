@@ -18988,7 +18988,7 @@ ul.services-list-item li p{line-height: 18px;}
   transition: transform 0.3s ease;
   text-align: center;
   flex: 1 1 calc(25% - 24px); /* 5 per row */
-  max-width: calc(25% - 24px);
+  max-width: calc(25% - 24px); padding: 15px 2px;
 }
 
 /* Image styles */

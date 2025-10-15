@@ -354,14 +354,14 @@ export const galleryItems3 = [
     description:""
     
   },
-   {
-    id: 37,
-    exthumbimage: "/images/project/portfolio/ravipuram-apartment-kochi.webp",
-    src: "/images/project/portfolio/ravipuram-apartment-kochi.webp",
-    title: "Ravipuram Apartment, Kochi",
-    description:""
+  //  {
+  //   id: 37,
+  //   exthumbimage: "/images/project/portfolio/ravipuram-apartment-kochi.webp",
+  //   src: "/images/project/portfolio/ravipuram-apartment-kochi.webp",
+  //   title: "Ravipuram Apartment, Kochi",
+  //   description:""
     
-  },
+  // },
    {
     id: 38,
     exthumbimage: "/images/project/portfolio/robotic-parking-at-dubai.webp",
@@ -418,14 +418,14 @@ export const galleryItems3 = [
     description:""
     
   },
-    {
-    id: 45,
-    exthumbimage: "/images/project/portfolio/samudhra-darshan-kochi.webp",
-    src: "/images/project/portfolio/samudhra-darshan-kochi.webp",
-    title: "Samudhra Darshan Kochi",
-    description:""
+  //   {
+  //   id: 45,
+  //   exthumbimage: "/images/project/portfolio/samudhra-darshan-kochi.webp",
+  //   src: "/images/project/portfolio/samudhra-darshan-kochi.webp",
+  //   title: "Samudhra Darshan Kochi",
+  //   description:""
     
-  },
+  // },
     {
     id: 46,
     exthumbimage: "/images/project/portfolio/sanvira-coke-plant-sohar.webp",
