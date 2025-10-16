@@ -17,19 +17,12 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header19 />
-        <div className="page-content bg-white">
-         
+        <div className="page-content bg-white">         
          <AboutBanner/>
-         <MblBanner title="About"/>
-         
-
+         <MblBanner title="About"/> 
         <AboutSec/>
-
         <VisionMissionSec/>
         <ManagementSec/>
-
-
-
 
         </div>
         <div className="footertop">
