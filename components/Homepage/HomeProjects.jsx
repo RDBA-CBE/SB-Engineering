@@ -9,42 +9,42 @@ export default function HomeProjects() {
   const portfolioData = [
     {
       id: 35,
-      image: "/images/home/projects/1.png",
-      title: "Ocean Freight and Shipping",
+      image: "/images/home/projects/brigade-benson-town-bengaluru.webp",
+      title: "Brigade Benson Town, Bengaluru",
       description:
-        "There are many variations of passages of Lorem Ipsum typesetting industry has been the industry.",
+        "Brigade Benson Town, Bengaluru",
       delay: "0.3s",
     },
     {
       id: 36,
-      image: "/images/home/projects/2.png",
-      title: "Ocean Freight and Shipping",
+      image: "/images/home/projects/hotel-vivanta-coimbatore.webp",
+      title: "Hotel Vivanta, Coimbatore",
       description:
-        "There are many variations of passages of Lorem Ipsum typesetting industry has been the industry.",
+        "Hotel Vivanta, Coimbatore",
       delay: "0.6s",
     },
     {
       id: 37,
-      image: "/images/home/projects/3.png",
-      title: "Ocean Freight and Shipping",
+      image: "/images/home/projects/pellet-plant-minnesota.webp",
+      title: "Pellet Plant - Minnesota",
       description:
-        "There are many variations of passages of Lorem Ipsum typesetting industry has been the industry.",
+        "Pellet Plant - Minnesota",
       delay: "0.9s",
     },
     {
       id: 38,
-      image: "/images/home/projects/4.jpg",
-      title: "Ocean Freight and Shipping",
+      image: "/images/home/projects/shaza-hotel-sallalah.webp",
+      title: "Shaza Hotel, Sallalah",
       description:
-        "There are many variations of passages of Lorem Ipsum typesetting industry has been the industry.",
+        "Shaza Hotel, Sallalah",
       delay: "0.9s",
     },
     {
       id: 39,
-      image: "/images/home/projects/5.jpg",
-      title: "Ocean Freight and Shipping",
+      image: "/images/home/projects/sheraton-oman-muscat.webp",
+      title: "Sheraton Oman , Muscat",
       description:
-        "There are many variations of passages of Lorem Ipsum typesetting industry has been the industry.",
+        "Sheraton Oman , Muscat",
       delay: "0.9s",
     },
   ];

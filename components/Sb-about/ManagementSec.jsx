@@ -9,13 +9,23 @@ const ManagementSec = () => {
         {/* Left Content */}
         {/* <div className="col-lg-6 mb-4 mb-lg-0">
 <p className="upper-cap">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> */}
-        <h2 className='main-ti fw-bold mb-4'>
-         Management
+        <h2 className='main-ti fw-bold mb-4' style={{textAlign:"center"}}>
+         Our Management
         </h2>
 
              </div>
 
       <div className='row align-items-center'>
+         <div className='col-lg-5 position-relative'>
+          <div>
+            <img
+              src='/images/about/management.webp'
+              alt='Construction Workers'
+              className='img-fluid w-100 rounded shadow'
+            />
+           
+          </div>
+        </div>
         <div className='col-lg-7'>
           <div>
             <p className='mb-3 text-muted'>
@@ -32,16 +42,7 @@ const ManagementSec = () => {
           
           </div>
         </div>
-        <div className='col-lg-5 position-relative'>
-          <div>
-            <img
-              src='/images/about/driven-by-world.jpg'
-              alt='Construction Workers'
-              className='img-fluid w-100 rounded shadow'
-            />
-           
-          </div>
-        </div>
+       
       </div>
     </section>
   );
