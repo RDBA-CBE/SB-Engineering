@@ -18974,3 +18974,45 @@ ul.services-list-item li p{line-height: 18px;}
 /* Gallery container */
 
 .dlab-img-effect img{ border:1px solid rgb(253, 209, 4);}
+
+.service-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* space between cards */
+  justify-content: center;
+  align-items: stretch;
+}
+
+.service-grid .item {
+  flex: 1 1 calc(33.333% - 30px); /* 3 columns */
+  max-width: calc(33.333% - 30px);
+  box-sizing: border-box;
+  display: flex;
+}
+
+.service-grid .dlab-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-grid .dlab-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 991px) {
+  .service-grid .item {
+    flex: 1 1 calc(50% - 30px); /* 2 columns on tablet */
+    max-width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 767px) {
+  .service-grid .item {
+    flex: 1 1 100%; /* 1 column on mobile */
+    max-width: 100%;
+  }
+}
