@@ -11,37 +11,37 @@ export default function HomeBlog() {
   const serviceContent = [
     {
       title: 'Architectural <br/> Design',
-      img: '/images/home/services/1.png',
+      img: '/images/home/services/architectural-des.webp',
       cap: 'Futuristic architectural solutions blending aesthetics, functionality, innovation, and sustainability seamlessly across every project stage.',
       link: 'architectural-design',
     },
     {
       title: 'Structural <br/> Engineering',
-      img: '/images/home/services/2.png',
+      img: '/images/home/services/structural-ng.webp',
       cap: 'Reliable structural engineering that ensures safety, durability, and efficiency through cutting-edge analysis, design, and advanced construction techniques.',
       link: 'structural-engineering',
     },
     {
       title: 'MEP <br/> Engineering',
-      img: '/images/home/services/3.png',
+      img: '/images/home/services/mep-engineer.webp',
       cap: 'Integrated MEP (Mechanical, Electrical and Plumbing) systems engineered for energy efficiency, safety, performance and seamless building functionality.',
       link: 'mep-engineering',
     },
      {
       title: 'Steel & Rebar <br/>Detailing (Tekla)',
-      img: '/images/home/services/3.png',
+      img: '/images/home/services/steel-rebal-detailing.webp',
       cap: 'Steel & Rebar Detailing (Tekla) delivering precision, accuracy, and constructability through 3D modeling for efficient fabrication, optimization, and seamless coordination.',
       link: 'steel-&-rebar-detailing',
     },
       {
       title: 'PMC <br/> Services',
-      img: '/images/home/services/3.png',
+      img: '/images/home/services/pmc-services.webp',
       cap: 'Project Management & Construction Services ensuring on-time delivery, cost efficiency, and superior quality through strategic planning, seamless execution, and expert supervision.',
       link: 'project-management',
     },
      {
       title: 'BIM <br/>Services',
-      img: '/images/home/services/3.png',
+      img: '/images/home/services/bim-services.webp',
       cap: 'Building Information Modeling (BIM) enables visualization, coordination, and collaboration, ensuring accuracy, efficiency, and streamlined construction from design to completion.',
       link: 'building-information-modeling',
     },
@@ -59,7 +59,7 @@ export default function HomeBlog() {
             {/* Event post Carousel with no margin */}
             <div className='section-content box-sort-in m-b30 button-example mt-5'>
               <Swiper
-                slidesPerView={3}
+                slidesPerView={6}
                 spaceBetween={30}
                 slidesPerGroup={1}
                 loop

@@ -12,9 +12,9 @@ const ContactSection = () => {
     
       address: (
         <>
-          12, 4th West Cross Road, Gandhi Nagar,  <br />Katpadi,
+          12, 4th West Cross Road, <br />Gandhi Nagar,  Katpadi,
          
-          Vellore - 632006, Tamil Nadu
+          <br />Vellore - 632006, Tamil Nadu.
         </>
       ),
       email: 'admin@sbecc.in , sbengineers23@gmail.com',
@@ -28,9 +28,9 @@ const ContactSection = () => {
      
       address: (
         <>
-          2, 7th St Ext, 3rd Floor, D.479, 7th St Extension,
-          <br />
-          Gandhipuram, Coimbatore - 641012
+          2, 7th St Ext, 3rd Floor, D.479, <br />7th St Extension,
+         
+          Gandhipuram,  <br />Coimbatore - 641012.
         </>
       ),
        email: 'admin@sbecc.in , sbengineers23@gmail.com',
@@ -40,17 +40,17 @@ const ContactSection = () => {
     },
      {
       title: 'Muscat Office:',
-      img: '/images/project/image-coimbatore.png',
+      img: '/images/project/imaged-Muscat.webp',
      
       address: (
         <>
           Elancheliyan & Partners LLC, Villa No. 4527, 
           <br />
-         Way No. 4272, Al Ghoubrah, Muscat 
+         Way No. 4272, Al Ghoubrah, <br/>Muscat, Sultanate of Oman. 
         </>
       ),
        email: 'admin@sbecc.in , sbengineers23@gmail.com',
-      phone: '0422-4577307',
+      phone: '-',
       mapUrl:
         'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234022.3579495388!2d58.1130193111671!3d23.582829032683307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91ffa8879aafc9%3A0xdb53876d0d79a72c!2sMuscat%2C%20Oman!5e0!3m2!1sen!2sin!4v1760441713608!5m2!1sen!2sin',
     },
