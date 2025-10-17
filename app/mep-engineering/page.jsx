@@ -37,6 +37,8 @@ export default function page() {
           "Electrical Design",
           "Fire Protection Design",
           "ELV",
+          "Fire alarm",
+          "CCTV",
         ],
       };
 

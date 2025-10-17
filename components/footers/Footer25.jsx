@@ -133,7 +133,7 @@ export default function Footer25() {
       </div>
       <div className='footer-bottom  py-4 '>
         <div className='container'>
-          Copyright 2025 © SB Engineers. Concept by repute.
+          Copyright 2025 © SB Engineers. Concept by <a href="https://irepute.in/" target='_blank'>repute</a>.
         </div>
       </div>
     </footer>
